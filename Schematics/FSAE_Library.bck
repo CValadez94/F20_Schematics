@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Alternator
+D F4i alternator
+K alternator, F4i
+$ENDCMP
+#
+$CMP Cutoff_Switch
+D Main battery cutoff switch
+$ENDCMP
+#
+$CMP MicroRelay
+D SPST Micro Relay, 12V, 30A
+K micro, relay, spst
+F https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/
+$ENDCMP
+#
+$CMP Rectifier
+D F4i rectifier
+K rectifier, F4i
+$ENDCMP
+#
+#End Doc Library
