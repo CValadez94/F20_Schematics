@@ -11,7 +11,7 @@ FSAE 2020 schematics
 - Tire Temperature Sensors
 - Accelerometer
 - XBee (Telemetry)
-- Driver Display
+- ~~Driver Display~~
 
 ## Modules
 - ECU
