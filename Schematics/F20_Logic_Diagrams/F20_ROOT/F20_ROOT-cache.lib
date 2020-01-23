@@ -1,11 +1,32 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Alternator
+# Device_R_US
 #
-DEF Alternator U 0 40 Y Y 1 F N
+DEF Device_R_US R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Device_R_US" -100 0 50 V V C CNN
+F2 "" 40 -10 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FSAE_Library_Alternator
+#
+DEF FSAE_Library_Alternator U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "Alternator" 300 150 50 H I C CNN
+F1 "FSAE_Library_Alternator" 300 150 50 H I C CNN
 F2 "" 300 150 50 H I C CNN
 F3 "" 300 150 50 H I C CNN
 DRAW
@@ -18,11 +39,11 @@ X C 3 0 -500 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Battery
+# FSAE_Library_Battery
 #
-DEF Battery U 0 40 Y Y 1 F N
+DEF FSAE_Library_Battery U 0 40 Y Y 1 F N
 F0 "U" -250 150 50 H V C CNN
-F1 "Battery" -250 150 50 H I C CNN
+F1 "FSAE_Library_Battery" -250 150 50 H I C CNN
 F2 "" -250 150 50 H I C CNN
 F3 "" -250 150 50 H I C CNN
 DRAW
@@ -33,11 +54,11 @@ X - ~ -500 0 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Cutoff_Switch
+# FSAE_Library_Cutoff_Switch
 #
-DEF Cutoff_Switch U 0 40 Y Y 1 F N
+DEF FSAE_Library_Cutoff_Switch U 0 40 Y Y 1 F N
 F0 "U" 350 150 50 H V C CNN
-F1 "Cutoff_Switch" 350 150 50 H I C CNN
+F1 "FSAE_Library_Cutoff_Switch" 350 150 50 H I C CNN
 F2 "" 350 150 50 H I C CNN
 F3 "" 350 150 50 H I C CNN
 DRAW
@@ -58,11 +79,11 @@ X ~ 4 750 -250 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Driver_Display
+# FSAE_Library_Driver_Display
 #
-DEF Driver_Display U 0 40 Y Y 1 F N
+DEF FSAE_Library_Driver_Display U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "Driver_Display" 300 150 50 H I C CNN
+F1 "FSAE_Library_Driver_Display" 300 150 50 H I C CNN
 F2 "" 300 150 50 H I C CNN
 F3 "" 300 150 50 H I C CNN
 DRAW
@@ -76,11 +97,11 @@ X RST 5 0 -1000 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Fuse
+# FSAE_Library_Fuse
 #
-DEF Fuse F 0 0 N Y 1 F N
+DEF FSAE_Library_Fuse F 0 0 N Y 1 F N
 F0 "F" 150 150 50 H V C CNN
-F1 "Fuse" 150 100 50 H V C CNN
+F1 "FSAE_Library_Fuse" 150 100 50 H V C CNN
 F2 "" 150 80 50 H I C CNN
 F3 "" 150 150 50 V I C CNN
 $FPLIST
@@ -94,11 +115,11 @@ X ~ 2 300 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MicroRelay
+# FSAE_Library_MicroRelay
 #
-DEF MicroRelay K 0 40 Y Y 1 F N
+DEF FSAE_Library_MicroRelay K 0 40 Y Y 1 F N
 F0 "K" 100 375 50 H V L CNN
-F1 "MicroRelay" 100 300 50 H V L CNN
+F1 "FSAE_Library_MicroRelay" 100 300 50 H V L CNN
 F2 "" 100 -550 50 H I L CNN
 F3 "" 300 -200 50 V I C CNN
 F4 "V23374-A1601-X003" 300 -425 30 H V C CNN "PN"
@@ -127,11 +148,11 @@ X ~ 5 600 -250 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# Rectifier
+# FSAE_Library_Rectifier
 #
-DEF Rectifier U 0 40 Y Y 1 F N
+DEF FSAE_Library_Rectifier U 0 40 Y Y 1 F N
 F0 "U" 500 150 50 H V C CNN
-F1 "Rectifier" 250 150 50 H I C CNN
+F1 "FSAE_Library_Rectifier" 250 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -148,11 +169,11 @@ X Y3 7 750 -500 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# StepDownConverter
+# FSAE_Library_StepDownConverter
 #
-DEF StepDownConverter U 0 40 Y Y 1 F N
+DEF FSAE_Library_StepDownConverter U 0 40 Y Y 1 F N
 F0 "U" 500 150 50 H V C CNN
-F1 "StepDownConverter" 250 150 50 H I C CNN
+F1 "FSAE_Library_StepDownConverter" 250 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -161,6 +182,19 @@ S 100 100 650 -350 0 1 0 f
 X 12V 1 0 0 100 R 50 50 1 1 W
 X GND 2 0 -250 100 R 50 50 1 1 w
 X +5V 3 750 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

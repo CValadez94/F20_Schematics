@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title "Fuses and Relays"
 Date ""
 Rev "A"
@@ -91,10 +90,10 @@ Main_PWR
 Wire Wire Line
 	7250 1300 7250 2050
 $Comp
-L FSAE_Library:Rectifier U?
+L FSAE_Library:Rectifier U3
 U 1 1 5E21334A
 P 1500 2500
-F 0 "U?" H 1650 2650 50  0000 C CNN
+F 0 "U3" H 1650 2650 50  0000 C CNN
 F 1 "Rectifier" H 1750 2650 50  0001 C CNN
 F 2 "" H 2000 3000 50  0001 C CNN
 F 3 "" H 2000 3000 50  0001 C CNN
@@ -102,10 +101,10 @@ F 3 "" H 2000 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:Alternator U?
+L FSAE_Library:Alternator U4
 U 1 1 5E21541A
 P 2500 2500
-F 0 "U?" H 2600 2650 50  0000 L CNN
+F 0 "U4" H 2600 2650 50  0000 L CNN
 F 1 "Alternator" H 2800 2650 50  0001 C CNN
 F 2 "" H 2800 2650 50  0001 C CNN
 F 3 "" H 2800 2650 50  0001 C CNN
@@ -139,10 +138,10 @@ Wire Wire Line
 	1000 3000 1500 3000
 Connection ~ 1000 3250
 $Comp
-L FSAE_Library:Battery U?
+L FSAE_Library:Battery U1
 U 1 1 5E233AF7
 P 2000 1500
-F 0 "U?" H 1750 1673 50  0000 C CNN
+F 0 "U1" H 1750 1673 50  0000 C CNN
 F 1 "Battery" H 1750 1650 50  0001 C CNN
 F 2 "" H 1750 1650 50  0001 C CNN
 F 3 "" H 1750 1650 50  0001 C CNN
@@ -165,10 +164,10 @@ Wire Wire Line
 Wire Wire Line
 	1000 1500 1500 1500
 $Comp
-L FSAE_Library:Cutoff_Switch U?
+L FSAE_Library:Cutoff_Switch U2
 U 1 1 5E237569
 P 2950 1500
-F 0 "U?" H 3325 1673 50  0000 C CNN
+F 0 "U2" H 3325 1673 50  0000 C CNN
 F 1 "Cutoff_Switch" H 3300 1650 50  0001 C CNN
 F 2 "" H 3300 1650 50  0001 C CNN
 F 3 "" H 3300 1650 50  0001 C CNN

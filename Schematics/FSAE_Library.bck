@@ -9,6 +9,12 @@ $CMP Cutoff_Switch
 D Main battery cutoff switch
 $ENDCMP
 #
+$CMP Fuse
+D Fuse
+K fuse
+F ~
+$ENDCMP
+#
 $CMP MicroRelay
 D SPST Micro Relay, 12V, 30A
 K micro, relay, spst

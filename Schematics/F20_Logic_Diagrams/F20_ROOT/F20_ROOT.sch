@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "Root Index"
 Date ""
 Rev "A"
@@ -31,5 +30,11 @@ S 1000 3000 1700 700
 U 5E1D1BB2
 F0 "ECU Test1" 50
 F1 "F20_ECU_Test1.sch" 50
+$EndSheet
+$Sheet
+S 1000 4000 1700 700 
+U 5E28FC41
+F0 "Driver Display" 50
+F1 "F20_Driver_Display.sch" 50
 $EndSheet
 $EndSCHEMATC
