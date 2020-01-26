@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name FSAE)(type Legacy)(uri C:/Users/Alex/Desktop/UIC/Organizations/FSAE/F20_Schematics-master/Schematics/FSAE_Library.lib)(options "")(descr ""))
-  (lib (name F20_ROOT-rescue)(type Legacy)(uri ${KIPRJMOD}/F20_ROOT-rescue.lib)(options "")(descr ""))
-)
