@@ -54,6 +54,21 @@ X - ~ -500 0 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# FSAE_Library_Brake_Light
+#
+DEF FSAE_Library_Brake_Light U 0 40 Y Y 1 F N
+F0 "U" 400 50 50 H V C CNN
+F1 "FSAE_Library_Brake_Light" 150 50 50 H I C CNN
+F2 "" 500 500 50 H I C CNN
+F3 "" 500 500 50 H I C CNN
+DRAW
+T 0 300 -350 43 0 0 0 "Brake Light" Normal 0 C C
+S 100 100 500 -400 0 1 0 f
+X Sig 1 0 0 100 R 50 50 1 1 I
+X GND 2 0 -250 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # FSAE_Library_Cutoff_Switch
 #
 DEF FSAE_Library_Cutoff_Switch U 0 40 Y Y 1 F N
@@ -115,11 +130,29 @@ X ~ 2 300 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# FSAE_Library_Ignition_SW
+#
+DEF FSAE_Library_Ignition_SW S 0 40 Y Y 1 F N
+F0 "S" 75 225 50 H V L CNN
+F1 "FSAE_Library_Ignition_SW" 75 150 50 H I L CNN
+F2 "" 100 -300 50 H I L CNN
+F3 "" 300 50 50 V I C CNN
+DRAW
+T 0 250 -100 40 0 0 0 "Ign SW" Normal 0 C C
+S 400 50 100 -150 0 1 10 f
+P 2 0 0 0 325 0 400 0 N
+P 2 0 1 0 175 0 100 0 N
+P 2 0 1 20 175 0 325 -50 N
+X ~ ~ 0 0 100 R 50 50 1 1 P
+X ~ ~ 500 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # FSAE_Library_MicroRelay
 #
 DEF FSAE_Library_MicroRelay K 0 40 Y Y 1 F N
-F0 "K" 100 375 50 H V L CNN
-F1 "FSAE_Library_MicroRelay" 100 300 50 H V L CNN
+F0 "K" 100 300 50 H V L CNN
+F1 "FSAE_Library_MicroRelay" 100 300 50 H I L CNN
 F2 "" 100 -550 50 H I L CNN
 F3 "" 300 -200 50 V I C CNN
 F4 "V23374-A1601-X003" 300 -425 30 H V C CNN "PN"
@@ -166,6 +199,41 @@ X - 4 0 -750 100 R 50 50 1 1 w
 X Y1 5 750 0 100 L 50 50 1 1 W
 X Y2 6 750 -250 100 L 50 50 1 1 W
 X Y3 7 750 -500 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# FSAE_Library_Starter_Motor
+#
+DEF FSAE_Library_Starter_Motor U 0 40 Y Y 1 F N
+F0 "U" 250 150 50 H V C CNN
+F1 "FSAE_Library_Starter_Motor" 250 150 50 H I C CNN
+F2 "" 250 150 50 H I C CNN
+F3 "" 250 150 50 H I C CNN
+DRAW
+T 0 300 -25 30 0 0 0 Motor Normal 0 C C
+T 0 300 25 30 0 0 0 Starter Normal 0 C C
+S 100 50 400 -50 0 0 0 f
+X M ~ 0 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# FSAE_Library_Starter_Relay
+#
+DEF FSAE_Library_Starter_Relay U 0 40 Y Y 1 F N
+F0 "U" 500 150 50 H V C CNN
+F1 "FSAE_Library_Starter_Relay" 250 150 50 H I C CNN
+F2 "" 500 500 50 H I C CNN
+F3 "" 500 500 50 H I C CNN
+DRAW
+T 0 350 -575 50 0 0 0 F4i Normal 0 C C
+T 0 400 -650 50 0 0 0 "Starter Relay" Normal 0 C C
+S 100 100 650 -700 0 1 0 f
+X Alt+ ~ 0 -250 100 R 50 50 1 1 W
+X Alt+ ~ 0 0 100 R 50 50 1 1 W
+X Batt ~ 750 0 100 L 50 50 1 1 W
+X Motor ~ 750 -250 100 L 50 50 1 1 w
+X N.C. ~ 0 -500 100 R 50 50 1 1 N
+X Start ~ 750 -500 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

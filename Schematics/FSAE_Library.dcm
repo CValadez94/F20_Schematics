@@ -15,6 +15,10 @@ K fuse
 F ~
 $ENDCMP
 #
+$CMP Ignition_SW
+D SPST
+$ENDCMP
+#
 $CMP MicroRelay
 D SPST Micro Relay, 12V, 30A
 K micro, relay, spst
@@ -24,6 +28,16 @@ $ENDCMP
 $CMP Rectifier
 D F4i rectifier
 K rectifier, F4i
+$ENDCMP
+#
+$CMP Starter_Motor
+D F4i starter motor
+K F4i, starter motor
+$ENDCMP
+#
+$CMP Starter_Relay
+D F4i starter relay
+K starter relay, F4i
 $ENDCMP
 #
 #End Doc Library
