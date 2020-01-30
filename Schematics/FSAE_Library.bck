@@ -9,6 +9,10 @@ $CMP Cutoff_Switch
 D Main battery cutoff switch
 $ENDCMP
 #
+$CMP Dash_Kill_SW
+D SPST
+$ENDCMP
+#
 $CMP Fuse
 D Fuse
 K fuse
@@ -23,6 +27,10 @@ $CMP MicroRelay
 D SPST Micro Relay, 12V, 30A
 K micro, relay, spst
 F https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/
+$ENDCMP
+#
+$CMP Overtravel_SW
+D SPST
 $ENDCMP
 #
 $CMP Rectifier

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 5 6
+Sheet 4 7
 Title "FSAE"
 Date "2020-01-22"
 Rev "A"
@@ -81,7 +81,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 3250 2500 3250
 Text GLabel 2000 3000 0    50   Input ~ 0
-PWR_AUX
+DD_PWR
 Wire Wire Line
 	2000 3000 2500 3000
 $EndSCHEMATC

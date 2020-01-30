@@ -1,0 +1,363 @@
+EESchema Schematic File Version 4
+LIBS:F20_ROOT-cache
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 7 7
+Title "Relays and Fuses"
+Date "2020-01-29"
+Rev "A"
+Comp "F20"
+Comment1 "Cristian Valadez"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FSAE_Library:MicroRelay K?
+U 1 1 5E342D8D
+P 5500 1500
+F 0 "K?" H 5800 1800 50  0000 C CNN
+F 1 "MicroRelay" H 5600 1800 50  0001 L CNN
+F 2 "" H 5600 950 50  0001 L CNN
+F 3 "https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/" V 5800 1300 50  0001 C CNN
+F 4 "V23374-A1601-X003" H 5800 1000 30  0000 C CNN "PN"
+F 5 "Main" H 5800 1100 50  0000 C CNN "Name"
+	1    5500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:MicroRelay K?
+U 1 1 5E3476EA
+P 5500 2500
+F 0 "K?" H 5800 2800 50  0000 C CNN
+F 1 "MicroRelay" H 5600 2800 50  0001 L CNN
+F 2 "" H 5600 1950 50  0001 L CNN
+F 3 "https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/" V 5800 2300 50  0001 C CNN
+F 4 "V23374-A1601-X003" H 5800 2000 30  0000 C CNN "PN"
+F 5 "Fan" H 5800 2100 50  0000 C CNN "Name"
+	1    5500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:MicroRelay K?
+U 1 1 5E3482B5
+P 5500 3500
+F 0 "K?" H 5800 3800 50  0000 C CNN
+F 1 "MicroRelay" H 5600 3800 50  0001 L CNN
+F 2 "" H 5600 2950 50  0001 L CNN
+F 3 "https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/" V 5800 3300 50  0001 C CNN
+F 4 "V23374-A1601-X003" H 5800 3000 30  0000 C CNN "PN"
+F 5 "Fuel Pump" H 5800 3100 45  0000 C CNN "Name"
+	1    5500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:MicroRelay K?
+U 1 1 5E3492F0
+P 5500 4500
+F 0 "K?" H 5800 4800 50  0000 C CNN
+F 1 "MicroRelay" H 5600 4800 50  0001 L CNN
+F 2 "" H 5600 3950 50  0001 L CNN
+F 3 "https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/" V 5800 4300 50  0001 C CNN
+F 4 "V23374-A1601-X003" H 5800 4000 30  0000 C CNN "PN"
+F 5 "Ignition" H 5800 4100 50  0000 C CNN "Name"
+	1    5500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:MicroRelay K?
+U 1 1 5E3498B4
+P 5500 5500
+F 0 "K?" H 5800 5800 50  0000 C CNN
+F 1 "MicroRelay" H 5600 5800 50  0001 L CNN
+F 2 "" H 5600 4950 50  0001 L CNN
+F 3 "https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/" V 5800 5300 50  0001 C CNN
+F 4 "V23374-A1601-X003" H 5800 5000 30  0000 C CNN "PN"
+F 5 "Aux" H 5800 5100 50  0000 C CNN "Name"
+	1    5500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:Dash_Kill_SW S?
+U 1 1 5E3524FC
+P 8000 2500
+F 0 "S?" H 8250 2701 50  0000 C CNN
+F 1 "Dash_Kill_SW" H 8075 2650 50  0001 L CNN
+F 2 "" H 8100 2200 50  0001 L CNN
+F 3 "" V 8300 2550 50  0001 C CNN
+	1    8000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3500 6100 3500
+Wire Wire Line
+	9000 3500 9000 4500
+Wire Wire Line
+	9000 4500 6100 4500
+Connection ~ 9000 3500
+Text Notes 7350 4600 0    50   ~ 0
+Should it also kill the Aux??
+$Comp
+L FSAE_Library:Bake_OT_SW S?
+U 1 1 5E384706
+P 4200 6650
+F 0 "S?" H 4450 6851 50  0000 C CNN
+F 1 "Bake_OT_SW" H 4275 6800 50  0001 L CNN
+F 2 "" H 4300 6350 50  0001 L CNN
+F 3 "" V 4500 6700 50  0001 C CNN
+	1    4200 6650
+	1    0    0    -1  
+$EndComp
+Text Notes 4200 6900 0    50   ~ 0
+Should this switch controlrelays or go to ECU pin like shown in F16 diagrams?
+Text GLabel 2000 1000 0    50   Input ~ 0
+BAT_PWR
+Wire Wire Line
+	4000 2500 5500 2500
+Wire Wire Line
+	7500 2750 6100 2750
+Text GLabel 7500 3750 2    50   Output ~ 0
+FUEL_PUMP_RLY_CTRL
+Wire Wire Line
+	7500 3750 6100 3750
+Text GLabel 4000 3500 0    50   Input ~ 0
+ECU_FUEL_PUMP_CTRL
+Wire Wire Line
+	4000 3500 5500 3500
+Wire Wire Line
+	5500 4500 4000 4500
+Wire Wire Line
+	6100 4750 7500 4750
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E3B4200
+P 3500 2750
+F 0 "F?" H 3650 2850 50  0000 C CNN
+F 1 "Value?" H 3650 2650 50  0000 C CNN
+F 2 "" H 3650 2830 50  0001 C CNN
+F 3 "~" V 3650 2900 50  0001 C CNN
+	1    3500 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2750 5500 2750
+Wire Wire Line
+	3500 2750 2500 2750
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E3BE26F
+P 3500 3750
+F 0 "F?" H 3650 3850 50  0000 C CNN
+F 1 "Value?" H 3650 3650 50  0000 C CNN
+F 2 "" H 3650 3830 50  0001 C CNN
+F 3 "~" V 3650 3900 50  0001 C CNN
+	1    3500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3750 5500 3750
+Wire Wire Line
+	3500 3750 2500 3750
+Wire Wire Line
+	2500 3750 2500 2750
+Connection ~ 2500 2750
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E3BFFD4
+P 3500 4750
+F 0 "F?" H 3650 4850 50  0000 C CNN
+F 1 "Value?" H 3650 4650 50  0000 C CNN
+F 2 "" H 3650 4830 50  0001 C CNN
+F 3 "~" V 3650 4900 50  0001 C CNN
+	1    3500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4750 5500 4750
+Wire Wire Line
+	3500 4750 2500 4750
+Wire Wire Line
+	2500 4750 2500 3750
+Connection ~ 2500 3750
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E3C1EE5
+P 3500 5750
+F 0 "F?" H 3650 5850 50  0000 C CNN
+F 1 "Value?" H 3650 5650 50  0000 C CNN
+F 2 "" H 3650 5830 50  0001 C CNN
+F 3 "~" V 3650 5900 50  0001 C CNN
+	1    3500 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4750 2500 5750
+Wire Wire Line
+	2500 5750 3500 5750
+Connection ~ 2500 4750
+Wire Wire Line
+	3800 5750 5500 5750
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E3E0FEB
+P 7000 5750
+F 0 "F?" H 7150 5965 50  0000 C CNN
+F 1 "Fuse" H 7150 5874 50  0000 C CNN
+F 2 "" H 7150 5830 50  0001 C CNN
+F 3 "~" V 7150 5900 50  0001 C CNN
+	1    7000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E3E15AD
+P 7000 6000
+F 0 "F?" H 7150 6215 50  0000 C CNN
+F 1 "Fuse" H 7150 6124 50  0000 C CNN
+F 2 "" H 7150 6080 50  0001 C CNN
+F 3 "~" V 7150 6150 50  0001 C CNN
+	1    7000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E3E18E2
+P 7000 6250
+F 0 "F?" H 7150 6465 50  0000 C CNN
+F 1 "Fuse" H 7150 6374 50  0000 C CNN
+F 2 "" H 7150 6330 50  0001 C CNN
+F 3 "~" V 7150 6400 50  0001 C CNN
+	1    7000 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E3E1BF4
+P 7000 6500
+F 0 "F?" H 7150 6715 50  0000 C CNN
+F 1 "Fuse" H 7150 6624 50  0000 C CNN
+F 2 "" H 7150 6580 50  0001 C CNN
+F 3 "~" V 7150 6650 50  0001 C CNN
+	1    7000 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 5750 6500 5750
+Wire Wire Line
+	6500 6000 6500 5750
+Connection ~ 6500 5750
+Wire Wire Line
+	6500 5750 7000 5750
+Wire Wire Line
+	6500 6000 6500 6250
+Wire Wire Line
+	6500 6250 7000 6250
+Connection ~ 6500 6000
+Wire Wire Line
+	6500 6000 7000 6000
+Wire Wire Line
+	6500 6250 6500 6500
+Wire Wire Line
+	6500 6500 7000 6500
+Connection ~ 6500 6250
+Wire Wire Line
+	7300 5750 8500 5750
+Text GLabel 8500 5750 2    50   Output ~ 0
+DD_PWR
+Text GLabel 7500 4750 2    50   Output ~ 0
+IGN_RLY_CTRL
+Text GLabel 8500 6000 2    50   Output ~ 0
+RIM_PWR
+Wire Wire Line
+	8500 6000 7300 6000
+Text Notes 7450 6300 0    50   ~ 0
+Should shifter be on Aux relay?
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E401951
+P 3500 1000
+F 0 "F?" H 3650 1100 50  0000 C CNN
+F 1 "10A" H 3650 900 50  0000 C CNN
+F 2 "" H 3650 1080 50  0001 C CNN
+F 3 "~" V 3650 1150 50  0001 C CNN
+	1    3500 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1000 2500 1000
+Connection ~ 2500 1000
+Wire Wire Line
+	2500 1000 3500 1000
+Text GLabel 4500 1000 2    50   Output ~ 0
+ECU_BAT_PWR
+Wire Wire Line
+	3800 1000 4500 1000
+Wire Wire Line
+	2500 1000 2500 1500
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E40775B
+P 3500 1500
+F 0 "F?" H 3650 1600 50  0000 C CNN
+F 1 "30A" H 3650 1400 50  0000 C CNN
+F 2 "" H 3650 1580 50  0001 C CNN
+F 3 "~" V 3650 1650 50  0001 C CNN
+	1    3500 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 1500 2    50   Output ~ 0
+ECU_RLY_CTRL_OUT
+Wire Wire Line
+	6100 1500 7500 1500
+Wire Wire Line
+	4500 1750 5500 1750
+Wire Wire Line
+	3800 1500 4500 1500
+Wire Wire Line
+	3500 1500 2500 1500
+Connection ~ 2500 1500
+Wire Wire Line
+	2500 1500 2500 2750
+Wire Wire Line
+	4500 1500 4500 1750
+Connection ~ 4500 1500
+Wire Wire Line
+	4500 1500 5500 1500
+Text GLabel 4000 2500 0    50   Input ~ 0
+ECU_FAN_CTRL
+Text GLabel 7500 1750 2    50   Output ~ 0
+ECU_RLY_PWR
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E442A66
+P 6900 1750
+F 0 "F?" H 7050 1850 50  0000 C CNN
+F 1 "20A" H 7050 1650 50  0000 C CNN
+F 2 "" H 7050 1830 50  0001 C CNN
+F 3 "~" V 7050 1900 50  0001 C CNN
+	1    6900 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1750 7500 1750
+Wire Wire Line
+	6100 1750 6500 1750
+Wire Wire Line
+	6500 1750 6500 2500
+Wire Wire Line
+	6500 2500 6100 2500
+Connection ~ 6500 1750
+Wire Wire Line
+	6500 1750 6900 1750
+Connection ~ 6500 2500
+Wire Wire Line
+	6500 2500 8000 2500
+Wire Wire Line
+	8500 2500 9000 2500
+Wire Wire Line
+	9000 2500 9000 3500
+Text GLabel 7500 2750 2    50   Output ~ 0
+FAN_RLY_CTRL
+$EndSCHEMATC

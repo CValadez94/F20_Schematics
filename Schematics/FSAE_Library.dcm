@@ -5,8 +5,17 @@ D F4i alternator
 K alternator, F4i
 $ENDCMP
 #
+$CMP Bake_OT_SW
+D SPST brake over travel switch
+K SPST, brake, switch
+$ENDCMP
+#
 $CMP Cutoff_Switch
 D Main battery cutoff switch
+$ENDCMP
+#
+$CMP Dash_Kill_SW
+D SPST
 $ENDCMP
 #
 $CMP Fuse

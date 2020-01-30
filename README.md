@@ -2,7 +2,7 @@
 FSAE 2020 schematics
 
 - Steering wheel
-- ~~Brake Light~~ / Brake Switch / Brake Pressure Sensors
+- ~~Brake Light / Brake Switch / Brake Pressure Sensors~~
 - Injectors / Coils / Coil Driver
 - Fuel Pump / Engine Radiator Fan
 - Engine Sensors (IAT, TPS, MAP, Cam, Crank)
@@ -12,10 +12,12 @@ FSAE 2020 schematics
 - Accelerometer
 - XBee (Telemetry)
 - ~~Driver Display~~
+- Transponder
 
 ## Modules
 - ECU
 - RIM
 
 ## Power Management
-- Fuses / Relays / ~~Starting, Charging System~~ / Killswitches
+- ~~Power Management (Starting, Charging System) / Killswitches~~
+    - Fuses / Relays
