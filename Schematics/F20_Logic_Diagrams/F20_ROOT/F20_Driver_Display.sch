@@ -4,10 +4,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 7
+Sheet 3 7
 Title "FSAE"
-Date "2020-01-22"
-Rev "A"
+Date "2020-02-03"
+Rev "B"
 Comp "F20"
 Comment1 "Alex Domagala"
 Comment2 "Cristian Valadez"
@@ -36,17 +36,6 @@ F 3 "" H 3000 3500 50  0001 C CNN
 	1    2500 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E2A2C36
-P 3500 3500
-F 0 "#PWR?" H 3500 3250 50  0001 C CNN
-F 1 "GND" H 3505 3327 50  0000 C CNN
-F 2 "" H 3500 3500 50  0001 C CNN
-F 3 "" H 3500 3500 50  0001 C CNN
-	1    3500 3500
-	1    0    0    -1  
-$EndComp
 Text GLabel 5000 3500 0    50   Input ~ 0
 RIM_DD_RX
 Wire Wire Line
@@ -65,17 +54,6 @@ Text GLabel 5000 4000 0    50   Input ~ 0
 RIM_DD_RST
 Wire Wire Line
 	5000 4000 8000 4000
-$Comp
-L power:GND #PWR?
-U 1 1 5E29034E
-P 2000 3500
-F 0 "#PWR?" H 2000 3250 50  0001 C CNN
-F 1 "GND" H 2005 3327 50  0000 C CNN
-F 2 "" H 2000 3500 50  0001 C CNN
-F 3 "" H 2000 3500 50  0001 C CNN
-	1    2000 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2000 3500 2000 3250
 Wire Wire Line
@@ -84,4 +62,26 @@ Text GLabel 2000 3000 0    50   Input ~ 0
 DD_PWR
 Wire Wire Line
 	2000 3000 2500 3000
+$Comp
+L FSAE_Library:GND #PWR?
+U 1 1 5E3C0D7F
+P 2000 3500
+F 0 "#PWR?" H 2000 3300 50  0001 C CNN
+F 1 "GND" H 2004 3346 50  0000 C CNN
+F 2 "" H 2000 3450 50  0001 C CNN
+F 3 "" H 2000 3450 50  0001 C CNN
+	1    2000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:GND #PWR?
+U 1 1 5E3C11D7
+P 3500 3500
+F 0 "#PWR?" H 3500 3300 50  0001 C CNN
+F 1 "GND" H 3504 3346 50  0000 C CNN
+F 2 "" H 3500 3450 50  0001 C CNN
+F 3 "" H 3500 3450 50  0001 C CNN
+	1    3500 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

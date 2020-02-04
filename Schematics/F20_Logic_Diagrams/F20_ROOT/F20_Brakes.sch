@@ -4,10 +4,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 5 7
+Sheet 4 7
 Title "Brakes"
-Date "2020-01-28"
-Rev "A"
+Date "2020-02-03"
+Rev "B"
 Comp "F20"
 Comment1 "Alex Domagala"
 Comment2 "Cristian Valadez"
@@ -110,13 +110,13 @@ Rear
 Text Notes 8900 1970 0    33   ~ 0
 Front
 $Comp
-L power:GND #PWR?
-U 1 1 5E479A01
+L FSAE_Library:GND #PWR?
+U 1 1 5E3C206F
 P 8000 5500
-F 0 "#PWR?" H 8000 5250 50  0001 C CNN
-F 1 "GND" H 8005 5327 50  0000 C CNN
-F 2 "" H 8000 5500 50  0001 C CNN
-F 3 "" H 8000 5500 50  0001 C CNN
+F 0 "#PWR?" H 8000 5300 50  0001 C CNN
+F 1 "GND" H 8004 5346 50  0000 C CNN
+F 2 "" H 8000 5450 50  0001 C CNN
+F 3 "" H 8000 5450 50  0001 C CNN
 	1    8000 5500
 	1    0    0    -1  
 $EndComp

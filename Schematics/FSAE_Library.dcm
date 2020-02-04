@@ -18,10 +18,32 @@ $CMP Dash_Kill_SW
 D SPST
 $ENDCMP
 #
+$CMP ECU_Conn1
+D ECU connector 1, 73 pin, gray key
+$ENDCMP
+#
+$CMP ECU_Conn2
+D ECU connector 2, 56 pin, blue key
+$ENDCMP
+#
+$CMP Fan
+D Panasonic SSW9808L, 12V, OEM on Suzuki GSXR 600 / 750, 5-8A??
+$ENDCMP
+#
 $CMP Fuse
 D Fuse
 K fuse
 F ~
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GNDPWR" , power ground
+K power-flag
+$ENDCMP
+#
+$CMP GND_BAT
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
 $ENDCMP
 #
 $CMP Ignition_SW

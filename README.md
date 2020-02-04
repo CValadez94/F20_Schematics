@@ -3,19 +3,13 @@ FSAE 2020 schematics
 
 - Steering wheel
 - ~~Brake Light / Brake Switch / Brake Pressure Sensors~~
-- Injectors / Coils / Coil Driver
-- Fuel Pump / Engine Radiator Fan
-- Engine Sensors (IAT, TPS, MAP, Cam, Crank)
-- Pneumatic Shifting / Clutch
-- O2 Sensor
+- Powertrain (Injectors / Coils / Coil Driver/ Fuel Pump / Fan / IAT / TPS / MAP / Cam / Crank / O2 Sensor / Pneumatic Shifting / Clutch) 
+    - ECU
 - Tire Temperature Sensors
 - Accelerometer
 - XBee (Telemetry)
 - ~~Driver Display~~
 - Transponder
-
-## Modules
-- ECU
 - RIM
 
 ## Power Management

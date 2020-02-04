@@ -5,6 +5,11 @@ D F4i alternator
 K alternator, F4i
 $ENDCMP
 #
+$CMP Bake_OT_SW
+D SPST brake over travel switch
+K SPST, brake, switch
+$ENDCMP
+#
 $CMP Cutoff_Switch
 D Main battery cutoff switch
 $ENDCMP
@@ -13,10 +18,32 @@ $CMP Dash_Kill_SW
 D SPST
 $ENDCMP
 #
+$CMP ECU_Conn1
+D ECU connector 1, 73 pin, gray key
+$ENDCMP
+#
+$CMP ECU_Conn2
+D ECU connector 2, 56 pin, blue key
+$ENDCMP
+#
+$CMP Fan
+D Panasonic SSW9808L, 12V, OEM on Suzuki GSXR 600 / 750, 5-8A??
+$ENDCMP
+#
 $CMP Fuse
 D Fuse
 K fuse
 F ~
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GNDPWR" , power ground
+K power-flag
+$ENDCMP
+#
+$CMP GND_BAT
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
 $ENDCMP
 #
 $CMP Ignition_SW
@@ -27,10 +54,6 @@ $CMP MicroRelay
 D SPST Micro Relay, 12V, 30A
 K micro, relay, spst
 F https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/
-$ENDCMP
-#
-$CMP Overtravel_SW
-D SPST
 $ENDCMP
 #
 $CMP Rectifier

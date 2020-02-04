@@ -17,23 +17,17 @@ $EndDescr
 $Sheet
 S 1000 2000 1700 700 
 U 5E1D1B45
-F0 "Injectors and Coils" 50
-F1 "F20_Injectors_Coils.sch" 50
+F0 "Engine" 50
+F1 "F20_Powertrain.sch" 50
 $EndSheet
 $Sheet
 S 1000 3000 1700 700 
-U 5E1D1BB2
-F0 "ECU Test1" 50
-F1 "F20_ECU_Test1.sch" 50
-$EndSheet
-$Sheet
-S 1000 4000 1700 700 
 U 5E28FC41
 F0 "Driver Display" 50
 F1 "F20_Driver_Display.sch" 50
 $EndSheet
 $Sheet
-S 1000 5000 1700 700 
+S 1000 4000 1700 700 
 U 5E30D161
 F0 "Brakes" 50
 F1 "F20_Brakes.sch" 50
