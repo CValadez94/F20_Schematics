@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 7 7
+Sheet 8 9
 Title "Relays and Fuses"
 Date "2020-01-29"
 Rev "A"
@@ -97,8 +96,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 4500 6100 4500
 Connection ~ 9000 3500
-Text Notes 7350 4600 0    50   ~ 0
-Should it also kill the Aux??
 $Comp
 L FSAE_Library:Bake_OT_SW S?
 U 1 1 5E384706
@@ -110,8 +107,8 @@ F 3 "" V 4500 6700 50  0001 C CNN
 	1    4200 6650
 	1    0    0    -1  
 $EndComp
-Text Notes 4200 6900 0    50   ~ 0
-Should this switch controlrelays or go to ECU pin like shown in F16 diagrams?
+Text Notes 4100 7100 0    50   ~ 0
+Should this switch control\nrelays or go to ECU pin like\nshown in F16 diagrams?
 Text GLabel 2000 1000 0    50   Input ~ 0
 BAT_PWR
 Wire Wire Line
@@ -119,7 +116,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 2750 6100 2750
 Text GLabel 7500 3750 2    50   Output ~ 0
-FUEL_PUMP_RLY_CTRL
+FUEL_PUMP_PWR
 Wire Wire Line
 	7500 3750 6100 3750
 Text GLabel 4000 3500 0    50   Input ~ 0
@@ -127,9 +124,9 @@ ECU_FUEL_PUMP_CTRL
 Wire Wire Line
 	4000 3500 5500 3500
 Wire Wire Line
-	5500 4500 4000 4500
+	5500 4500 5000 4500
 Wire Wire Line
-	6100 4750 7500 4750
+	6100 4750 7000 4750
 $Comp
 L FSAE_Library:Fuse F?
 U 1 1 5E3B4200
@@ -266,13 +263,11 @@ Wire Wire Line
 	7300 5750 8500 5750
 Text GLabel 8500 5750 2    50   Output ~ 0
 DD_PWR
-Text GLabel 7500 4750 2    50   Output ~ 0
-IGN_RLY_CTRL
 Text GLabel 8500 6000 2    50   Output ~ 0
 RIM_PWR
 Wire Wire Line
 	8500 6000 7300 6000
-Text Notes 7450 6300 0    50   ~ 0
+Text Notes 7450 6800 0    50   ~ 0
 Should shifter be on Aux relay?
 $Comp
 L FSAE_Library:Fuse F?
@@ -358,6 +353,104 @@ Wire Wire Line
 	8500 2500 9000 2500
 Wire Wire Line
 	9000 2500 9000 3500
+Wire Wire Line
+	6500 2500 6500 5500
+Wire Wire Line
+	6500 5500 6100 5500
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E3A862B
+P 7500 5000
+F 0 "F?" H 7650 5215 50  0000 C CNN
+F 1 "Fuse" H 7650 5124 50  0000 C CNN
+F 2 "" H 7650 5080 50  0001 C CNN
+F 3 "~" V 7650 5150 50  0001 C CNN
+	1    7500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4750 7000 5000
+Wire Wire Line
+	7000 5000 7500 5000
+Wire Wire Line
+	7800 5000 8500 5000
+Text GLabel 8500 6500 2    50   Output ~ 0
+O2_SNSR_PWR
+Text Notes 9000 6000 0    100  ~ 20
+NEED TO INDICATE\nCURRENT DRAW ON\nALL OUTPUT POWER\nLABELS 
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E3C06C7
+P 7000 6750
+F 0 "F?" H 7150 6965 50  0000 C CNN
+F 1 "Fuse" H 7150 6874 50  0000 C CNN
+F 2 "" H 7150 6830 50  0001 C CNN
+F 3 "~" V 7150 6900 50  0001 C CNN
+	1    7000 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:GND #PWR?
+U 1 1 5E3C4736
+P 5000 6000
+F 0 "#PWR?" H 5000 5800 50  0001 C CNN
+F 1 "GND" H 5004 5846 50  0000 C CNN
+F 2 "" H 5000 5950 50  0001 C CNN
+F 3 "" H 5000 5950 50  0001 C CNN
+	1    5000 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6000 5000 5500
+Wire Wire Line
+	5000 5500 5500 5500
+Wire Wire Line
+	5000 4500 5000 5500
+Connection ~ 5000 5500
+Wire Wire Line
+	7300 6250 8500 6250
+Text GLabel 8500 6250 2    50   Output ~ 0
+TRANSPONDER_PWR
 Text GLabel 7500 2750 2    50   Output ~ 0
-FAN_RLY_CTRL
+FAN_PWR
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E3D8B35
+P 7500 5250
+F 0 "F?" H 7650 5465 50  0000 C CNN
+F 1 "Fuse" H 7650 5374 50  0000 C CNN
+F 2 "" H 7650 5330 50  0001 C CNN
+F 3 "~" V 7650 5400 50  0001 C CNN
+	1    7500 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 5250 7000 5250
+Wire Wire Line
+	7000 5250 7000 5000
+Connection ~ 7000 5000
+Wire Wire Line
+	7300 6500 8500 6500
+Wire Wire Line
+	7800 5250 8500 5250
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E3E67D5
+P 7500 4750
+F 0 "F?" H 7650 4965 50  0000 C CNN
+F 1 "Fuse" H 7650 4874 50  0000 C CNN
+F 2 "" H 7650 4830 50  0001 C CNN
+F 3 "~" V 7650 4900 50  0001 C CNN
+	1    7500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4750 7500 4750
+Connection ~ 7000 4750
+Wire Wire Line
+	7800 4750 8500 4750
+Text GLabel 8500 4750 2    50   Output ~ 0
+COILS_PWR
+Text GLabel 8500 5000 2    50   Output ~ 0
+INJECTORS_PWR
 $EndSCHEMATC

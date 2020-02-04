@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 7
+Sheet 6 9
 Title "Brakes"
 Date "2020-02-03"
 Rev "B"
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 2500 5000 0    50   Input ~ 0
-ECU_BL
+BL_SIG
 $Comp
 L FSAE_Library:Brake_Light U?
 U 1 1 5E30D69C
@@ -75,8 +74,6 @@ Wire Wire Line
 Connection ~ 8000 5250
 Wire Wire Line
 	8000 5250 8000 5500
-Text GLabel 2500 2000 0    50   Output ~ 0
-ECU_FBPS
 Text GLabel 2500 2250 0    50   Input ~ 0
 ECU_5V
 Wire Wire Line
@@ -88,7 +85,7 @@ Wire Wire Line
 Text GLabel 2500 2500 0    50   Input ~ 0
 ECU_AGND
 Text GLabel 2500 3000 0    50   Output ~ 0
-ECU_RBPS
+RBPS
 Wire Wire Line
 	6500 2500 2500 2500
 Connection ~ 6500 2500
@@ -102,7 +99,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 4000 8550 4000
 Text GLabel 2500 4000 0    50   Output ~ 0
-ECU_BL_SW
+BL_SW
 Wire Wire Line
 	8550 5000 2500 5000
 Text Notes 8920 2960 0    33   ~ 0
@@ -120,4 +117,6 @@ F 3 "" H 8000 5450 50  0001 C CNN
 	1    8000 5500
 	1    0    0    -1  
 $EndComp
+Text GLabel 2500 2000 0    50   Output ~ 0
+FBPS
 $EndSCHEMATC

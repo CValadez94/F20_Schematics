@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 7
+Sheet 2 9
 Title "Engine"
 Date "2020-02-03"
 Rev "A"
@@ -47,7 +46,13 @@ Wire Wire Line
 Wire Wire Line
 	1500 1250 2500 1250
 Text GLabel 1500 1000 0    50   Input ~ 0
-FAN_RLY_CTRL
+FAN_PWR
 Wire Wire Line
 	1500 1000 2500 1000
+$Sheet
+S 8500 2000 1650 650 
+U 5E38FCEE
+F0 "O2 Sensor" 50
+F1 "F20_O2_Sensor.sch" 50
+$EndSheet
 $EndSCHEMATC

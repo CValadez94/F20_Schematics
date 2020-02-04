@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title "Root Index"
 Date ""
 Rev "A"
@@ -37,5 +36,11 @@ S 1000 1000 1700 700
 U 5E1D1A8A
 F0 "Power Management" 50
 F1 "F20_Power_Management.sch" 50
+$EndSheet
+$Sheet
+S 1000 5000 1700 700 
+U 5E38F452
+F0 "Transponder" 50
+F1 "F20_Transponder.sch" 50
 $EndSheet
 $EndSCHEMATC

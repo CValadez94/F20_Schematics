@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 3 7
+Sheet 5 9
 Title "FSAE"
 Date "2020-02-03"
 Rev "B"
@@ -36,8 +35,6 @@ F 3 "" H 3000 3500 50  0001 C CNN
 	1    2500 3000
 	1    0    0    -1  
 $EndComp
-Text GLabel 5000 3500 0    50   Input ~ 0
-RIM_DD_RX
 Wire Wire Line
 	5000 3500 8000 3500
 Wire Wire Line
@@ -46,12 +43,10 @@ Wire Wire Line
 	3500 3250 8000 3250
 Wire Wire Line
 	3500 3250 3500 3500
-Text GLabel 5000 3750 0    50   Input ~ 0
-RIM_DD_RX
 Wire Wire Line
 	5000 3750 8000 3750
 Text GLabel 5000 4000 0    50   Input ~ 0
-RIM_DD_RST
+DD_RST
 Wire Wire Line
 	5000 4000 8000 4000
 Wire Wire Line
@@ -84,4 +79,8 @@ F 3 "" H 3500 3450 50  0001 C CNN
 	1    3500 3500
 	1    0    0    -1  
 $EndComp
+Text GLabel 5000 3500 0    50   Input ~ 0
+DD_RX
+Text GLabel 5000 3750 0    50   Input ~ 0
+DD_TX
 $EndSCHEMATC
