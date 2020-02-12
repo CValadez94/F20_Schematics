@@ -2,9 +2,9 @@
 
 - Steering wheel
 - ~~Brake Light / Brake Switch / Brake Pressure Sensors~~
-- Powertrain (Injectors / Coils / Coil Driver/ Fuel Pump / ~~Fan~~ / IAT / TPS / MAP / Cam / Crank / O2 Sensor / Pneumatic Shifting / Clutch) 
-    - ECU
-- Tire Temperature Sensors
+- Powertrain (Injectors / ~~Coils~~ / Coil Driver/ Fuel Pump / ~~Fan~~ / IAT / TPS / MAP / Cam / Crank / O2 Sensor / Pneumatic Shifting / Clutch) 
+    - ECU connectors
+- ~~Tire Temperature Sensors~~
 - Accelerometer
 - XBee (Telemetry)
 - ~~Driver Display~~

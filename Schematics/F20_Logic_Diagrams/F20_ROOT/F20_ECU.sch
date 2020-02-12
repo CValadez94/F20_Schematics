@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -39,4 +40,44 @@ F 5 "https://www.molex.com/molex/products/part-detail/crimp_housings/0345760703"
 	1    7500 1500
 	1    0    0    -1  
 $EndComp
+Text GLabel 5000 1800 2    50   Output ~ 0
+ECU_+5V_Aux_Out1
+Wire Wire Line
+	4000 1800 5000 1800
+Text GLabel 1500 1800 0    50   Output ~ 0
+O2_SNSR_HEAT
+Wire Wire Line
+	1500 1800 2500 1800
+Text GLabel 1500 2400 0    50   Output ~ 0
+OS_SNSR_NVOLT
+Text GLabel 1500 2000 0    50   Output ~ 0
+O2_SNSR_ITRIM
+Wire Wire Line
+	1500 2000 1600 2000
+Wire Wire Line
+	1600 2000 1600 1900
+Wire Wire Line
+	1600 1900 2500 1900
+Text GLabel 1500 2200 0    50   Output ~ 0
+O2_SNSR_IPUMP
+Wire Wire Line
+	1500 2200 1700 2200
+Wire Wire Line
+	1700 2200 1700 2000
+Wire Wire Line
+	1700 2000 2500 2000
+Wire Wire Line
+	1500 2400 1800 2400
+Wire Wire Line
+	1800 2400 1800 2100
+Wire Wire Line
+	1800 2100 2500 2100
+Text GLabel 1500 2600 0    50   Output ~ 0
+O2_SNSR_VGND
+Wire Wire Line
+	1500 2600 1900 2600
+Wire Wire Line
+	1900 2600 1900 2200
+Wire Wire Line
+	1900 2200 2500 2200
 $EndSCHEMATC

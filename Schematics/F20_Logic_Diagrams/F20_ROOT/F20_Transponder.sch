@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 9 9
+Sheet 10 11
 Title "Transponder"
 Date "2020-02-03"
 Rev "A"
@@ -33,10 +34,10 @@ Wire Wire Line
 Wire Wire Line
 	3000 3750 3000 4000
 $Comp
-L FSAE_Library:GND #PWR?
+L FSAE_Library:GND #PWR0112
 U 1 1 5E3B8D8B
 P 3000 4000
-F 0 "#PWR?" H 3000 3800 50  0001 C CNN
+F 0 "#PWR0112" H 3000 3800 50  0001 C CNN
 F 1 "GND" H 3004 3846 50  0000 C CNN
 F 2 "" H 3000 3950 50  0001 C CNN
 F 3 "" H 3000 3950 50  0001 C CNN

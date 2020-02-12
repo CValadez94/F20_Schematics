@@ -10,6 +10,11 @@ D SPST brake over travel switch
 K SPST, brake, switch
 $ENDCMP
 #
+$CMP Coil_Driver
+D AEM 4 channel coil driver
+F https://www.aemelectronics.com/products/ignition-components/coil-drivers
+$ENDCMP
+#
 $CMP Cutoff_Switch
 D Main battery cutoff switch
 $ENDCMP
@@ -56,6 +61,11 @@ K micro, relay, spst
 F https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/
 $ENDCMP
 #
+$CMP O2_Sensor
+D Bosch LSU 4.9 Wideband O2 sensor
+F https://www.aemelectronics.com/products/sensors-connectors-accessories/wideband-sensors-bungs-accessories/wideband-o2-sensors/bosch-lsu-4-9-replacement-o2-sensor
+$ENDCMP
+#
 $CMP Rectifier
 D F4i rectifier
 K rectifier, F4i
@@ -69,6 +79,11 @@ $ENDCMP
 $CMP Starter_Relay
 D F4i starter relay
 K starter relay, F4i
+$ENDCMP
+#
+$CMP Tire_Temp_Sensor
+D Infrared temperature sensor for tires; 150C; +5V
+F https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html
 $ENDCMP
 #
 #End Doc Library

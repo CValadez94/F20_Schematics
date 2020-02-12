@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 6 9
+Sheet 7 11
 Title "Brakes"
 Date "2020-02-03"
 Rev "B"
@@ -75,7 +76,7 @@ Connection ~ 8000 5250
 Wire Wire Line
 	8000 5250 8000 5500
 Text GLabel 2500 2250 0    50   Input ~ 0
-ECU_5V
+ECU_+5V
 Wire Wire Line
 	2500 2000 8550 2000
 Wire Wire Line
@@ -107,10 +108,10 @@ Rear
 Text Notes 8900 1970 0    33   ~ 0
 Front
 $Comp
-L FSAE_Library:GND #PWR?
+L FSAE_Library:GND #PWR0105
 U 1 1 5E3C206F
 P 8000 5500
-F 0 "#PWR?" H 8000 5300 50  0001 C CNN
+F 0 "#PWR0105" H 8000 5300 50  0001 C CNN
 F 1 "GND" H 8004 5346 50  0000 C CNN
 F 2 "" H 8000 5450 50  0001 C CNN
 F 3 "" H 8000 5450 50  0001 C CNN
