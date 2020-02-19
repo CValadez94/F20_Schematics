@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 13
 Title "Root Index"
 Date ""
 Rev "A"
@@ -49,5 +49,11 @@ S 1000 6000 1700 700
 U 5E44663D
 F0 "Tire Temperature Sensors" 50
 F1 "F20_Tire_Temp_Sensors.sch" 50
+$EndSheet
+$Sheet
+S 3000 1000 1700 700 
+U 5E4F7825
+F0 "RIM" 50
+F1 "F20_RIM.sch" 50
 $EndSheet
 $EndSCHEMATC

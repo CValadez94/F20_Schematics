@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 11
+Sheet 4 13
 Title "O2 Sensor"
 Date "2020-02-03"
 Rev "A"
@@ -41,10 +41,10 @@ O2_SNSR_VGND
 Wire Wire Line
 	2550 3000 8550 3000
 $Comp
-L FSAE_Library:O2_Sensor U?
+L FSAE_Library:O2_Sensor U3
 U 1 1 5E390A68
 P 8550 3000
-F 0 "U?" H 9078 2375 50  0000 L CNN
+F 0 "U3" H 9078 2375 50  0000 L CNN
 F 1 "O2_Sensor" H 8850 3150 50  0001 C CNN
 F 2 "" H 8850 3150 50  0001 C CNN
 F 3 "https://www.aemelectronics.com/products/sensors-connectors-accessories/wideband-sensors-bungs-accessories/wideband-o2-sensors/bosch-lsu-4-9-replacement-o2-sensor" H 8850 3150 50  0001 C CNN

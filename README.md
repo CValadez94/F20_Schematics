@@ -2,13 +2,15 @@
 
 - Steering wheel
 - ~~Brake Light / Brake Switch / Brake Pressure Sensors~~
-- Powertrain (Injectors / ~~Coils~~ / Coil Driver/ Fuel Pump / ~~Fan~~ / IAT / TPS / MAP / Cam / Crank / O2 Sensor / Pneumatic Shifting / Clutch) 
-    - ECU connectors
+- Powertrain (Injectors / _Coils_ / Fuel Pump / ~~Fan~~ / IAT / TPS / MAP / Cam / Crank / ~~O2 Sensor~~ / Pneumatic Shifting / Clutch) 
+    - _ECU connectors_
 - ~~Tire Temperature Sensors~~
 - Accelerometer
 - XBee (Telemetry)
 - ~~Driver Display~~
 - ~~Transponder~~
-- RIM
+- _RIM_
 - ~~Power Management (Starting, Charging System) / Killswitches~~
-    - Fuses / Relays
+    - _Fuses / Relays_
+
+_Italics means being worked on_

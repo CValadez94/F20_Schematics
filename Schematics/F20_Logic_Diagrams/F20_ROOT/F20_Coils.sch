@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 5 11
+Sheet 5 13
 Title "Coil"
 Date "2020-02-04"
 Rev "A"
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FSAE_Library:Coil_Driver U?
+L FSAE_Library:Coil_Driver U4
 U 1 1 5E3A29CE
 P 4500 3000
-F 0 "U?" H 5250 3173 50  0000 C CNN
+F 0 "U4" H 5250 3173 50  0000 C CNN
 F 1 "Coil_Driver" H 4800 3150 50  0001 C CNN
 F 2 "" H 4800 3150 50  0001 C CNN
 F 3 "https://www.aemelectronics.com/products/ignition-components/coil-drivers" H 4800 3150 50  0001 C CNN
@@ -43,10 +43,10 @@ Wire Wire Line
 Wire Wire Line
 	8000 4000 6000 4000
 $Comp
-L FSAE_Library:GND_BAT #PWR?
+L FSAE_Library:GND_BAT #PWR04
 U 1 1 5E3A4419
 P 9000 4000
-F 0 "#PWR?" H 9000 3750 50  0001 C CNN
+F 0 "#PWR04" H 9000 3750 50  0001 C CNN
 F 1 "GND_BAT" H 9005 3827 50  0000 C CNN
 F 2 "" H 9000 4000 50  0001 C CNN
 F 3 "" H 9000 4000 50  0001 C CNN

@@ -23,6 +23,10 @@ $CMP Dash_Kill_SW
 D SPST
 $ENDCMP
 #
+$CMP Driver_Display
+D 4D Systems , Gen4 series, 7" display 800x480 +5V (1A recommended)
+$ENDCMP
+#
 $CMP ECU_Conn1
 D ECU connector 1, 73 pin, gray key
 $ENDCMP
@@ -55,6 +59,11 @@ $CMP Ignition_SW
 D SPST
 $ENDCMP
 #
+$CMP LOG_EN_SW
+D SPST logging enable switch
+K SPST, log, switch
+$ENDCMP
+#
 $CMP MicroRelay
 D SPST Micro Relay, 12V, 30A
 K micro, relay, spst
@@ -64,6 +73,10 @@ $ENDCMP
 $CMP O2_Sensor
 D Bosch LSU 4.9 Wideband O2 sensor
 F https://www.aemelectronics.com/products/sensors-connectors-accessories/wideband-sensors-bungs-accessories/wideband-o2-sensors/bosch-lsu-4-9-replacement-o2-sensor
+$ENDCMP
+#
+$CMP RIM
+D Remote Input Module
 $ENDCMP
 #
 $CMP Rectifier
@@ -84,6 +97,10 @@ $ENDCMP
 $CMP Tire_Temp_Sensor
 D Infrared temperature sensor for tires; 150C; +5V
 F https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html
+$ENDCMP
+#
+$CMP Transponder
+D MyLaps
 $ENDCMP
 #
 #End Doc Library
