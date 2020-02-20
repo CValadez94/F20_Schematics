@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 7 13
+Sheet 8 13
 Title "Brakes"
 Date "2020-02-03"
 Rev "B"
@@ -81,8 +81,6 @@ Wire Wire Line
 	2500 2250 6750 2250
 Wire Wire Line
 	2500 3000 8550 3000
-Text GLabel 2500 2500 0    50   Input ~ 0
-ECU_AGND
 Text GLabel 2500 3000 0    50   Output ~ 0
 RBPS
 Wire Wire Line
@@ -120,4 +118,14 @@ Text GLabel 2500 2000 0    50   Output ~ 0
 FBPS
 Text GLabel 2500 2250 0    50   Input ~ 0
 ECU_+5V_1
+Text Notes 4850 7250 0    50   ~ 0
+BL : Brake Light\nFBPS : Front Brake Pressure Sensor\nRBPS : Rear Brake Pressure Sensor
+Wire Notes Line
+	6250 7000 4800 7000
+Wire Notes Line
+	4800 7000 4800 7300
+Wire Notes Line
+	4800 7300 6250 7300
+Text GLabel 2500 2500 0    50   Input ~ 0
+ECU_AGND_1
 $EndSCHEMATC

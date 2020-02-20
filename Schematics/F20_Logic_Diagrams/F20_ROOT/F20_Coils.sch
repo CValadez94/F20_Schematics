@@ -27,13 +27,13 @@ F 4 "30-2840" H 4800 3200 50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 Text GLabel 8000 3000 2    50   Input ~ 0
-Coil1_CTRL
+COIL1_CTRL
 Text GLabel 8000 3750 2    50   Input ~ 0
-Coil3_CTRL
+COIL3_CTRL
 Text GLabel 8000 4000 2    50   Input ~ 0
-Coil4_CTRL
+COIL4_CTRL
 Text GLabel 8000 3250 2    50   Input ~ 0
-Coil2_CTRL
+COIL2_CTRL
 Wire Wire Line
 	6000 3000 8000 3000
 Wire Wire Line
@@ -57,20 +57,81 @@ Wire Wire Line
 	9000 4000 9000 3500
 Wire Wire Line
 	9000 3500 6000 3500
-Text GLabel 2500 3000 0    50   Output ~ 0
-Coil1
-Text GLabel 2500 3250 0    50   Output ~ 0
-Coil2
-Text GLabel 2500 3500 0    50   Output ~ 0
-Coil3
-Text GLabel 2500 3750 0    50   Output ~ 0
-Coil4
 Wire Wire Line
-	2500 3000 4500 3000
+	3750 3000 4500 3000
 Wire Wire Line
-	4500 3250 2500 3250
+	4500 3250 3750 3250
 Wire Wire Line
-	2500 3500 4500 3500
+	3750 3500 4500 3500
 Wire Wire Line
-	4500 3750 2500 3750
+	4500 3750 3750 3750
+$Comp
+L FSAE_Library:Ignition_Coil U?
+U 1 1 5E52DBCE
+P 3000 3000
+F 0 "U?" H 3625 3125 50  0000 C CNN
+F 1 "Ignition_Coil" H 3300 3150 50  0001 C CNN
+F 2 "" H 3300 3150 50  0001 C CNN
+F 3 "" H 3300 3150 50  0001 C CNN
+F 4 "" H 3000 3000 50  0001 C CNN "PN"
+	1    3000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:Ignition_Coil U?
+U 1 1 5E5316CE
+P 3000 3250
+F 0 "U?" H 3625 3375 50  0000 C CNN
+F 1 "Ignition_Coil" H 3300 3400 50  0001 C CNN
+F 2 "" H 3300 3400 50  0001 C CNN
+F 3 "" H 3300 3400 50  0001 C CNN
+F 4 "" H 3000 3250 50  0001 C CNN "PN"
+	1    3000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:Ignition_Coil U?
+U 1 1 5E531907
+P 3000 3500
+F 0 "U?" H 3625 3625 50  0000 C CNN
+F 1 "Ignition_Coil" H 3300 3650 50  0001 C CNN
+F 2 "" H 3300 3650 50  0001 C CNN
+F 3 "" H 3300 3650 50  0001 C CNN
+F 4 "" H 3000 3500 50  0001 C CNN "PN"
+	1    3000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:Ignition_Coil U?
+U 1 1 5E531AD8
+P 3000 3750
+F 0 "U?" H 3625 3875 50  0000 C CNN
+F 1 "Ignition_Coil" H 3300 3900 50  0001 C CNN
+F 2 "" H 3300 3900 50  0001 C CNN
+F 3 "" H 3300 3900 50  0001 C CNN
+F 4 "" H 3000 3750 50  0001 C CNN "PN"
+	1    3000 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3250 2500 3250
+Wire Wire Line
+	2500 3250 2500 3000
+Wire Wire Line
+	2500 3000 3000 3000
+Wire Wire Line
+	3000 3500 2500 3500
+Wire Wire Line
+	2500 3500 2500 3250
+Connection ~ 2500 3250
+Wire Wire Line
+	3000 3750 2500 3750
+Wire Wire Line
+	2500 3750 2500 3500
+Connection ~ 2500 3500
+Wire Wire Line
+	2500 3000 2000 3000
+Connection ~ 2500 3000
+Text GLabel 2000 3000 0    50   Input ~ 0
+COILS_PWR
 $EndSCHEMATC

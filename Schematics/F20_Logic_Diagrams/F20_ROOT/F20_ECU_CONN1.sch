@@ -27,8 +27,6 @@ F 5 "https://www.molex.com/molex/products/part-detail/crimp_housings/0345660203"
 	1    4500 1000
 	1    0    0    -1  
 $EndComp
-Text GLabel 8000 1450 2    50   Output ~ 0
-ECU_+5V_Aux_Out1
 Text GLabel 2500 1450 0    50   Output ~ 0
 O2_SNSR_HEAT
 Text GLabel 2500 1900 0    50   Output ~ 0
@@ -49,8 +47,6 @@ Wire Wire Line
 	4500 1900 2500 1900
 Wire Wire Line
 	2500 2050 4500 2050
-Wire Wire Line
-	8000 1450 6000 1450
 Wire Wire Line
 	6000 4450 7500 4450
 Wire Wire Line
@@ -126,4 +122,20 @@ NoConn ~ 6000 3400
 NoConn ~ 6000 3250
 NoConn ~ 4500 3100
 NoConn ~ 4500 3250
+Text GLabel 2500 2950 0    50   Output ~ 0
+COIL1_CTRL
+Text GLabel 2500 2800 0    50   Output ~ 0
+COIL2_CTRL
+Text GLabel 2500 2650 0    50   Output ~ 0
+COIL3_CTRL
+Text GLabel 2500 2500 0    50   Output ~ 0
+COIL4_CTRL
+Wire Wire Line
+	2500 2500 4500 2500
+Wire Wire Line
+	4500 2650 2500 2650
+Wire Wire Line
+	2500 2800 4500 2800
+Wire Wire Line
+	4500 2950 2500 2950
 $EndSCHEMATC

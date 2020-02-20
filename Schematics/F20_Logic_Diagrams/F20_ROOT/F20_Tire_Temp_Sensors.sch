@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 11 13
+Sheet 12 13
 Title "Tire Temperature Sensors"
 Date "2020-02-12"
 Rev "A"
@@ -78,8 +78,6 @@ Wire Wire Line
 	3500 4000 8500 4000
 Wire Wire Line
 	3500 2000 8500 2000
-Text GLabel 2500 1250 0    50   Input ~ 0
-RIM_LO_TIRE
 $Comp
 L FSAE_Library:Tire_Temp_Sensor U22
 U 1 1 5E3CA66D
@@ -123,26 +121,14 @@ Text Notes 8850 6000 0    50   ~ 0
 RO
 Wire Wire Line
 	3500 5000 8500 5000
-Text GLabel 2500 2250 0    50   Input ~ 0
-RIM_LC_TIRE
-Text GLabel 2500 3250 0    50   Input ~ 0
-RIM_LI_TIRE
-Text GLabel 2500 4250 0    50   Input ~ 0
-RIM_RI_TIRE
-Text GLabel 2500 5250 0    50   Input ~ 0
-RIM_RM_TIRE
-Text Notes 5550 7550 0    50   ~ 0
-LO: Left Outer\nLC: Left Center\nLI: Left Inner\nRO: Right Outer\nRC: Right Center\nRI: Right Inner
 Wire Notes Line
 	6275 7000 5500 7000
 Wire Notes Line
-	5500 7000 5500 7600
+	5500 7000 5500 7800
 Wire Notes Line
-	5500 7600 6275 7600
+	5500 7800 6275 7800
 Wire Wire Line
 	8500 6000 3500 6000
-Text GLabel 2500 6250 0    50   Input ~ 0
-RM_RO_TIRE
 Wire Wire Line
 	2500 1250 8500 1250
 Wire Wire Line
@@ -201,4 +187,18 @@ Wire Wire Line
 	4000 6500 4000 6950
 Wire Wire Line
 	2500 6250 8500 6250
+Text GLabel 2500 1250 0    50   Input ~ 0
+LO_TIRE_TEMP
+Text GLabel 2500 2250 0    50   Input ~ 0
+LC_TIRE_TEMP
+Text GLabel 2500 3250 0    50   Input ~ 0
+LI_TIRE_TEMP
+Text GLabel 2500 4250 0    50   Input ~ 0
+RI_TIRE_TEMP
+Text GLabel 2500 5250 0    50   Input ~ 0
+RC_TIRE_TEMP
+Text GLabel 2500 6250 0    50   Input ~ 0
+RO_TIRE_TEMP
+Text Notes 5550 7750 0    50   ~ 0
+LO: Left Outer\nLC: Left Center\nLI: Left Inner\nRO: Right Outer\nRC: Right Center\nRI: Right Inner\n\nAbout 2mA each\n18mA total
 $EndSCHEMATC

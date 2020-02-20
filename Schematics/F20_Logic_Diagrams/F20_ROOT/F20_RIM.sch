@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 12 13
+Sheet 13 13
 Title "RIM"
 Date "2020-02-18"
 Rev "A"
@@ -58,8 +58,8 @@ Text GLabel 3500 4250 0    50   BiDi ~ 0
 RIM_SCL
 Text GLabel 3500 4500 0    50   BiDi ~ 0
 RIM_SDA
-Text GLabel 3500 5000 0    50   BiDi ~ 0
-RIM_RX3
+Text GLabel 7500 5000 2    50   BiDi ~ 0
+DD_RX
 Wire Wire Line
 	3500 5000 5000 5000
 Wire Wire Line
@@ -76,8 +76,8 @@ Wire Wire Line
 	3500 3000 5000 3000
 Wire Wire Line
 	3500 2500 5000 2500
-Text GLabel 7500 5000 2    50   BiDi ~ 0
-RIM_TX3
+Text GLabel 3500 5000 0    50   BiDi ~ 0
+DD_TX
 Wire Wire Line
 	7500 5000 6000 5000
 $Comp
@@ -108,4 +108,44 @@ F 3 "" H 2000 3950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2000 3500 2500 3500
+Text GLabel 7500 4750 2    50   Output ~ 0
+DD_RST
+Wire Wire Line
+	7500 2000 6000 2000
+Wire Wire Line
+	7500 4750 6000 4750
+Wire Wire Line
+	6000 2250 7500 2250
+Wire Wire Line
+	6000 2500 7500 2500
+Wire Wire Line
+	6000 2750 7500 2750
+Wire Wire Line
+	6000 3000 7500 3000
+Wire Wire Line
+	6000 3250 7500 3250
+Text GLabel 7500 2500 2    50   Input ~ 0
+LI_TIRE_TEMP
+Text GLabel 7500 2750 2    50   Input ~ 0
+RO_TIRE_TEMP
+Text GLabel 7500 3000 2    50   Input ~ 0
+RC_TIRE_TEMP
+Text GLabel 7500 3250 2    50   Input ~ 0
+RI_TIRE_TEMP
+Text Notes 5550 7550 0    50   ~ 0
+LO : Left Outer\nLC : Left Center\nLI : Left Inner\nRO : Right Outer\nRC : Right Center\nRI : Right Inner
+Wire Notes Line
+	5500 7000 5500 7600
+Text GLabel 7500 2000 2    50   Input ~ 0
+LO_TIRE_TEMP
+Text GLabel 7500 2250 2    50   Input ~ 0
+LC_TIRE_TEMP
+Text Notes 4250 7200 0    50   ~ 0
++5V Power Consumption\n   18mA for Tire Temp Sensors
+Wire Notes Line
+	4250 7000 4250 7600
+Wire Notes Line
+	4250 7600 6250 7600
+Wire Notes Line
+	4250 7000 6250 7000
 $EndSCHEMATC

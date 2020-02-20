@@ -50,10 +50,10 @@ F 3 "" H 3500 3450 50  0001 C CNN
 	1    3500 3500
 	1    0    0    -1  
 $EndComp
-Text GLabel 4500 3500 0    50   Input ~ 0
-RIM_RX3
-Text GLabel 4500 3750 0    50   Input ~ 0
-RIM_TX3
+Text GLabel 4500 3500 0    50   BiDi ~ 0
+DD_RX
 Text GLabel 4500 3000 0    50   Input ~ 0
 ECU_+5V_1
+Text GLabel 4500 3750 0    50   BiDi ~ 0
+DD_TX
 $EndSCHEMATC
