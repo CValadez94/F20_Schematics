@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 13
+Sheet 2 14
 Title "Engine"
 Date "2020-02-03"
 Rev "A"
@@ -67,5 +67,11 @@ S 8500 2000 1650 650
 U 5E5C9CA8
 F0 "ECU Connector 2" 50
 F1 "F20_ECU_CONN2.sch" 50
+$EndSheet
+$Sheet
+S 8500 5000 1650 650 
+U 5E55FFBC
+F0 "Injectors" 50
+F1 "F20_Injectors.sch" 50
 $EndSheet
 $EndSCHEMATC

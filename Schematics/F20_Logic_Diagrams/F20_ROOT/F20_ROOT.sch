@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 14
 Title "Root Index"
 Date ""
 Rev "A"
@@ -17,7 +17,7 @@ $EndDescr
 $Sheet
 S 1000 2000 1700 700 
 U 5E1D1B45
-F0 "Engine" 50
+F0 "Powertrain" 50
 F1 "F20_Powertrain.sch" 50
 $EndSheet
 $Sheet

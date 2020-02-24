@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 10 13
+Sheet 11 14
 Title "Relays and Fuses"
 Date "2020-01-29"
 Rev "A"
@@ -375,24 +375,6 @@ Text GLabel 8000 6250 2    50   Output ~ 0
 TRANSPONDER_PWR
 Text GLabel 7000 2750 2    50   Output ~ 0
 FAN_PWR
-$Comp
-L FSAE_Library:Fuse F12
-U 1 1 5E3D8B35
-P 7000 5250
-F 0 "F12" H 7300 5300 50  0000 C CNN
-F 1 "Fuse" H 7300 5200 50  0000 C CNN
-F 2 "" H 7150 5330 50  0001 C CNN
-F 3 "~" V 7150 5400 50  0001 C CNN
-	1    7000 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 5250 6500 5250
-Wire Wire Line
-	6500 5250 6500 5000
-Connection ~ 6500 5000
-Wire Wire Line
-	7300 5250 8000 5250
 $Comp
 L FSAE_Library:Fuse F10
 U 1 1 5E3E67D5

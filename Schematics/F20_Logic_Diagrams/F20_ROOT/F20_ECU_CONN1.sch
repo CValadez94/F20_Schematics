@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 3 13
+Sheet 3 14
 Title "ECU Connector 1"
 Date ""
 Rev ""
@@ -138,4 +138,35 @@ Wire Wire Line
 	2500 2800 4500 2800
 Wire Wire Line
 	4500 2950 2500 2950
+Wire Wire Line
+	4500 2200 2500 2200
+NoConn ~ 2500 2200
+NoConn ~ 4500 5050
+NoConn ~ 4500 4900
+NoConn ~ 4500 5500
+NoConn ~ 4500 5650
+NoConn ~ 6000 3100
+NoConn ~ 6000 2950
+NoConn ~ 6000 2800
+NoConn ~ 6000 2650
+NoConn ~ 6000 2050
+NoConn ~ 6000 2200
+NoConn ~ 6000 2350
+NoConn ~ 6000 2500
+Wire Wire Line
+	6000 4750 8000 4750
+Wire Wire Line
+	6000 4600 8000 4600
+Wire Wire Line
+	6000 4150 8000 4150
+Wire Wire Line
+	6000 4000 8000 4000
+Text GLabel 8000 4750 2    50   Output ~ 0
+INJECTOR1_CTRL
+Text GLabel 8000 4150 2    50   Output ~ 0
+INJECTOR3_CTRL
+Text GLabel 8000 4000 2    50   Output ~ 0
+INJECTOR4_CTRL
+Text GLabel 8000 4600 2    50   Output ~ 0
+INJECTOR2_CTRL
 $EndSCHEMATC
