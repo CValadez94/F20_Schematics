@@ -4,9 +4,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 6 14
+Sheet 6 15
 Title "ECU Connector 2"
-Date "2020-02-18"
+Date "2020-03-03"
 Rev "A"
 Comp "F20"
 Comment1 "Cristian Valadez"
@@ -100,14 +100,10 @@ NoConn ~ 4500 2250
 NoConn ~ 4500 2400
 NoConn ~ 4500 2850
 NoConn ~ 4500 3000
-Text Notes 7750 1350 0    100  ~ 20
-SHOULD ORGANIZE SENSORS, AUX\nPOWER +5V, CAN, ETC ON SECOND\nCONNECTOR TO DISTRIBUTE WIRING\nBETWEEN CONNECTORS
 Wire Wire Line
 	3000 4650 4500 4650
 Text GLabel 3000 4650 0    50   Output ~ 0
 ECU_+5V_Aux_Out1
-Text GLabel 7500 2250 2    50   Input ~ 0
-ECU_AGND_1
 Wire Wire Line
 	7500 2250 6000 2250
 Text GLabel 3000 3150 0    50   Input ~ 0
@@ -126,4 +122,58 @@ Text GLabel 3000 3450 0    50   Input ~ 0
 BL_SW
 Wire Wire Line
 	3000 3450 4500 3450
+Text GLabel 3000 4800 0    50   Output ~ 0
+ECU_+5V_Aux_Out2
+Wire Wire Line
+	3000 4800 4500 4800
+Text GLabel 7500 2250 2    50   Output ~ 0
+ECU_AGND_1
+Text Notes 4550 7700 0    60   ~ 0
+BL : Brake Light\nRIM : Remote Input Module\nFBPS : Front Brake Pressure Sensor\nRBPS : Rear Brake Pressure Sensor\nTPS : Throttle Position Sensor\nMAP : Manifold Air Pressure\nIAT : Intake Air Temperature
+Wire Notes Line
+	6250 7000 4500 7000
+Wire Notes Line
+	4500 7000 4500 7800
+Text GLabel 3000 5100 0    50   Input ~ 0
+CAM_VR+
+Wire Wire Line
+	3000 5100 4500 5100
+Text GLabel 3000 5250 0    50   Input ~ 0
+CAM_VR-
+Wire Wire Line
+	3000 5250 4500 5250
+Text GLabel 3000 5400 0    50   Input ~ 0
+CRANK_VR-
+Wire Wire Line
+	3000 5400 4500 5400
+Text GLabel 3000 5550 0    50   Input ~ 0
+CRANK_VR+
+Wire Wire Line
+	3000 5550 4500 5550
+Text GLabel 3000 3600 0    50   Input ~ 0
+IAT_SIG
+Wire Wire Line
+	3000 3600 4500 3600
+Text Notes 1750 3650 0    50   ~ 0
+Put it in Analog_Temp?
+Text GLabel 7500 1650 2    50   Input ~ 0
+TPS_SIG
+Wire Wire Line
+	7500 1650 6000 1650
+Text GLabel 7500 1800 2    50   Input ~ 0
+MAP_SIG
+Wire Wire Line
+	7500 1800 6000 1800
+Wire Notes Line
+	4500 7800 6250 7800
+Text GLabel 7500 1950 2    50   Input ~ 0
+ECT_SIG
+Wire Wire Line
+	7500 1950 6000 1950
+Text GLabel 7500 2100 2    50   Input ~ 0
+EOP_SIG
+Wire Wire Line
+	7500 2100 6000 2100
+Text Notes 2900 7200 0    50   ~ 0
+HighsideSwitchX_Out supports max 0.7A\nLowsideSwitchX_Out supports max 1.7A
 $EndSCHEMATC

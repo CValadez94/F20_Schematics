@@ -4,9 +4,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 11 14
+Sheet 11 15
 Title "Relays and Fuses"
-Date "2020-01-29"
+Date "2020-03-04"
 Rev "A"
 Comp "F20"
 Comment1 "Cristian Valadez"
@@ -146,7 +146,7 @@ L FSAE_Library:Fuse F8
 U 1 1 5E3BE26F
 P 3000 3750
 F 0 "F8" H 3300 3800 50  0000 C CNN
-F 1 "30A" H 3300 3700 50  0000 C CNN
+F 1 "15A" H 3300 3700 50  0000 C CNN
 F 2 "" H 3150 3830 50  0001 C CNN
 F 3 "~" V 3150 3900 50  0001 C CNN
 	1    3000 3750
@@ -182,7 +182,7 @@ L FSAE_Library:Fuse F13
 U 1 1 5E3C1EE5
 P 3000 5750
 F 0 "F13" H 3300 5800 50  0000 C CNN
-F 1 "30A" H 3300 5700 50  0000 C CNN
+F 1 "FUSE" H 3300 5700 50  0000 C CNN
 F 2 "" H 3150 5830 50  0001 C CNN
 F 3 "~" V 3150 5900 50  0001 C CNN
 	1    3000 5750
@@ -196,49 +196,31 @@ Connection ~ 2500 4750
 Wire Wire Line
 	3300 5750 5000 5750
 $Comp
-L FSAE_Library:Fuse F14
-U 1 1 5E3E0FEB
-P 7000 5750
-F 0 "F14" H 7300 5800 50  0000 C CNN
-F 1 "1A" H 7300 5700 50  0000 C CNN
-F 2 "" H 7150 5830 50  0001 C CNN
-F 3 "~" V 7150 5900 50  0001 C CNN
-	1    7000 5750
-	1    0    0    -1  
-$EndComp
-$Comp
 L FSAE_Library:Fuse F16
 U 1 1 5E3E18E2
-P 7000 6250
-F 0 "F16" H 7300 6300 50  0000 C CNN
-F 1 "1A" H 7300 6200 50  0000 C CNN
-F 2 "" H 7150 6330 50  0001 C CNN
-F 3 "~" V 7150 6400 50  0001 C CNN
-	1    7000 6250
+P 7000 6000
+F 0 "F16" H 7300 6050 50  0000 C CNN
+F 1 "1A" H 7300 5950 50  0000 C CNN
+F 2 "" H 7150 6080 50  0001 C CNN
+F 3 "~" V 7150 6150 50  0001 C CNN
+	1    7000 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5600 5750 6500 5750
 Wire Wire Line
 	6500 6000 6500 5750
-Connection ~ 6500 5750
-Wire Wire Line
-	6500 5750 7000 5750
 Wire Wire Line
 	6500 6000 6500 6250
 Wire Wire Line
-	6500 6250 7000 6250
+	6500 6000 7000 6000
 Connection ~ 6500 6000
 Wire Wire Line
-	6500 6000 7000 6000
-Wire Wire Line
-	7300 5750 8000 5750
+	6500 5750 7000 5750
 Text GLabel 8000 5750 2    50   Output ~ 0
-DD_PWR
-Text GLabel 8000 6000 2    50   Output ~ 0
 RIM_PWR
 Wire Wire Line
-	8000 6000 7300 6000
+	8000 5750 7300 5750
 $Comp
 L FSAE_Library:Fuse F2
 U 1 1 5E401951
@@ -343,12 +325,12 @@ NEED TO INDICATE\nCURRENT DRAW ON\nALL OUTPUT POWER\nLABELS
 $Comp
 L FSAE_Library:Fuse F17
 U 1 1 5E3C06C7
-P 7000 6500
-F 0 "F17" H 7300 6550 50  0000 C CNN
-F 1 "Fuse" H 7300 6450 50  0000 C CNN
-F 2 "" H 7150 6580 50  0001 C CNN
-F 3 "~" V 7150 6650 50  0001 C CNN
-	1    7000 6500
+P 7000 6250
+F 0 "F17" H 7300 6300 50  0000 C CNN
+F 1 "Fuse" H 7300 6200 50  0000 C CNN
+F 2 "" H 7150 6330 50  0001 C CNN
+F 3 "~" V 7150 6400 50  0001 C CNN
+	1    7000 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -370,8 +352,8 @@ Wire Wire Line
 	4500 4500 4500 5500
 Connection ~ 4500 5500
 Wire Wire Line
-	7300 6250 8000 6250
-Text GLabel 8000 6250 2    50   Output ~ 0
+	7300 6000 8000 6000
+Text GLabel 8000 6000 2    50   Output ~ 0
 TRANSPONDER_PWR
 Text GLabel 7000 2750 2    50   Output ~ 0
 FAN_PWR
@@ -395,24 +377,24 @@ Text GLabel 8000 4750 2    50   Output ~ 0
 COILS_PWR
 Text GLabel 8000 5000 2    50   Output ~ 0
 INJECTORS_PWR
-Text GLabel 3000 7000 0    50   Input ~ 0
+Text GLabel 3000 6500 0    50   Input ~ 0
 ECU_+5V_Aux_Out1
 $Comp
 L FSAE_Library:Fuse F18
 U 1 1 5E3EDD00
-P 3350 7000
-F 0 "F18" H 3650 7050 50  0000 C CNN
-F 1 "3A" H 3650 6950 50  0000 C CNN
-F 2 "" H 3500 7080 50  0001 C CNN
-F 3 "~" V 3500 7150 50  0001 C CNN
-	1    3350 7000
+P 3350 6500
+F 0 "F18" H 3650 6550 50  0000 C CNN
+F 1 "3A" H 3650 6450 50  0000 C CNN
+F 2 "" H 3500 6580 50  0001 C CNN
+F 3 "~" V 3500 6650 50  0001 C CNN
+	1    3350 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 7000 3000 7000
+	3350 6500 3000 6500
 Wire Wire Line
-	3650 7000 4000 7000
-Text GLabel 4000 7000 2    50   Output ~ 0
+	3650 6500 4000 6500
+Text GLabel 4000 6500 2    50   Output ~ 0
 ECU_+5V_1
 Wire Wire Line
 	2500 1000 2500 1250
@@ -461,33 +443,56 @@ Wire Wire Line
 Text GLabel 4000 1250 2    50   Output ~ 0
 ECU_+12V_IGN
 Wire Wire Line
-	7000 6500 6500 6500
-Wire Wire Line
-	6500 6500 6500 6250
-Connection ~ 6500 6250
-Text Notes 8400 6100 0    50   ~ 0
+	7000 6250 6500 6250
+Text Notes 8400 5850 0    50   ~ 0
 KA7805 voltage regulator (1A)
 $Comp
 L FSAE_Library:Fuse F15
 U 1 1 5E3E15AD
-P 7000 6000
-F 0 "F15" H 7300 6050 50  0000 C CNN
-F 1 "1A" H 7300 5950 50  0000 C CNN
-F 2 "" H 7150 6080 50  0001 C CNN
-F 3 "~" V 7150 6150 50  0001 C CNN
-	1    7000 6000
+P 7000 5750
+F 0 "F15" H 7300 5800 50  0000 C CNN
+F 1 "1A" H 7300 5700 50  0000 C CNN
+F 2 "" H 7150 5830 50  0001 C CNN
+F 3 "~" V 7150 5900 50  0001 C CNN
+	1    7000 5750
 	1    0    0    -1  
 $EndComp
-Text Notes 8400 5800 0    50   ~ 0
-Recommended 1A supply (500mA min for stability)
 Text Notes 8650 2600 0    50   ~ 0
 MUST KILL IGNITION AND\nFUEL PER FSAE RULES
-Text Notes 8800 6300 0    50   ~ 0
+Text Notes 8800 6050 0    50   ~ 0
 about 60mA
-Text Notes 3450 7300 0    50   ~ 10
-* Driver Display (1A)\n* Brake Pressure sensors (40mAx2 -> 100mA)
+Text Notes 3450 6800 0    50   ~ 0
+* Driver Display (1A, 500mA min for stability)\n* Brake Pressure sensors (40mAx2 -> 100mA)
 Wire Wire Line
 	7000 2500 7500 2500
 Wire Wire Line
 	8000 2500 8500 2500
+Text GLabel 3000 7000 0    50   Input ~ 0
+ECU_+5V_Aux_Out2
+$Comp
+L FSAE_Library:Fuse F?
+U 1 1 5E60DDBF
+P 3350 7000
+F 0 "F?" H 3650 7050 50  0000 C CNN
+F 1 "3A" H 3650 6950 50  0000 C CNN
+F 2 "" H 3500 7080 50  0001 C CNN
+F 3 "~" V 3500 7150 50  0001 C CNN
+	1    3350 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 7000 3000 7000
+Wire Wire Line
+	3650 7000 4000 7000
+Text GLabel 4000 7000 2    50   Output ~ 0
+ECU_+5V_2
+Text Notes 7700 3800 0    50   ~ 0
+10A per Walbro
+Connection ~ 6500 5750
+Text GLabel 8000 6250 2    50   Output ~ 0
+SHIFT_PWR
+Wire Wire Line
+	8000 6250 7300 6250
+Text Notes 8500 6350 0    50   ~ 0
+* Up/Down\n* Clutch
 $EndSCHEMATC

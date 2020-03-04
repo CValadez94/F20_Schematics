@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 15
 Title "Root Index"
 Date ""
 Rev "A"
@@ -55,5 +55,11 @@ S 3000 1000 1700 700
 U 5E4F7825
 F0 "RIM" 50
 F1 "F20_RIM.sch" 50
+$EndSheet
+$Sheet
+S 3000 2000 1700 700 
+U 5E6277A0
+F0 "Shifter" 50
+F1 "F20_Shifter.sch" 50
 $EndSheet
 $EndSCHEMATC

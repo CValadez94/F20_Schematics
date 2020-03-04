@@ -10,9 +10,17 @@ D SPST brake over travel switch
 K SPST, brake, switch
 $ENDCMP
 #
+$CMP Camshaft_Sensor
+D variable reluctance
+$ENDCMP
+#
 $CMP Coil_Driver
 D AEM 4 channel coil driver
 F https://www.aemelectronics.com/products/ignition-components/coil-drivers
+$ENDCMP
+#
+$CMP Crankshaft_Sensor
+D variable reluctance
 $ENDCMP
 #
 $CMP Cutoff_Switch
@@ -37,6 +45,11 @@ $ENDCMP
 #
 $CMP Fan
 D Panasonic SSW9808L, 12V, OEM on Suzuki GSXR 600 / 750, 5-8A??
+$ENDCMP
+#
+$CMP Fuel_Pump
+D 155LPH, 12VDC, 10A
+F https://www.summitracing.com/parts/vpn-gsl393
 $ENDCMP
 #
 $CMP Fuse

@@ -4,9 +4,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 12 14
+Sheet 13 15
 Title "Tire Temperature Sensors"
-Date "2020-02-12"
+Date "2020-03-03"
 Rev "A"
 Comp "F20"
 Comment1 "Alex Domagala"
@@ -122,11 +122,11 @@ RO
 Wire Wire Line
 	3500 5000 8500 5000
 Wire Notes Line
-	6275 7000 5500 7000
+	6275 7000 5150 7000
 Wire Notes Line
-	5500 7000 5500 7800
+	5150 7000 5150 7900
 Wire Notes Line
-	5500 7800 6275 7800
+	5150 7900 6275 7900
 Wire Wire Line
 	8500 6000 3500 6000
 Wire Wire Line
@@ -199,6 +199,6 @@ Text GLabel 2500 5250 0    50   Input ~ 0
 RC_TIRE_TEMP
 Text GLabel 2500 6250 0    50   Input ~ 0
 RO_TIRE_TEMP
-Text Notes 5550 7750 0    50   ~ 0
-LO: Left Outer\nLC: Left Center\nLI: Left Inner\nRO: Right Outer\nRC: Right Center\nRI: Right Inner\n\nAbout 2mA each\n18mA total
+Text Notes 5200 7850 0    50   ~ 0
+LO : Left Outer\nLC : Left Center\nLI : Left Inner\nRO : Right Outer\nRC : Right Center\nRI : Right Inner\nRIM : Remote Input Module\n\nAbout 2mA each\n18mA total
 $EndSCHEMATC
