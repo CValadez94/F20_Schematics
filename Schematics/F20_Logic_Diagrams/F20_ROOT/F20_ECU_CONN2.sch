@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -174,6 +173,24 @@ Text GLabel 7500 2100 2    50   Input ~ 0
 EOP_SIG
 Wire Wire Line
 	7500 2100 6000 2100
-Text Notes 2900 7200 0    50   ~ 0
-HighsideSwitchX_Out supports max 0.7A\nLowsideSwitchX_Out supports max 1.7A
+Text Notes 2800 7200 0    50   ~ 0
+LowsideSwitch7/8/9_Out supports max 4A\nand have flyback diodes
+Text GLabel 7500 2700 2    50   Output ~ 0
+UP_SHIFT_CTRL
+Wire Wire Line
+	7500 2700 6000 2700
+Text Notes 8150 2750 0    50   ~ 0
+4A max (0.416A used)
+Text Notes 8250 3650 0    50   ~ 0
+4A max (0.416A used)
+Text GLabel 7500 3600 2    50   Output ~ 0
+DOWN_SHIFT_CTRL
+Wire Wire Line
+	7500 3600 6000 3600
+Text GLabel 7500 3750 2    50   Output ~ 0
+CLUTCH_CTRL
+Wire Wire Line
+	7500 3750 6000 3750
+Text Notes 8100 3800 0    50   ~ 0
+4A max (0.542*3=1.625A used)
 $EndSCHEMATC

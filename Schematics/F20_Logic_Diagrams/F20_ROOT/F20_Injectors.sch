@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -95,4 +94,12 @@ Wire Wire Line
 	8000 4000 5750 4000
 Wire Wire Line
 	5750 4500 8000 4500
+Text Notes 5000 7200 0    50   ~ 0
+3A continous max per injector\n12A total
+Wire Notes Line
+	6250 7000 4950 7000
+Wire Notes Line
+	4950 7000 4950 7500
+Wire Notes Line
+	4950 7500 6250 7500
 $EndSCHEMATC

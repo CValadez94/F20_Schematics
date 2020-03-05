@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -134,4 +133,6 @@ Wire Wire Line
 Connection ~ 2500 3000
 Text GLabel 2000 3000 0    50   Input ~ 0
 COILS_PWR
+Text Notes 4900 7200 0    50   ~ 0
+25mA max source current per coil\n100mA total
 $EndSCHEMATC
