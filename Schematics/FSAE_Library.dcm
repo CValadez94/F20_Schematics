@@ -1,8 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ALM
+D ALM (Accurate Lambda Meter); CAN bus; controls Bosch LSU 4.9
+F https://www.ecotrons.com/accurate_lambda_meter/wideband_controller_alm-board/
+$ENDCMP
+#
 $CMP Alternator
 D F4i alternator
 K alternator, F4i
+$ENDCMP
+#
+$CMP BNO055
+D 9-axis accelerometer, gyroscope, magnetometer
+F https://www.adafruit.com/product/2472?gclid=EAIaIQobChMIwovy7YiW6AIVAdvACh3bHQMzEAAYASAAEgL90fD_BwE
 $ENDCMP
 #
 $CMP Bake_OT_SW
@@ -89,7 +99,7 @@ F https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/
 $ENDCMP
 #
 $CMP O2_Sensor
-D Bosch LSU 4.9 Wideband O2 sensor
+D Bosch LSU 4.9 Wideband O2 sensor; heater 1A typical (1.7A max)
 F https://www.aemelectronics.com/products/sensors-connectors-accessories/wideband-sensors-bungs-accessories/wideband-o2-sensors/bosch-lsu-4-9-replacement-o2-sensor
 $ENDCMP
 #
@@ -124,6 +134,11 @@ $ENDCMP
 $CMP Up_Down_Shifter
 D Clippard 4-way double solenoid valve, 12VDC, 31 scfm@100 psig, 0.416A total
 F https://www.clippard.com/part/MME-41PEE-W012
+$ENDCMP
+#
+$CMP XBEE_Explorer
+D Sparkfun; XBEE regulated explorer
+F https://www.sparkfun.com/products/11373
 $ENDCMP
 #
 #End Doc Library

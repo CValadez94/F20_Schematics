@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 13 15
+Sheet 14 18
 Title "RIM"
 Date "2020-02-18"
 Rev "A"
@@ -43,14 +44,10 @@ F 3 "" H 2000 2500 50  0001 C CNN
 	1    2000 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 3500 2500 0    50   BiDi ~ 0
-RIM_CANH
-Text GLabel 3500 2750 0    50   BiDi ~ 0
-RIM_CANL
 Text GLabel 3500 3000 0    50   BiDi ~ 0
-RIM_RX1
+XBEE_TX
 Text GLabel 3500 3250 0    50   BiDi ~ 0
-RIM_TX1
+XBEE_RX
 Text GLabel 3500 3750 0    50   Output ~ 0
 RIM_+5V
 Text GLabel 3500 4250 0    50   BiDi ~ 0
@@ -147,4 +144,12 @@ Wire Notes Line
 	4250 7600 6250 7600
 Wire Notes Line
 	4250 7000 6250 7000
+Text GLabel 3500 2500 0    50   BiDi ~ 0
+CANH
+Text GLabel 3500 2750 0    50   BiDi ~ 0
+CANL
+Text GLabel 3500 4000 0    50   Output ~ 0
+RIM_AGND
+Wire Wire Line
+	3500 4000 5000 4000
 $EndSCHEMATC

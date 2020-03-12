@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 10 15
+Sheet 10 18
 Title "Fuses and Relays"
 Date "2020-01-28"
 Rev "A"
@@ -96,6 +97,8 @@ $Comp
 L FSAE_Library:Alternator U13
 U 1 1 5E21541A
 P 3500 4000
+AR Path="/5E21541A" Ref="U13"  Part="1" 
+AR Path="/5E1D1A8A/5E21541A" Ref="U13"  Part="1" 
 F 0 "U13" H 3750 4150 50  0000 L CNN
 F 1 "Alternator" H 3800 4150 50  0001 C CNN
 F 2 "" H 3800 4150 50  0001 C CNN

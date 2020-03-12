@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 3 15
+Sheet 3 18
 Title "ECU Connector 1"
 Date ""
 Rev ""
@@ -26,26 +27,6 @@ F 5 "https://www.molex.com/molex/products/part-detail/crimp_housings/0345660203"
 	1    4500 1000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2500 1450 0    50   Output ~ 0
-O2_SNSR_HEAT
-Text GLabel 2500 1900 0    50   Output ~ 0
-OS_SNSR_NVOLT
-Text GLabel 2500 1750 0    50   Output ~ 0
-O2_SNSR_IPUMP
-Text GLabel 2500 2050 0    50   Output ~ 0
-O2_SNSR_VGND
-Text GLabel 2500 1600 0    50   Output ~ 0
-O2_SNSR_ITRIM
-Wire Wire Line
-	2500 1450 4500 1450
-Wire Wire Line
-	4500 1600 2500 1600
-Wire Wire Line
-	2500 1750 4500 1750
-Wire Wire Line
-	4500 1900 2500 1900
-Wire Wire Line
-	2500 2050 4500 2050
 Wire Wire Line
 	6000 4450 7500 4450
 Wire Wire Line
@@ -105,8 +86,6 @@ Wire Wire Line
 	2500 2350 4500 2350
 Wire Wire Line
 	6000 5050 8000 5050
-Text Notes 8650 5200 0    50   ~ 0
-SEEMS LIKE ITS JUST CONNECTED\nSTRAIGHT TO BATTERY...\nONE PART IN ECU DOC SAYS PUT 3A FUSE\nBUT IN OTHER THERE IS NO FUSE ...
 Text GLabel 8000 5050 2    50   Input ~ 0
 ECU_+12V_IGN
 NoConn ~ 6000 6100
@@ -142,8 +121,6 @@ Wire Wire Line
 NoConn ~ 2500 2200
 NoConn ~ 4500 5050
 NoConn ~ 4500 4900
-NoConn ~ 4500 5500
-NoConn ~ 4500 5650
 NoConn ~ 6000 3100
 NoConn ~ 6000 2950
 NoConn ~ 6000 2800
@@ -168,4 +145,54 @@ Text GLabel 8000 4000 2    50   Output ~ 0
 INJECTOR4_CTRL
 Text GLabel 8000 4600 2    50   Output ~ 0
 INJECTOR2_CTRL
+Text GLabel 2500 5500 0    50   BiDi ~ 0
+CANL
+Wire Wire Line
+	2500 5500 4500 5500
+Text GLabel 2500 5650 0    50   BiDi ~ 0
+CANH
+Wire Wire Line
+	2500 5650 4500 5650
+Text Notes 8150 2150 0    200  ~ 40
+Shift up\nShift down\nClutch
+Text Notes 1550 2250 0    50   ~ 0
+Connect to a harness
+Text Notes 1850 5600 0    50   ~ 0
+Channel A
+Text GLabel 2500 4000 0    50   Input ~ 0
+SHIFT_UP_BTN
+Wire Wire Line
+	2500 4000 4500 4000
+Wire Wire Line
+	4500 4150 2500 4150
+Text GLabel 2500 4150 0    50   Input ~ 0
+SHIFT_DOWN_BTN
+Text GLabel 2500 4300 0    50   Input ~ 0
+CLUTCH_BTN
+Wire Wire Line
+	2500 4300 4500 4300
+Text GLabel 2500 4450 0    50   Input ~ 0
+BL_SW
+Wire Wire Line
+	2500 4450 4500 4450
+Wire Wire Line
+	6000 5350 8000 5350
+Text GLabel 8000 5350 2    50   Input ~ 0
+IAT_SIG
+Wire Wire Line
+	4500 1300 2500 1300
+Text GLabel 2500 1300 0    50   Input ~ 0
+BL_SIG
+Wire Wire Line
+	4500 6100 2500 6100
+Text GLabel 2500 6100 0    50   Input ~ 0
+TPS_SIG
+Wire Wire Line
+	4500 6250 2500 6250
+Text GLabel 2500 6250 0    50   Input ~ 0
+MAP_SIG
+Wire Wire Line
+	6000 5200 8000 5200
+Text GLabel 8000 5200 2    50   Input ~ 0
+ECT_SIG
 $EndSCHEMATC

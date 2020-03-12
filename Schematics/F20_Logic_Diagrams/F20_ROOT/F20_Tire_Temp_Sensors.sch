@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 13 15
+Sheet 13 18
 Title "Tire Temperature Sensors"
 Date "2020-03-03"
 Rev "A"
@@ -91,17 +92,6 @@ F 4 "INFKL-150" H -1000 400 50  0001 C CNN "PN"
 $EndComp
 Text Notes 8850 5000 0    50   ~ 0
 RM
-$Comp
-L FSAE_Library:GND #PWR016
-U 1 1 5E3CA678
-P 4000 6950
-F 0 "#PWR016" H 4000 6750 50  0001 C CNN
-F 1 "GND" H 4004 6796 50  0000 C CNN
-F 2 "" H 4000 6900 50  0001 C CNN
-F 3 "" H 4000 6900 50  0001 C CNN
-	1    4000 6950
-	1    0    0    -1  
-$EndComp
 Text GLabel 2500 1000 0    50   Input ~ 0
 RIM_+5V
 $Comp
@@ -183,8 +173,6 @@ Wire Wire Line
 	8500 6500 4000 6500
 Connection ~ 4000 6500
 Wire Wire Line
-	4000 6500 4000 6950
-Wire Wire Line
 	2500 6250 8500 6250
 Text GLabel 2500 1250 0    50   Input ~ 0
 LO_TIRE_TEMP
@@ -200,4 +188,8 @@ Text GLabel 2500 6250 0    50   Input ~ 0
 RO_TIRE_TEMP
 Text Notes 5200 7850 0    50   ~ 0
 LO : Left Outer\nLC : Left Center\nLI : Left Inner\nRO : Right Outer\nRC : Right Center\nRI : Right Inner\nRIM : Remote Input Module\n\nAbout 2mA each\n18mA total
+Text GLabel 2500 6500 0    50   Input ~ 0
+RIM_AGND
+Wire Wire Line
+	2500 6500 4000 6500
 $EndSCHEMATC

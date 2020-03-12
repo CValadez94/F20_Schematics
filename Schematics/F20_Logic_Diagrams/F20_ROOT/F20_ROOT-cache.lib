@@ -1,11 +1,32 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ALM
+# Device_R_US
 #
-DEF ALM U 0 40 Y Y 1 F N
+DEF Device_R_US R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Device_R_US" -100 0 50 V V C CNN
+F2 "" 40 -10 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FSAE_Library_ALM
+#
+DEF FSAE_Library_ALM U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "ALM" 300 150 50 H I C CNN
+F1 "FSAE_Library_ALM" 300 150 50 H I C CNN
 F2 "" 300 150 50 H I C CNN
 F3 "" 300 150 50 H I C CNN
 F4 "ALM-Board" 650 -2250 50 H V C CNN "PN"
@@ -30,11 +51,11 @@ X GND_HEATER 9 0 -2000 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Alternator
+# FSAE_Library_Alternator
 #
-DEF Alternator U 0 40 Y Y 1 F N
+DEF FSAE_Library_Alternator U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "Alternator" 300 150 50 H I C CNN
+F1 "FSAE_Library_Alternator" 300 150 50 H I C CNN
 F2 "" 300 150 50 H I C CNN
 F3 "" 300 150 50 H I C CNN
 DRAW
@@ -47,11 +68,11 @@ X C 3 0 -500 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# BNO055
+# FSAE_Library_BNO055
 #
-DEF BNO055 U 0 40 Y Y 1 F N
+DEF FSAE_Library_BNO055 U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "BNO055" 300 250 50 H I C CNN
+F1 "FSAE_Library_BNO055" 300 250 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 F4 "BNO055" 600 150 50 H I C CNN "PN"
@@ -65,11 +86,11 @@ X SCL 4 0 -750 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Bake_OT_SW
+# FSAE_Library_Bake_OT_SW
 #
-DEF Bake_OT_SW S 0 40 Y Y 1 F N
+DEF FSAE_Library_Bake_OT_SW S 0 40 Y Y 1 F N
 F0 "S" 100 175 50 H V L CNN
-F1 "Bake_OT_SW" 75 150 50 H I L CNN
+F1 "FSAE_Library_Bake_OT_SW" 75 150 50 H I L CNN
 F2 "" 100 -300 50 H I L CNN
 F3 "" 300 50 50 V I C CNN
 DRAW
@@ -84,11 +105,11 @@ X ~ ~ 500 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Battery
+# FSAE_Library_Battery
 #
-DEF Battery U 0 40 Y Y 1 F N
+DEF FSAE_Library_Battery U 0 40 Y Y 1 F N
 F0 "U" -250 150 50 H V C CNN
-F1 "Battery" -250 150 50 H I C CNN
+F1 "FSAE_Library_Battery" -250 150 50 H I C CNN
 F2 "" -250 150 50 H I C CNN
 F3 "" -250 150 50 H I C CNN
 DRAW
@@ -99,11 +120,11 @@ X - ~ -500 0 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Brake_Light
+# FSAE_Library_Brake_Light
 #
-DEF Brake_Light U 0 40 Y Y 1 F N
+DEF FSAE_Library_Brake_Light U 0 40 Y Y 1 F N
 F0 "U" 400 50 50 H V C CNN
-F1 "Brake_Light" 150 50 50 H I C CNN
+F1 "FSAE_Library_Brake_Light" 150 50 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -114,11 +135,11 @@ X GND 2 0 -250 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Brake_Light_Switch
+# FSAE_Library_Brake_Light_Switch
 #
-DEF Brake_Light_Switch U 0 40 Y Y 1 F N
+DEF FSAE_Library_Brake_Light_Switch U 0 40 Y Y 1 F N
 F0 "U" 400 50 50 H V C CNN
-F1 "Brake_Light_Switch" 150 50 50 H I C CNN
+F1 "FSAE_Library_Brake_Light_Switch" 150 50 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -130,11 +151,11 @@ X GND 2 0 -250 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Brake_Pressure_Sensor
+# FSAE_Library_Brake_Pressure_Sensor
 #
-DEF Brake_Pressure_Sensor U 0 40 Y Y 1 F N
+DEF FSAE_Library_Brake_Pressure_Sensor U 0 40 Y Y 1 F N
 F0 "U" 400 50 50 H V C CNN
-F1 "Brake_Pressure_Sensor" 150 50 50 H I C CNN
+F1 "FSAE_Library_Brake_Pressure_Sensor" 150 50 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -147,11 +168,11 @@ X AGND 3 0 -500 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Camshaft_Sensor
+# FSAE_Library_Camshaft_Sensor
 #
-DEF Camshaft_Sensor U 0 40 Y Y 1 F N
+DEF FSAE_Library_Camshaft_Sensor U 0 40 Y Y 1 F N
 F0 "U" 500 150 50 H V C CNN
-F1 "Camshaft_Sensor" 250 150 50 H I C CNN
+F1 "FSAE_Library_Camshaft_Sensor" 250 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -163,11 +184,11 @@ X Shield ~ 0 -500 100 R 50 45 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ClutchButton
+# FSAE_Library_ClutchButton
 #
-DEF ClutchButton U 0 40 Y Y 1 F N
+DEF FSAE_Library_ClutchButton U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "ClutchButton" 350 150 50 H I C CNN
+F1 "FSAE_Library_ClutchButton" 350 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -178,11 +199,11 @@ X GND 2 0 -250 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Clutch_Actuator
+# FSAE_Library_Clutch_Actuator
 #
-DEF Clutch_Actuator U 0 40 Y Y 1 F N
+DEF FSAE_Library_Clutch_Actuator U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "Clutch_Actuator" 300 150 50 H I C CNN
+F1 "FSAE_Library_Clutch_Actuator" 300 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 F4 "MME-2PDS-W012" 350 250 50 H I C CNN "PN"
@@ -202,11 +223,11 @@ X GND 6 0 -1250 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Coil_Driver
+# FSAE_Library_Coil_Driver
 #
-DEF Coil_Driver U 0 40 Y Y 1 F N
+DEF FSAE_Library_Coil_Driver U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "Coil_Driver" 300 150 50 H I C CNN
+F1 "FSAE_Library_Coil_Driver" 300 150 50 H I C CNN
 F2 "" 300 150 50 H I C CNN
 F3 "" 300 150 50 H I C CNN
 F4 "30-2840" 300 200 50 H I C CNN "PN"
@@ -225,11 +246,11 @@ X ECU_Coil4_Output 5 1500 -1000 100 L 50 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Crankshaft_Sensor
+# FSAE_Library_Crankshaft_Sensor
 #
-DEF Crankshaft_Sensor U 0 40 Y Y 1 F N
+DEF FSAE_Library_Crankshaft_Sensor U 0 40 Y Y 1 F N
 F0 "U" 500 150 50 H V C CNN
-F1 "Crankshaft_Sensor" 250 150 50 H I C CNN
+F1 "FSAE_Library_Crankshaft_Sensor" 250 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -241,11 +262,11 @@ X Shield ~ 0 -500 100 R 50 45 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Cutoff_Switch
+# FSAE_Library_Cutoff_Switch
 #
-DEF Cutoff_Switch U 0 40 Y Y 1 F N
+DEF FSAE_Library_Cutoff_Switch U 0 40 Y Y 1 F N
 F0 "U" 350 150 50 H V C CNN
-F1 "Cutoff_Switch" 350 150 50 H I C CNN
+F1 "FSAE_Library_Cutoff_Switch" 350 150 50 H I C CNN
 F2 "" 350 150 50 H I C CNN
 F3 "" 350 150 50 H I C CNN
 DRAW
@@ -266,11 +287,11 @@ X ~ 4 750 -250 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Dash_Kill_SW
+# FSAE_Library_Dash_Kill_SW
 #
-DEF Dash_Kill_SW S 0 40 Y Y 1 F N
+DEF FSAE_Library_Dash_Kill_SW S 0 40 Y Y 1 F N
 F0 "S" 100 175 50 H V L CNN
-F1 "Dash_Kill_SW" 75 150 50 H I L CNN
+F1 "FSAE_Library_Dash_Kill_SW" 75 150 50 H I L CNN
 F2 "" 100 -300 50 H I L CNN
 F3 "" 300 50 50 V I C CNN
 DRAW
@@ -285,11 +306,11 @@ X ~ ~ 500 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Driver_Display
+# FSAE_Library_Driver_Display
 #
-DEF Driver_Display U 0 40 Y Y 1 F N
+DEF FSAE_Library_Driver_Display U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "Driver_Display" 300 150 50 H I C CNN
+F1 "FSAE_Library_Driver_Display" 300 150 50 H I C CNN
 F2 "" 300 150 50 H I C CNN
 F3 "" 300 150 50 H I C CNN
 F4 "uLCD-70DT" 0 0 50 H I C CNN "PN"
@@ -305,11 +326,11 @@ X RST 5 0 -1000 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ECT_Sensor
+# FSAE_Library_ECT_Sensor
 #
-DEF ECT_Sensor U 0 40 Y Y 1 F N
+DEF FSAE_Library_ECT_Sensor U 0 40 Y Y 1 F N
 F0 "U" 500 150 50 H V C CNN
-F1 "ECT_Sensor" 250 150 50 H I C CNN
+F1 "FSAE_Library_ECT_Sensor" 250 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -320,11 +341,11 @@ X Sig 2 0 -250 100 R 50 45 1 1 O
 ENDDRAW
 ENDDEF
 #
-# ECU_Conn1
+# FSAE_Library_ECU_Conn1
 #
-DEF ECU_Conn1 U 0 40 Y Y 1 F N
+DEF FSAE_Library_ECU_Conn1 U 0 40 Y Y 1 F N
 F0 "U" 750 150 50 H V C CNN
-F1 "ECU_Conn1" 750 150 50 H I C CNN
+F1 "FSAE_Library_ECU_Conn1" 750 150 50 H I C CNN
 F2 "" 500 1000 50 H I C CNN
 F3 "" 500 1000 50 H I C CNN
 F4 "https://www.molex.com/molex/products/part-detail/pcb_headers/0313872034" -50 400 50 H I C CNN "Header Datasheet"
@@ -408,11 +429,11 @@ X Flash_Enable 9 0 -1200 100 R 45 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ECU_Conn2
+# FSAE_Library_ECU_Conn2
 #
-DEF ECU_Conn2 U 0 40 Y Y 1 F N
+DEF FSAE_Library_ECU_Conn2 U 0 40 Y Y 1 F N
 F0 "U" 750 150 50 H V C CNN
-F1 "ECU_Conn2" 750 150 50 H I C CNN
+F1 "FSAE_Library_ECU_Conn2" 750 150 50 H I C CNN
 F2 "" 500 1000 50 H I C CNN
 F3 "" 500 1000 50 H I C CNN
 F4 "https://www.molex.com/molex/products/part-detail/pcb_headers/0313872034" -50 400 50 H I C CNN "Header Datasheet"
@@ -479,11 +500,11 @@ X +12V_Relay 9 0 -1200 100 R 45 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# EOP_Sensor
+# FSAE_Library_EOP_Sensor
 #
-DEF EOP_Sensor U 0 40 Y Y 1 F N
+DEF FSAE_Library_EOP_Sensor U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "EOP_Sensor" 300 150 50 H I C CNN
+F1 "FSAE_Library_EOP_Sensor" 300 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -496,11 +517,11 @@ X +5V 3 0 -500 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Fan
+# FSAE_Library_Fan
 #
-DEF Fan U 0 40 Y Y 1 F N
+DEF FSAE_Library_Fan U 0 40 Y Y 1 F N
 F0 "U" 500 150 50 H V C CNN
-F1 "Fan" 250 150 50 H I C CNN
+F1 "FSAE_Library_Fan" 250 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -511,11 +532,11 @@ X GND ~ 0 -250 100 R 50 45 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Fuel_Pump
+# FSAE_Library_Fuel_Pump
 #
-DEF Fuel_Pump U 0 40 Y Y 1 F N
+DEF FSAE_Library_Fuel_Pump U 0 40 Y Y 1 F N
 F0 "U" 500 150 50 H V C CNN
-F1 "Fuel_Pump" 250 150 50 H I C CNN
+F1 "FSAE_Library_Fuel_Pump" 250 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 F4 "Walbro" 150 300 50 H I C CNN "Brand"
@@ -528,11 +549,11 @@ X GND 2 0 -250 100 R 50 45 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Fuse
+# FSAE_Library_Fuse
 #
-DEF Fuse F 0 0 N Y 1 F N
+DEF FSAE_Library_Fuse F 0 0 N Y 1 F N
 F0 "F" 150 150 50 H V C CNN
-F1 "Fuse" 150 100 50 H V C CNN
+F1 "FSAE_Library_Fuse" 150 100 50 H V C CNN
 F2 "" 150 80 50 H I C CNN
 F3 "" 150 150 50 V I C CNN
 $FPLIST
@@ -546,11 +567,11 @@ X ~ 2 300 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND
+# FSAE_Library_GND
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF FSAE_Library_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -200 50 H I C CNN
-F1 "GND" 0 -130 50 H V C CNN
+F1 "FSAE_Library_GND" 0 -130 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -565,11 +586,11 @@ X GNDPWR 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GND_BAT
+# FSAE_Library_GND_BAT
 #
-DEF GND_BAT #PWR 0 0 Y Y 1 F P
+DEF FSAE_Library_GND_BAT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND_BAT" 0 -150 50 H V C CNN
+F1 "FSAE_Library_GND_BAT" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -578,11 +599,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Ignition_Coil
+# FSAE_Library_Ignition_Coil
 #
-DEF Ignition_Coil U 0 40 Y Y 1 F N
+DEF FSAE_Library_Ignition_Coil U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "Ignition_Coil" 300 150 50 H I C CNN
+F1 "FSAE_Library_Ignition_Coil" 300 150 50 H I C CNN
 F2 "" 300 150 50 H I C CNN
 F3 "" 300 150 50 H I C CNN
 DRAW
@@ -593,11 +614,11 @@ X GND 2 750 0 100 L 50 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Ignition_SW
+# FSAE_Library_Ignition_SW
 #
-DEF Ignition_SW S 0 40 Y Y 1 F N
+DEF FSAE_Library_Ignition_SW S 0 40 Y Y 1 F N
 F0 "S" 75 225 50 H V L CNN
-F1 "Ignition_SW" 75 150 50 H I L CNN
+F1 "FSAE_Library_Ignition_SW" 75 150 50 H I L CNN
 F2 "" 100 -300 50 H I L CNN
 F3 "" 300 50 50 V I C CNN
 DRAW
@@ -611,11 +632,11 @@ X ~ ~ 500 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Injector
+# FSAE_Library_Injector
 #
-DEF Injector U 0 40 Y Y 1 F N
+DEF FSAE_Library_Injector U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "Injector" 300 150 50 H I C CNN
+F1 "FSAE_Library_Injector" 300 150 50 H I C CNN
 F2 "" 300 150 50 H I C CNN
 F3 "" 300 150 50 H I C CNN
 DRAW
@@ -626,11 +647,11 @@ X GND 2 750 0 100 L 50 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Intake_Air_Temp
+# FSAE_Library_Intake_Air_Temp
 #
-DEF Intake_Air_Temp U 0 40 Y Y 1 F N
+DEF FSAE_Library_Intake_Air_Temp U 0 40 Y Y 1 F N
 F0 "U" 500 150 50 H V C CNN
-F1 "Intake_Air_Temp" 250 150 50 H I C CNN
+F1 "FSAE_Library_Intake_Air_Temp" 250 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -642,11 +663,11 @@ X Sig 2 0 -250 100 R 50 45 1 1 W
 ENDDRAW
 ENDDEF
 #
-# LOG_EN_SW
+# FSAE_Library_LOG_EN_SW
 #
-DEF LOG_EN_SW S 0 40 Y Y 1 F N
+DEF FSAE_Library_LOG_EN_SW S 0 40 Y Y 1 F N
 F0 "S" 100 175 50 H V L CNN
-F1 "LOG_EN_SW" 75 0 50 H I L CNN
+F1 "FSAE_Library_LOG_EN_SW" 75 0 50 H I L CNN
 F2 "" 100 -300 50 H I L CNN
 F3 "" 300 50 50 V I C CNN
 DRAW
@@ -661,11 +682,11 @@ X ~ ~ 500 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MAP_Sensor
+# FSAE_Library_MAP_Sensor
 #
-DEF MAP_Sensor U 0 40 Y Y 1 F N
+DEF FSAE_Library_MAP_Sensor U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "MAP_Sensor" 300 150 50 H I C CNN
+F1 "FSAE_Library_MAP_Sensor" 300 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -678,11 +699,11 @@ X +5V 3 0 -500 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MicroRelay
+# FSAE_Library_MicroRelay
 #
-DEF MicroRelay K 0 40 Y Y 1 F N
+DEF FSAE_Library_MicroRelay K 0 40 Y Y 1 F N
 F0 "K" 100 300 50 H V L CNN
-F1 "MicroRelay" 100 300 50 H I L CNN
+F1 "FSAE_Library_MicroRelay" 100 300 50 H I L CNN
 F2 "" 100 -550 50 H I L CNN
 F3 "" 300 -200 50 V I C CNN
 F4 "V23374-A1601-X003" 300 -500 30 H V C CNN "PN"
@@ -712,11 +733,11 @@ X ~ 5 600 -250 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# O2_Sensor
+# FSAE_Library_O2_Sensor
 #
-DEF O2_Sensor U 0 40 Y Y 1 F N
+DEF FSAE_Library_O2_Sensor U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "O2_Sensor" 300 150 50 H I C CNN
+F1 "FSAE_Library_O2_Sensor" 300 150 50 H I C CNN
 F2 "" 300 150 50 H I C CNN
 F3 "" 300 150 50 H I C CNN
 F4 "30-2004" 300 -1400 50 H I C CNN "PN"
@@ -732,11 +753,11 @@ X NERNST_VOLTAGE_UN/RE 6 0 -1250 100 R 50 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# RIM
+# FSAE_Library_RIM
 #
-DEF RIM U 0 40 Y Y 1 F N
+DEF FSAE_Library_RIM U 0 40 Y Y 1 F N
 F0 "U" 750 150 50 H V C CNN
-F1 "RIM" 750 150 50 H I C CNN
+F1 "FSAE_Library_RIM" 750 150 50 H I C CNN
 F2 "" 500 1000 50 H I C CNN
 F3 "" 500 1000 50 H I C CNN
 DRAW
@@ -771,11 +792,11 @@ X TX3 E4 1000 -3000 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Rectifier
+# FSAE_Library_Rectifier
 #
-DEF Rectifier U 0 40 Y Y 1 F N
+DEF FSAE_Library_Rectifier U 0 40 Y Y 1 F N
 F0 "U" 500 150 50 H V C CNN
-F1 "Rectifier" 250 150 50 H I C CNN
+F1 "FSAE_Library_Rectifier" 250 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -792,11 +813,11 @@ X Y3 7 750 -500 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ShiftButton
+# FSAE_Library_ShiftButton
 #
-DEF ShiftButton U 0 40 Y Y 1 F N
+DEF FSAE_Library_ShiftButton U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "ShiftButton" 350 150 50 H I C CNN
+F1 "FSAE_Library_ShiftButton" 350 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -807,11 +828,11 @@ X GND 2 0 -250 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Starter_Motor
+# FSAE_Library_Starter_Motor
 #
-DEF Starter_Motor U 0 40 Y Y 1 F N
+DEF FSAE_Library_Starter_Motor U 0 40 Y Y 1 F N
 F0 "U" 250 150 50 H V C CNN
-F1 "Starter_Motor" 250 150 50 H I C CNN
+F1 "FSAE_Library_Starter_Motor" 250 150 50 H I C CNN
 F2 "" 250 150 50 H I C CNN
 F3 "" 250 150 50 H I C CNN
 DRAW
@@ -822,11 +843,11 @@ X M ~ 0 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Starter_Relay
+# FSAE_Library_Starter_Relay
 #
-DEF Starter_Relay U 0 40 Y Y 1 F N
+DEF FSAE_Library_Starter_Relay U 0 40 Y Y 1 F N
 F0 "U" 500 150 50 H V C CNN
-F1 "Starter_Relay" 250 150 50 H I C CNN
+F1 "FSAE_Library_Starter_Relay" 250 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -842,27 +863,11 @@ X Start ~ 750 -500 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# StepDownConverter
+# FSAE_Library_Throttle_Position_Sensor
 #
-DEF StepDownConverter U 0 40 Y Y 1 F N
-F0 "U" 500 150 50 H V C CNN
-F1 "StepDownConverter" 250 150 50 H I C CNN
-F2 "" 500 500 50 H I C CNN
-F3 "" 500 500 50 H I C CNN
-DRAW
-T 0 386 -306 31 0 0 0 "Step Down Converter" Normal 0 C C
-S 100 100 650 -350 0 1 0 f
-X 12V 1 0 0 100 R 50 50 1 1 W
-X GND 2 0 -250 100 R 50 50 1 1 w
-X +5V 3 750 0 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# Throttle_Position_Sensor
-#
-DEF Throttle_Position_Sensor U 0 40 Y Y 1 F N
+DEF FSAE_Library_Throttle_Position_Sensor U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "Throttle_Position_Sensor" 300 150 50 H I C CNN
+F1 "FSAE_Library_Throttle_Position_Sensor" 300 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -875,11 +880,11 @@ X +5V 3 0 -500 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Tire_Temp_Sensor
+# FSAE_Library_Tire_Temp_Sensor
 #
-DEF Tire_Temp_Sensor U 0 40 Y Y 1 F N
+DEF FSAE_Library_Tire_Temp_Sensor U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "Tire_Temp_Sensor" 300 150 50 H I C CNN
+F1 "FSAE_Library_Tire_Temp_Sensor" 300 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 F4 "INFKL-150" 300 70 30 H V C CNN "PN"
@@ -892,11 +897,11 @@ X GND 3 0 -500 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Transponder
+# FSAE_Library_Transponder
 #
-DEF Transponder U 0 40 Y Y 1 F N
+DEF FSAE_Library_Transponder U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "Transponder" 350 150 50 H I C CNN
+F1 "FSAE_Library_Transponder" 350 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
@@ -907,11 +912,11 @@ X GND 2 0 -250 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Up_Down_Shifter
+# FSAE_Library_Up_Down_Shifter
 #
-DEF Up_Down_Shifter U 0 40 Y Y 1 F N
+DEF FSAE_Library_Up_Down_Shifter U 0 40 Y Y 1 F N
 F0 "U" 550 50 50 H V C CNN
-F1 "Up_Down_Shifter" 300 150 50 H I C CNN
+F1 "FSAE_Library_Up_Down_Shifter" 300 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 F4 "MME-41PEE-W012" 350 225 50 H I C CNN "PN"
@@ -927,11 +932,11 @@ X GND 4 0 -750 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# XBEE_Explorer
+# FSAE_Library_XBEE_Explorer
 #
-DEF XBEE_Explorer U 0 40 Y Y 1 F N
+DEF FSAE_Library_XBEE_Explorer U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "XBEE_Explorer" 300 250 50 H I C CNN
+F1 "FSAE_Library_XBEE_Explorer" 300 250 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 F4 "WRL-11373" 600 150 50 H I C CNN "PN"

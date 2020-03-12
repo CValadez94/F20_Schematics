@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 6 15
+Sheet 6 18
 Title "ECU Connector 2"
 Date "2020-03-03"
 Rev "A"
@@ -113,14 +114,6 @@ Wire Wire Line
 	3000 3150 4500 3150
 Wire Wire Line
 	4500 3300 3000 3300
-Wire Wire Line
-	7550 5400 6000 5400
-Text GLabel 7550 5400 2    50   Output ~ 0
-BL_SIG
-Text GLabel 3000 3450 0    50   Input ~ 0
-BL_SW
-Wire Wire Line
-	3000 3450 4500 3450
 Text GLabel 3000 4800 0    50   Output ~ 0
 ECU_+5V_Aux_Out2
 Wire Wire Line
@@ -149,30 +142,10 @@ Text GLabel 3000 5550 0    50   Input ~ 0
 CRANK_VR+
 Wire Wire Line
 	3000 5550 4500 5550
-Text GLabel 3000 3600 0    50   Input ~ 0
-IAT_SIG
-Wire Wire Line
-	3000 3600 4500 3600
-Text Notes 1750 3650 0    50   ~ 0
-Put it in Analog_Temp?
-Text GLabel 7500 1650 2    50   Input ~ 0
-TPS_SIG
-Wire Wire Line
-	7500 1650 6000 1650
-Text GLabel 7500 1800 2    50   Input ~ 0
-MAP_SIG
-Wire Wire Line
-	7500 1800 6000 1800
 Wire Notes Line
 	4500 7800 6250 7800
-Text GLabel 7500 1950 2    50   Input ~ 0
-ECT_SIG
-Wire Wire Line
-	7500 1950 6000 1950
-Text GLabel 7500 2100 2    50   Input ~ 0
+Text GLabel 3000 4050 0    50   Input ~ 0
 EOP_SIG
-Wire Wire Line
-	7500 2100 6000 2100
 Text Notes 2800 7200 0    50   ~ 0
 LowsideSwitch7/8/9_Out supports max 4A\nand have flyback diodes
 Text GLabel 7500 2700 2    50   Output ~ 0
@@ -193,4 +166,8 @@ Wire Wire Line
 	7500 3750 6000 3750
 Text Notes 8100 3800 0    50   ~ 0
 4A max (0.542*3=1.625A used)
+Text Notes 1500 5400 0    50   ~ 0
+These may not go here
+Wire Wire Line
+	3000 4050 4500 4050
 $EndSCHEMATC

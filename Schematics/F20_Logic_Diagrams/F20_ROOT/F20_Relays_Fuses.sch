@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 11 15
+Sheet 11 18
 Title "Relays and Fuses"
 Date "2020-03-04"
 Rev "A"
@@ -14,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FSAE_Library:MicroRelay K1
+L FSAE_Library:MicroRelay K2
 U 1 1 5E342D8D
 P 5000 1500
-F 0 "K1" H 5300 1800 50  0000 C CNN
+F 0 "K2" H 5300 1800 50  0000 C CNN
 F 1 "MicroRelay" H 5100 1800 50  0001 L CNN
 F 2 "" H 5100 950 50  0001 L CNN
 F 3 "https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/" V 5300 1300 50  0001 C CNN
@@ -27,10 +28,10 @@ F 5 "Main" H 5300 1100 50  0000 C CNN "Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:MicroRelay K2
+L FSAE_Library:MicroRelay K3
 U 1 1 5E3476EA
 P 5000 2500
-F 0 "K2" H 5300 2800 50  0000 C CNN
+F 0 "K3" H 5300 2800 50  0000 C CNN
 F 1 "MicroRelay" H 5100 2800 50  0001 L CNN
 F 2 "" H 5100 1950 50  0001 L CNN
 F 3 "https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/" V 5300 2300 50  0001 C CNN
@@ -40,10 +41,10 @@ F 5 "Fan" H 5300 2100 50  0000 C CNN "Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:MicroRelay K3
+L FSAE_Library:MicroRelay K4
 U 1 1 5E3482B5
 P 5000 3500
-F 0 "K3" H 5300 3800 50  0000 C CNN
+F 0 "K4" H 5300 3800 50  0000 C CNN
 F 1 "MicroRelay" H 5100 3800 50  0001 L CNN
 F 2 "" H 5100 2950 50  0001 L CNN
 F 3 "https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/" V 5300 3300 50  0001 C CNN
@@ -53,29 +54,29 @@ F 5 "Fuel Pump" H 5300 3100 45  0000 C CNN "Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:MicroRelay K4
+L FSAE_Library:MicroRelay K5
 U 1 1 5E3492F0
 P 5000 4500
-F 0 "K4" H 5300 4800 50  0000 C CNN
+F 0 "K5" H 5300 4800 50  0000 C CNN
 F 1 "MicroRelay" H 5100 4800 50  0001 L CNN
 F 2 "" H 5100 3950 50  0001 L CNN
 F 3 "https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/" V 5300 4300 50  0001 C CNN
 F 4 "V23374-A1601-X003" H 5300 4000 30  0000 C CNN "PN"
-F 5 "Ignition" H 5300 4100 50  0000 C CNN "Name"
+F 5 "Injectors" H 5300 4100 50  0000 C CNN "Name"
 	1    5000 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:MicroRelay K5
+L FSAE_Library:MicroRelay K7
 U 1 1 5E3498B4
-P 5000 5500
-F 0 "K5" H 5300 5800 50  0000 C CNN
-F 1 "MicroRelay" H 5100 5800 50  0001 L CNN
-F 2 "" H 5100 4950 50  0001 L CNN
-F 3 "https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/" V 5300 5300 50  0001 C CNN
-F 4 "V23374-A1601-X003" H 5300 5000 30  0000 C CNN "PN"
-F 5 "Aux" H 5300 5100 50  0000 C CNN "Name"
-	1    5000 5500
+P 5000 6500
+F 0 "K7" H 5300 6800 50  0000 C CNN
+F 1 "MicroRelay" H 5100 6800 50  0001 L CNN
+F 2 "" H 5100 5950 50  0001 L CNN
+F 3 "https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/" V 5300 6300 50  0001 C CNN
+F 4 "V23374-A1601-X003" H 5300 6000 30  0000 C CNN "PN"
+F 5 "Aux" H 5300 6100 50  0000 C CNN "Name"
+	1    5000 6500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -123,8 +124,6 @@ Wire Wire Line
 	3500 3500 5000 3500
 Wire Wire Line
 	5000 4500 4500 4500
-Wire Wire Line
-	5600 4750 6500 4750
 $Comp
 L FSAE_Library:Fuse F7
 U 1 1 5E3B4200
@@ -177,49 +176,38 @@ Wire Wire Line
 	2500 4750 2500 3750
 Connection ~ 2500 3750
 $Comp
-L FSAE_Library:Fuse F13
+L FSAE_Library:Fuse F11
 U 1 1 5E3C1EE5
-P 3000 5750
-F 0 "F13" H 3300 5800 50  0000 C CNN
-F 1 "10A" H 3300 5700 50  0000 C CNN
-F 2 "" H 3150 5830 50  0001 C CNN
-F 3 "~" V 3150 5900 50  0001 C CNN
-	1    3000 5750
+P 3000 6750
+F 0 "F11" H 3300 6800 50  0000 C CNN
+F 1 "10A" H 3300 6700 50  0000 C CNN
+F 2 "" H 3150 6830 50  0001 C CNN
+F 3 "~" V 3150 6900 50  0001 C CNN
+	1    3000 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2500 4750 2500 5750
 Wire Wire Line
-	2500 5750 3000 5750
+	2500 6750 3000 6750
 Connection ~ 2500 4750
 Wire Wire Line
-	3300 5750 5000 5750
+	3300 6750 5000 6750
 $Comp
-L FSAE_Library:Fuse F16
+L FSAE_Library:Fuse F13
 U 1 1 5E3E18E2
-P 7000 6000
-F 0 "F16" H 7300 6050 50  0000 C CNN
-F 1 "1A" H 7300 5950 50  0000 C CNN
-F 2 "" H 7150 6080 50  0001 C CNN
-F 3 "~" V 7150 6150 50  0001 C CNN
-	1    7000 6000
+P 7000 6500
+F 0 "F13" H 7300 6550 50  0000 C CNN
+F 1 "1A" H 7300 6450 50  0000 C CNN
+F 2 "" H 7150 6580 50  0001 C CNN
+F 3 "~" V 7150 6650 50  0001 C CNN
+	1    7000 6500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 5750 6500 5750
-Wire Wire Line
-	6500 6000 6500 5750
-Wire Wire Line
-	6500 6000 6500 6250
-Wire Wire Line
-	6500 6000 7000 6000
-Connection ~ 6500 6000
-Wire Wire Line
-	6500 5750 7000 5750
-Text GLabel 8000 5750 2    50   Output ~ 0
+Text GLabel 8000 6250 2    50   Output ~ 0
 RIM_PWR
 Wire Wire Line
-	8000 5750 7300 5750
+	8000 6250 7300 6250
 $Comp
 L FSAE_Library:Fuse F2
 U 1 1 5E401951
@@ -297,73 +285,68 @@ Wire Wire Line
 Wire Wire Line
 	8500 2500 8500 3500
 Wire Wire Line
-	6000 2500 6000 5500
+	6000 2500 6000 6500
 Wire Wire Line
-	6000 5500 5600 5500
-Wire Wire Line
-	6500 4750 6500 5000
+	6000 6500 5600 6500
 Text GLabel 8000 2000 2    50   Output ~ 0
 O2_SNSR_PWR
-Text Notes 8850 4450 0    100  ~ 20
-NEED TO INDICATE\nCURRENT DRAW ON\nALL OUTPUT POWER\nLABELS 
 $Comp
-L FSAE_Library:Fuse F17
+L FSAE_Library:Fuse F14
 U 1 1 5E3C06C7
-P 7000 6250
-F 0 "F17" H 7300 6300 50  0000 C CNN
-F 1 "5A" H 7300 6200 50  0000 C CNN
-F 2 "" H 7150 6330 50  0001 C CNN
-F 3 "~" V 7150 6400 50  0001 C CNN
-	1    7000 6250
+P 7000 6750
+F 0 "F14" H 7300 6800 50  0000 C CNN
+F 1 "5A" H 7300 6700 50  0000 C CNN
+F 2 "" H 7150 6830 50  0001 C CNN
+F 3 "~" V 7150 6900 50  0001 C CNN
+	1    7000 6750
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:GND #PWR014
+L FSAE_Library:GND #PWR02
 U 1 1 5E3C4736
-P 4500 6000
-F 0 "#PWR014" H 4500 5800 50  0001 C CNN
-F 1 "GND" H 4504 5846 50  0000 C CNN
-F 2 "" H 4500 5950 50  0001 C CNN
-F 3 "" H 4500 5950 50  0001 C CNN
-	1    4500 6000
+P 4500 7000
+F 0 "#PWR02" H 4500 6800 50  0001 C CNN
+F 1 "GND" H 4504 6846 50  0000 C CNN
+F 2 "" H 4500 6950 50  0001 C CNN
+F 3 "" H 4500 6950 50  0001 C CNN
+	1    4500 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 6000 4500 5500
+	4500 7000 4500 6500
 Wire Wire Line
-	4500 5500 5000 5500
+	4500 6500 5000 6500
 Wire Wire Line
 	4500 4500 4500 5500
-Connection ~ 4500 5500
+Connection ~ 4500 6500
 Wire Wire Line
-	7300 6000 8000 6000
-Text GLabel 8000 6000 2    50   Output ~ 0
+	7300 6500 8000 6500
+Text GLabel 8000 6500 2    50   Output ~ 0
 TRANSPONDER_PWR
 Text GLabel 7000 2750 2    50   Output ~ 0
 FAN_PWR
-Connection ~ 6500 4750
-Text GLabel 8000 4750 2    50   Output ~ 0
+Text GLabel 7000 5750 2    50   Output ~ 0
 COILS_PWR
-Text GLabel 8000 5000 2    50   Output ~ 0
+Text GLabel 7000 4750 2    50   Output ~ 0
 INJECTORS_PWR
-Text GLabel 3000 6500 0    50   Input ~ 0
+Text GLabel 2000 7500 0    50   Input ~ 0
 ECU_+5V_Aux_Out1
 $Comp
-L FSAE_Library:Fuse F18
+L FSAE_Library:Fuse F15
 U 1 1 5E3EDD00
-P 3350 6500
-F 0 "F18" H 3650 6550 50  0000 C CNN
-F 1 "3A" H 3650 6450 50  0000 C CNN
-F 2 "" H 3500 6580 50  0001 C CNN
-F 3 "~" V 3500 6650 50  0001 C CNN
-	1    3350 6500
+P 3000 7500
+F 0 "F15" H 3300 7550 50  0000 C CNN
+F 1 "3A" H 3300 7450 50  0000 C CNN
+F 2 "" H 3150 7580 50  0001 C CNN
+F 3 "~" V 3150 7650 50  0001 C CNN
+	1    3000 7500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 6500 3000 6500
+	3000 7500 2000 7500
 Wire Wire Line
-	3650 6500 4000 6500
-Text GLabel 4000 6500 2    50   Output ~ 0
+	3300 7500 3650 7500
+Text GLabel 3650 7500 2    50   Output ~ 0
 ECU_+5V_1
 Wire Wire Line
 	2500 1000 2500 1250
@@ -389,8 +372,8 @@ Wire Wire Line
 	7300 2000 8000 2000
 Wire Wire Line
 	7300 1750 8000 1750
-Text Notes 8650 2150 0    50   ~ 0
-NOT SURE ON 5A\nTHATS WHAT IT WAS\nON F15
+Text Notes 8650 2050 0    50   ~ 0
+1A typical (1.7A max)
 $Comp
 L FSAE_Library:Fuse F3
 U 1 1 5E480F23
@@ -411,65 +394,115 @@ Wire Wire Line
 	3300 1250 4000 1250
 Text GLabel 4000 1250 2    50   Output ~ 0
 ECU_+12V_IGN
-Wire Wire Line
-	7000 6250 6500 6250
-Text Notes 8400 5850 0    50   ~ 0
+Text Notes 8400 6350 0    50   ~ 0
 KA7805 voltage regulator (1A)
 $Comp
-L FSAE_Library:Fuse F15
+L FSAE_Library:Fuse F12
 U 1 1 5E3E15AD
-P 7000 5750
-F 0 "F15" H 7300 5800 50  0000 C CNN
-F 1 "2A" H 7300 5700 50  0000 C CNN
-F 2 "" H 7150 5830 50  0001 C CNN
-F 3 "~" V 7150 5900 50  0001 C CNN
-	1    7000 5750
+P 7000 6250
+F 0 "F12" H 7300 6300 50  0000 C CNN
+F 1 "2A" H 7300 6200 50  0000 C CNN
+F 2 "" H 7150 6330 50  0001 C CNN
+F 3 "~" V 7150 6400 50  0001 C CNN
+	1    7000 6250
 	1    0    0    -1  
 $EndComp
-Text Notes 8650 2600 0    50   ~ 0
-MUST KILL IGNITION AND\nFUEL PER FSAE RULES
-Text Notes 8800 6050 0    50   ~ 0
+Text Notes 8800 6550 0    50   ~ 0
 about 60mA
-Text Notes 3450 6800 0    50   ~ 0
-* Driver Display (1A, 500mA min for stability)\n* Brake Pressure sensors (40mAx2 -> 100mA)
+Text Notes 4200 7650 0    50   ~ 0
+1 Driver Display (1A, 500mA min for stability)\n  Brake Pressure sensors (40mAx2 -> 100mA)\n  XBEE 250mA transmitting full power
 Wire Wire Line
 	7000 2500 7500 2500
 Wire Wire Line
 	8000 2500 8500 2500
-Text GLabel 3000 7000 0    50   Input ~ 0
+Text GLabel 2000 7750 0    50   Input ~ 0
 ECU_+5V_Aux_Out2
 $Comp
-L FSAE_Library:Fuse F?
+L FSAE_Library:Fuse F16
 U 1 1 5E60DDBF
-P 3350 7000
-F 0 "F?" H 3650 7050 50  0000 C CNN
-F 1 "3A" H 3650 6950 50  0000 C CNN
-F 2 "" H 3500 7080 50  0001 C CNN
-F 3 "~" V 3500 7150 50  0001 C CNN
-	1    3350 7000
+P 3000 7750
+F 0 "F16" H 3300 7800 50  0000 C CNN
+F 1 "3A" H 3300 7700 50  0000 C CNN
+F 2 "" H 3150 7830 50  0001 C CNN
+F 3 "~" V 3150 7900 50  0001 C CNN
+	1    3000 7750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 7000 3000 7000
+	3000 7750 2000 7750
 Wire Wire Line
-	3650 7000 4000 7000
-Text GLabel 4000 7000 2    50   Output ~ 0
+	3300 7750 3650 7750
+Text GLabel 3650 7750 2    50   Output ~ 0
 ECU_+5V_2
 Text Notes 7700 3800 0    50   ~ 0
 10A per Walbro
-Connection ~ 6500 5750
-Text GLabel 8000 6250 2    50   Output ~ 0
+Text GLabel 8000 6750 2    50   Output ~ 0
 SHIFT_PWR
 Wire Wire Line
-	8000 6250 7300 6250
-Text Notes 8500 6400 0    50   ~ 0
+	8000 6750 7300 6750
+Text Notes 8500 6900 0    50   ~ 0
 * Up/Down 0.832A\n* Clutch 1.625A\nTotal = 2.457A
-Wire Wire Line
-	6500 4750 8000 4750
-Wire Wire Line
-	6500 5000 8000 5000
-Text Notes 8700 5050 0    50   ~ 0
+Text Notes 7700 4800 0    50   ~ 0
 4*3=12A
-Text Notes 9050 4950 0    50   ~ 0
-Don't think fuse is required\nbetween relay and these two\noutputs.  CHECK!!
+$Comp
+L FSAE_Library:MicroRelay K6
+U 1 1 5E6B03C6
+P 5000 5500
+F 0 "K6" H 5300 5800 50  0000 C CNN
+F 1 "MicroRelay" H 5100 5800 50  0001 L CNN
+F 2 "" H 5100 4950 50  0001 L CNN
+F 3 "https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/" V 5300 5300 50  0001 C CNN
+F 4 "V23374-A1601-X003" H 5300 5000 30  0000 C CNN "PN"
+F 5 "Coils" H 5300 5100 50  0000 C CNN "Name"
+	1    5000 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5500 4500 5500
+Connection ~ 4500 5500
+Wire Wire Line
+	4500 5500 4500 6500
+$Comp
+L FSAE_Library:Fuse F10
+U 1 1 5E6CE263
+P 3000 5750
+F 0 "F10" H 3300 5800 50  0000 C CNN
+F 1 "30A" H 3300 5700 50  0000 C CNN
+F 2 "" H 3150 5830 50  0001 C CNN
+F 3 "~" V 3150 5900 50  0001 C CNN
+	1    3000 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5750 2500 5750
+Connection ~ 2500 5750
+Wire Wire Line
+	2500 5750 2500 6750
+Wire Wire Line
+	3300 5750 5000 5750
+Wire Wire Line
+	7000 5750 5600 5750
+Wire Wire Line
+	7000 4750 5600 4750
+Wire Wire Line
+	8500 4500 8500 5500
+Wire Wire Line
+	8500 5500 5600 5500
+Connection ~ 8500 4500
+Wire Wire Line
+	5600 6750 6500 6750
+Wire Wire Line
+	7000 6250 6500 6250
+Wire Wire Line
+	6500 6250 6500 6500
+Connection ~ 6500 6750
+Wire Wire Line
+	6500 6750 7000 6750
+Wire Wire Line
+	7000 6500 6500 6500
+Connection ~ 6500 6500
+Wire Wire Line
+	6500 6500 6500 6750
+Text Notes 4200 7850 0    50   ~ 0
+2 ALM Board for O2 sensor (60mA)\nBNO055 (150mA)
 $EndSCHEMATC

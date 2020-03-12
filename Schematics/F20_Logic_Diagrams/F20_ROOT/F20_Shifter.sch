@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 15 15
+Sheet 15 18
 Title "Shifter"
 Date "2020-03-04"
 Rev "A"
