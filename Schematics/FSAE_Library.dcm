@@ -83,6 +83,10 @@ D Power symbol creates a global label with name "GND" , ground
 K power-flag
 $ENDCMP
 #
+$CMP HDP24-18-21PN
+D Deutsch 21pin, circular, plug, Size 20 terminal 14-22AWG
+$ENDCMP
+#
 $CMP Ignition_SW
 D SPST
 $ENDCMP
