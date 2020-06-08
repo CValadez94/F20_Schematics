@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:F20_ROOT_WIRING-cache
 EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
@@ -193,6 +192,8 @@ $Comp
 L FSAE_Library:CoilConn U?
 U 1 1 5E6E2DDF
 P 5600 4500
+AR Path="/5E6E2DDF" Ref="U?"  Part="1" 
+AR Path="/5E6ACFA6/5E6E2DDF" Ref="U?"  Part="1" 
 F 0 "U?" H 5728 4496 50  0000 L CNN
 F 1 "CoilConn" H 5728 4405 50  0000 L CNN
 F 2 "" H 5800 4600 50  0001 C CNN
@@ -204,6 +205,8 @@ $Comp
 L FSAE_Library:CoilConn U?
 U 1 1 5E6E332C
 P 5600 4850
+AR Path="/5E6E332C" Ref="U?"  Part="1" 
+AR Path="/5E6ACFA6/5E6E332C" Ref="U?"  Part="1" 
 F 0 "U?" H 5728 4846 50  0000 L CNN
 F 1 "CoilConn" H 5728 4755 50  0000 L CNN
 F 2 "" H 5800 4950 50  0001 C CNN
@@ -215,6 +218,8 @@ $Comp
 L FSAE_Library:CoilConn U?
 U 1 1 5E6E3618
 P 5600 5200
+AR Path="/5E6E3618" Ref="U?"  Part="1" 
+AR Path="/5E6ACFA6/5E6E3618" Ref="U?"  Part="1" 
 F 0 "U?" H 5728 5196 50  0000 L CNN
 F 1 "CoilConn" H 5728 5105 50  0000 L CNN
 F 2 "" H 5800 5300 50  0001 C CNN
@@ -226,6 +231,8 @@ $Comp
 L FSAE_Library:CoilConn U?
 U 1 1 5E6E387A
 P 5600 5550
+AR Path="/5E6E387A" Ref="U?"  Part="1" 
+AR Path="/5E6ACFA6/5E6E387A" Ref="U?"  Part="1" 
 F 0 "U?" H 5728 5546 50  0000 L CNN
 F 1 "CoilConn" H 5728 5455 50  0000 L CNN
 F 2 "" H 5800 5650 50  0001 C CNN
