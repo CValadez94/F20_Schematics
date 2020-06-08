@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:F20_ROOT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 10 18
+Sheet 12 18
 Title "Transponder"
 Date "2020-02-03"
 Rev "A"

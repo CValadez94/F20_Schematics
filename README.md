@@ -1,4 +1,7 @@
-# F20_Schematics TODO list
+# README
+Most up to date PDFs of Logic/Wiring Diagrams can be found in this directory.
+
+# F20_Schematics TODO
 ## Wiring Diagrams
 - Front side
 - Engine side
