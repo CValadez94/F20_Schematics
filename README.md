@@ -5,6 +5,7 @@ Most up to date PDFs of Logic/Wiring Diagrams can be found in this directory.
 ## Wiring Diagrams
 - Front side
 - Engine side
+    - ~~Coil Drive / Injectors / Coils~~ / Fuel Pump / Fan / IAT / TPS / MAP / Cam / Crank / O2 Sensor / Pneumatic Shifting / Clutch / Starting system, Charging system, Main killswtch
 - PDM
 
 ## Logic Diagrams

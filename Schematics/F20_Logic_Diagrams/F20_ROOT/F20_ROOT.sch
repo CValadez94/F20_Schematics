@@ -14,6 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
+S 1000 1000 1700 700 
+U 5E1D1A8A
+F0 "Power Management" 50
+F1 "F20_Power_Management.sch" 50
+$EndSheet
+$Sheet
 S 1000 2000 1700 700 
 U 5E1D1B45
 F0 "Powertrain" 50
@@ -30,12 +36,6 @@ S 1000 4000 1700 700
 U 5E30D161
 F0 "Brakes" 50
 F1 "F20_Brakes.sch" 50
-$EndSheet
-$Sheet
-S 1000 1000 1700 700 
-U 5E1D1A8A
-F0 "Power Management" 50
-F1 "F20_Power_Management.sch" 50
 $EndSheet
 $Sheet
 S 1000 5000 1700 700 
@@ -79,4 +79,6 @@ U 5E6AC2D1
 F0 "Accelerometer" 50
 F1 "F20_Accelerometer.sch" 50
 $EndSheet
+Text Notes 6050 5350 0    157  ~ 0
+Table of Contents:\n\n2  - Power Management\n3  - Relays and Fuses\n4  - Powertrain\n5  - ECU Connector 1\n6  - ECU Connector 2\n7  - O2 Sensor\n8  - Coils\n9  - Injectors\n10 - Driver Display\n11 - Brakes\n12 - Transponder\n13 - Tire Temperature Sensors\n14 - RIM\n15 - Shifter\n16 - Steering Wheel\n17 - XBEE\n18 - Accelerometer
 $EndSCHEMATC

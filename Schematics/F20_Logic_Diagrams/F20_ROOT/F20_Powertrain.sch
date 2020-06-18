@@ -19,6 +19,30 @@ U 5E3C547B
 F0 "ECU Connector 1" 50
 F1 "F20_ECU_CONN1.sch" 50
 $EndSheet
+$Sheet
+S 8500 2000 1650 650 
+U 5E5C9CA8
+F0 "ECU Connector 2" 50
+F1 "F20_ECU_CONN2.sch" 50
+$EndSheet
+$Sheet
+S 8500 3000 1650 650 
+U 5E38FCEE
+F0 "O2 Sensor" 50
+F1 "F20_O2_Sensor.sch" 50
+$EndSheet
+$Sheet
+S 8500 4000 1650 650 
+U 5E3A281D
+F0 "Coils" 50
+F1 "F20_Coils.sch" 50
+$EndSheet
+$Sheet
+S 8500 5000 1650 650 
+U 5E55FFBC
+F0 "Injectors" 50
+F1 "F20_Injectors.sch" 50
+$EndSheet
 $Comp
 L FSAE_Library:Fan U1
 U 1 1 5E3D2712
@@ -49,30 +73,6 @@ Text GLabel 2000 1000 0    50   Input ~ 0
 FAN_PWR
 Wire Wire Line
 	2000 1000 3500 1000
-$Sheet
-S 8500 3000 1650 650 
-U 5E38FCEE
-F0 "O2 Sensor" 50
-F1 "F20_O2_Sensor.sch" 50
-$EndSheet
-$Sheet
-S 8500 4000 1650 650 
-U 5E3A281D
-F0 "Coils" 50
-F1 "F20_Coils.sch" 50
-$EndSheet
-$Sheet
-S 8500 2000 1650 650 
-U 5E5C9CA8
-F0 "ECU Connector 2" 50
-F1 "F20_ECU_CONN2.sch" 50
-$EndSheet
-$Sheet
-S 8500 5000 1650 650 
-U 5E55FFBC
-F0 "Injectors" 50
-F1 "F20_Injectors.sch" 50
-$EndSheet
 $Comp
 L FSAE_Library:Fuel_Pump U?
 U 1 1 5E5FB918

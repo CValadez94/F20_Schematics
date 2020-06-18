@@ -152,8 +152,6 @@ Text GLabel 2500 5650 0    50   BiDi ~ 0
 CANH
 Wire Wire Line
 	2500 5650 4500 5650
-Text Notes 8150 2150 0    200  ~ 40
-Shift up\nShift down\nClutch
 Text Notes 1550 2250 0    50   ~ 0
 Connect to a harness
 Text Notes 1850 5600 0    50   ~ 0

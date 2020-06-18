@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 10 18
+Sheet 2 18
 Title "Fuses and Relays"
 Date "2020-01-28"
 Rev "A"
