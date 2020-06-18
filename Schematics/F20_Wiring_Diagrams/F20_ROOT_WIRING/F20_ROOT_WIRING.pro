@@ -1,4 +1,4 @@
-update=Thu 18 Jun 2020 04:02:37 PM CDT
+update=Thu 18 Jun 2020 05:41:40 PM CDT
 version=1
 last_client=kicad
 [general]
@@ -37,7 +37,7 @@ PageLayoutDescrFile=/home/cvaladez/Dropbox/SAE_Crucial_Resources_Only/F20/F20_Sc
 PlotDirectoryName=/home/cvaladez/Dropbox/SAE_Crucial_Resources_Only/F20/F20_Schematics/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
-LabSize=50
+LabSize=39
 ERC_TestSimilarLabels=1

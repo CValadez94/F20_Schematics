@@ -389,20 +389,133 @@ Text Label 1900 7000 0    39   ~ 0
 3BG
 Text Label 4600 7650 0    39   ~ 0
 3BG
+$Comp
+L FSAE_Library:RingTerminal RT1
+U 1 1 5EEC8A28
+P 5000 8500
+F 0 "RT1" H 4783 8765 50  0000 C CNN
+F 1 "RingTerminal" H 4783 8674 50  0000 C CNN
+F 2 "" H 5000 8600 50  0001 C CNN
+F 3 "" H 5000 8600 50  0001 C CNN
+	1    5000 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:RingTerminal RT2
+U 1 1 5EEC93A2
+P 5000 8900
+F 0 "RT2" H 4850 8800 50  0000 C CNN
+F 1 "RingTerminal" H 4800 8700 50  0000 C CNN
+F 2 "" H 5000 9000 50  0001 C CNN
+F 3 "" H 5000 9000 50  0001 C CNN
+	1    5000 8900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4750 8400 4750 9000
+Wire Notes Line
+	4750 9000 4000 9000
+Wire Notes Line
+	4000 9000 4000 8400
+Wire Notes Line
+	4000 8400 4750 8400
+Text Notes 4050 8750 0    50   ~ 0
+Fuel Pump
+Wire Wire Line
+	5500 8500 5500 7100
+Wire Wire Line
+	5000 8500 5500 8500
+Entry Wire Line
+	5400 7000 5500 7100
+Text Label 5050 8500 0    39   ~ 0
+4BP
+Text Label 1900 7100 0    39   ~ 0
+4BP
+Wire Wire Line
+	1850 7100 2050 7100
+Entry Wire Line
+	2050 7100 2150 7200
+Wire Wire Line
+	5000 8900 5500 8900
+Text Label 5050 8900 0    39   ~ 0
+4CG
+$Comp
+L FSAE_Library:Fan_Pigtail PT1
+U 1 1 5EEE6E5F
+P 4000 9600
+F 0 "PT1" H 4050 9750 50  0000 C CNN
+F 1 "Fan_Pigtail" H 4050 9400 39  0000 C CNN
+F 2 "" H 4200 9700 50  0001 C CNN
+F 3 "" H 4200 9700 50  0001 C CNN
+	1    4000 9600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 9600 4300 9600
+Wire Wire Line
+	4100 9700 4300 9700
+Wire Wire Line
+	4700 9700 5500 9700
+Text Notes 5000 9800 0    39   ~ 0
+Ground strategy flexible
+Text Notes 5100 9050 0    39   ~ 0
+Combine grounds with fan?\nGround strategy flexible
+Text Label 4150 9600 0    39   ~ 0
+5BP
+Text Label 4150 9700 0    39   ~ 0
+5CG
+Text Label 4750 9700 0    39   ~ 0
+5CG
+Text Label 4750 9600 0    39   ~ 0
+5BP
+Wire Wire Line
+	4700 9600 6000 9600
+Wire Wire Line
+	6000 9600 6000 7100
+Entry Wire Line
+	5900 7000 6000 7100
+Entry Wire Line
+	2050 7200 2150 7300
+Wire Wire Line
+	2050 7200 1850 7200
 Wire Bus Line
 	2150 7000 2150 8150
 Wire Bus Line
-	3150 7100 3150 8150
-Wire Bus Line
 	3150 8150 4900 8150
-Wire Bus Line
-	2150 7000 13000 7000
-Wire Bus Line
-	4500 4500 4500 6900
 Wire Bus Line
 	3250 7550 3250 7950
 Wire Bus Line
-	2150 6050 2150 7000
+	3150 7100 3150 8150
+Wire Bus Line
+	2150 7000 13000 7000
 Wire Bus Line
 	4900 4500 4900 8150
+Wire Bus Line
+	4500 4500 4500 6900
+Wire Bus Line
+	2150 6050 2150 7000
+$Comp
+L FSAE_Library:DTM04-2P ICR1
+U 1 1 5EEFFACE
+P 4700 9600
+F 0 "ICR1" H 4650 9750 50  0000 C CNN
+F 1 "DTM04-2P" H 4558 9824 50  0001 C CNN
+F 2 "" H 4700 9700 50  0001 C CNN
+F 3 "" H 4700 9700 50  0001 C CNN
+	1    4700 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L FSAE_Library:DTM06-2S ICP2
+U 1 1 5EF001C2
+P 4400 9600
+F 0 "ICP2" H 4300 9300 50  0000 L CNN
+F 1 "DTM06-2S" H 4300 9200 50  0001 L CNN
+F 2 "" H 4600 9700 50  0001 C CNN
+F 3 "" H 4600 9700 50  0001 C CNN
+	1    4400 9600
+	1    0    0    -1  
+$EndComp
+Text Label 1900 7200 0    39   ~ 0
+5BP
 $EndSCHEMATC

@@ -54,6 +54,14 @@ $CMP Cutoff_Switch
 D Main battery cutoff switch
 $ENDCMP
 #
+$CMP DTM04-2P
+D 2 pin, receptacle
+$ENDCMP
+#
+$CMP DTM06-2S
+D 2 pin, plug
+$ENDCMP
+#
 $CMP Dash_Kill_SW
 D SPST
 $ENDCMP
@@ -72,6 +80,10 @@ $ENDCMP
 #
 $CMP Fan
 D Panasonic SSW9808L, 12V, OEM on Suzuki GSXR 600 / 750, 5-8A??
+$ENDCMP
+#
+$CMP Fan_Pigtail
+D Pigtail from fan
 $ENDCMP
 #
 $CMP Fuel_Pump

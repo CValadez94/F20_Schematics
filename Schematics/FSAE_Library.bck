@@ -74,9 +74,17 @@ $CMP Fan
 D Panasonic SSW9808L, 12V, OEM on Suzuki GSXR 600 / 750, 5-8A??
 $ENDCMP
 #
+$CMP Fan_Pigtail
+D Pigtail from fan
+$ENDCMP
+#
 $CMP Fuel_Pump
 D 155LPH, 12VDC, 10A
 F https://www.summitracing.com/parts/vpn-gsl393
+$ENDCMP
+#
+$CMP Fuel_Pump_Pigtail
+D Pigtail from fuel pump
 $ENDCMP
 #
 $CMP Fuse
