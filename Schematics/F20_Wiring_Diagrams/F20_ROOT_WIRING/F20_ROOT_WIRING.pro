@@ -1,4 +1,4 @@
-update=Mon 08 Jun 2020 05:13:30 PM CDT
+update=Thu 18 Jun 2020 04:02:37 PM CDT
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=/home/cvaladez/Dropbox/SAE_Crucial_Resources_Only/F20/F20_Schematics/Schematics/F20_Layout.kicad_wks
-PlotDirectoryName=/home/cvaladez/Desktop/
+PlotDirectoryName=/home/cvaladez/Dropbox/SAE_Crucial_Resources_Only/F20/F20_Schematics/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

@@ -1,5 +1,8 @@
 # README
-Most up to date PDFs of Logic/Wiring Diagrams can be found in this directory.
+- LogicDiagrams.pdf contains the complete schematics for the F20 vehicle.
+- WiringDiagrams.pdf contains the complete wiring architecture for the F20 vehicle.
+- PDM_Layout.pdf contains fuse and relay locations on the PDM.
+- ConnPinout.xlsx contains all connector pinout and wire information.
 
 # F20_Schematics TODO
 ## Wiring Diagrams
