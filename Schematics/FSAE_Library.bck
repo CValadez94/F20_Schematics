@@ -54,6 +54,22 @@ $CMP Cutoff_Switch
 D Main battery cutoff switch
 $ENDCMP
 #
+$CMP DTM04-2P
+D Deutsch, 2 pin, receptacle
+$ENDCMP
+#
+$CMP DTM06-2S
+D Deutsch, 2 pin, plug
+$ENDCMP
+#
+$CMP DTM06-3P
+D Deutsch, 3 pin, receptacle
+$ENDCMP
+#
+$CMP DTM06-3S
+D Deutsch, 3 pin, plug
+$ENDCMP
+#
 $CMP Dash_Kill_SW
 D SPST
 $ENDCMP
@@ -83,10 +99,6 @@ D 155LPH, 12VDC, 10A
 F https://www.summitracing.com/parts/vpn-gsl393
 $ENDCMP
 #
-$CMP Fuel_Pump_Pigtail
-D Pigtail from fuel pump
-$ENDCMP
-#
 $CMP Fuse
 D Fuse
 K fuse
@@ -109,6 +121,10 @@ $ENDCMP
 #
 $CMP HDP26-18-21SN
 D Deutsch 21pin, plug, Size 20 terminal 14-22AWG
+$ENDCMP
+#
+$CMP IAT_Sensor
+D Intake Air Temperature
 $ENDCMP
 #
 $CMP Ignition_SW
@@ -135,6 +151,10 @@ D Bosch LSU 4.9 Wideband O2 sensor; heater 1A typical (1.7A max)
 F https://www.aemelectronics.com/products/sensors-connectors-accessories/wideband-sensors-bungs-accessories/wideband-o2-sensors/bosch-lsu-4-9-replacement-o2-sensor
 $ENDCMP
 #
+$CMP O2_Sensor_Conn
+D Bosch LSU 4.9 connector, 6 pin, plug
+$ENDCMP
+#
 $CMP RIM
 D Remote Input Module
 $ENDCMP
@@ -152,6 +172,10 @@ $ENDCMP
 $CMP Starter_Relay
 D F4i starter relay
 K starter relay, F4i
+$ENDCMP
+#
+$CMP TP_Sensor
+D Throttle Position
 $ENDCMP
 #
 $CMP Tire_Temp_Sensor

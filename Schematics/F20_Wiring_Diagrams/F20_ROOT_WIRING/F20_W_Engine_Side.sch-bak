@@ -965,6 +965,4 @@ Wire Bus Line
 	2000 3050 2000 4000
 Wire Bus Line
 	2000 4000 9700 4000
-Text Notes 6400 3950 0    39   ~ 0
-6
 $EndSCHEMATC
