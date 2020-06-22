@@ -174,6 +174,10 @@ D F4i starter relay
 K starter relay, F4i
 $ENDCMP
 #
+$CMP Starter_Relay_Conn
+D Starter relay 4 pin conn, plug
+$ENDCMP
+#
 $CMP TP_Sensor
 D Throttle Position
 $ENDCMP
