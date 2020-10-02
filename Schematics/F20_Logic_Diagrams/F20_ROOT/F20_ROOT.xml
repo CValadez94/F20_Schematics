@@ -1,0 +1,2225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/cvaladez/Dropbox/SAE_Crucial_Resources_Only/F20/F20_Schematics/Schematics/F20_Logic_Diagrams/F20_ROOT/F20_ROOT.sch</source>
+    <date>Thu 01 Oct 2020 07:44:06 PM CDT</date>
+    <tool>Eeschema 5.1.5+dfsg1-2build2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Root Index</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date/>
+        <source>F20_ROOT.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power Management/" tstamps="/5E1D1A8A/">
+      <title_block>
+        <title>Fuses and Relays</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-01-28</date>
+        <source>F20_Power_Management.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/">
+      <title_block>
+        <title>Relays and Fuses</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-03-04</date>
+        <source>F20_Relays_Fuses.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Powertrain/" tstamps="/5E1D1B45/">
+      <title_block>
+        <title>Engine</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-03-03</date>
+        <source>F20_Powertrain.sch</source>
+        <comment number="1" value="Cristian Valadez, Alex Domagala"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Powertrain/ECU Connector 1/" tstamps="/5E1D1B45/5E3C547B/">
+      <title_block>
+        <title>ECU Connector 1</title>
+        <company>F20</company>
+        <rev/>
+        <date/>
+        <source>F20_ECU_CONN1.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Powertrain/ECU Connector 2/" tstamps="/5E1D1B45/5E5C9CA8/">
+      <title_block>
+        <title>ECU Connector 2</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-03-03</date>
+        <source>F20_ECU_CONN2.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Powertrain/O2 Sensor/" tstamps="/5E1D1B45/5E38FCEE/">
+      <title_block>
+        <title>O2 Sensor</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-02-03</date>
+        <source>F20_O2_Sensor.sch</source>
+        <comment number="1" value="Alex Domagala"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Powertrain/Coils/" tstamps="/5E1D1B45/5E3A281D/">
+      <title_block>
+        <title>Coil</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-02-04</date>
+        <source>F20_Coils.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Powertrain/Injectors/" tstamps="/5E1D1B45/5E55FFBC/">
+      <title_block>
+        <title>Injectors</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-02-24</date>
+        <source>F20_Injectors.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Driver Display/" tstamps="/5E28FC41/">
+      <title_block>
+        <title>FSAE</title>
+        <company>F20</company>
+        <rev>B</rev>
+        <date>2020-02-03</date>
+        <source>F20_Driver_Display.sch</source>
+        <comment number="1" value="Alex Domagala"/>
+        <comment number="2" value="Cristian Valadez"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/Brakes/" tstamps="/5E30D161/">
+      <title_block>
+        <title>Brakes</title>
+        <company>F20</company>
+        <rev>B</rev>
+        <date>2020-02-03</date>
+        <source>F20_Brakes.sch</source>
+        <comment number="1" value="Alex Domagala"/>
+        <comment number="2" value="Cristian Valadez"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="12" name="/Transponder/" tstamps="/5E38F452/">
+      <title_block>
+        <title>Transponder</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-02-03</date>
+        <source>F20_Transponder.sch</source>
+        <comment number="1" value="Alex Domagala"/>
+        <comment number="2" value="Cristian Valadez"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="13" name="/Tire Temperature Sensors/" tstamps="/5E44663D/">
+      <title_block>
+        <title>Tire Temperature Sensors</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-03-03</date>
+        <source>F20_Tire_Temp_Sensors.sch</source>
+        <comment number="1" value="Alex Domagala"/>
+        <comment number="2" value="Cristian Valadez"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="14" name="/RIM/" tstamps="/5E4F7825/">
+      <title_block>
+        <title>RIM</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-02-18</date>
+        <source>F20_RIM.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="15" name="/Shifter/" tstamps="/5E6277A0/">
+      <title_block>
+        <title>Shifter</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-03-04</date>
+        <source>F20_Shifter.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="16" name="/Steering Wheel/" tstamps="/5E698156/">
+      <title_block>
+        <title>Steering Wheel</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-03-10</date>
+        <source>F20_Steering.sch</source>
+        <comment number="1" value="Alex Domagala"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="17" name="/XBEE/" tstamps="/5E6ABD2F/">
+      <title_block>
+        <title>XBEE</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-03-12</date>
+        <source>F20_XBEE.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="18" name="/Accelerometer/" tstamps="/5E6AC2D1/">
+      <title_block>
+        <title>Accelerometer</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-03-12</date>
+        <source>F20_Accelerometer.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>Battery</value>
+      <libsource lib="FSAE_Library" part="Battery" description=""/>
+      <sheetpath names="/Power Management/" tstamps="/5E1D1A8A/"/>
+      <tstamp>5E233AF7</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>Cutoff_Switch</value>
+      <libsource lib="FSAE_Library" part="Cutoff_Switch" description="Main battery cutoff switch"/>
+      <sheetpath names="/Power Management/" tstamps="/5E1D1A8A/"/>
+      <tstamp>5E237569</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>3Ω</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Management/" tstamps="/5E1D1A8A/"/>
+      <tstamp>5E2398AB</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>100A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/" tstamps="/5E1D1A8A/"/>
+      <tstamp>5E24B48F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>Alternator</value>
+      <libsource lib="FSAE_Library" part="Alternator" description="F4i alternator"/>
+      <sheetpath names="/Power Management/" tstamps="/5E1D1A8A/"/>
+      <tstamp>5E21541A</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>Rectifier</value>
+      <libsource lib="FSAE_Library" part="Rectifier" description="F4i rectifier"/>
+      <sheetpath names="/Power Management/" tstamps="/5E1D1A8A/"/>
+      <tstamp>5E21334A</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>Starter_Relay</value>
+      <libsource lib="FSAE_Library" part="Starter_Relay" description="F4i starter relay"/>
+      <sheetpath names="/Power Management/" tstamps="/5E1D1A8A/"/>
+      <tstamp>5E3285A1</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>Starter_Motor</value>
+      <libsource lib="FSAE_Library" part="Starter_Motor" description="F4i starter motor"/>
+      <sheetpath names="/Power Management/" tstamps="/5E1D1A8A/"/>
+      <tstamp>5E3347A8</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>Ignition_SW</value>
+      <libsource lib="FSAE_Library" part="Ignition_SW" description="SPST"/>
+      <sheetpath names="/Power Management/" tstamps="/5E1D1A8A/"/>
+      <tstamp>5E335D97</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>MicroRelay</value>
+      <datasheet>https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/</datasheet>
+      <fields>
+        <field name="Name">Main</field>
+        <field name="PN">V23374-A1601-X003</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="MicroRelay" description="SPST Micro Relay, 12V, 30A"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E342D8D</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>MicroRelay</value>
+      <datasheet>https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/</datasheet>
+      <fields>
+        <field name="Name">Fan</field>
+        <field name="PN">V23374-A1601-X003</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="MicroRelay" description="SPST Micro Relay, 12V, 30A"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3476EA</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>MicroRelay</value>
+      <datasheet>https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/</datasheet>
+      <fields>
+        <field name="Name">Fuel Pump</field>
+        <field name="PN">V23374-A1601-X003</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="MicroRelay" description="SPST Micro Relay, 12V, 30A"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3482B5</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>MicroRelay</value>
+      <datasheet>https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/</datasheet>
+      <fields>
+        <field name="Name">Injectors</field>
+        <field name="PN">V23374-A1601-X003</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="MicroRelay" description="SPST Micro Relay, 12V, 30A"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3492F0</tstamp>
+    </comp>
+    <comp ref="K6">
+      <value>MicroRelay</value>
+      <datasheet>https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/</datasheet>
+      <fields>
+        <field name="Name">Aux</field>
+        <field name="PN">V23374-A1601-X003</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="MicroRelay" description="SPST Micro Relay, 12V, 30A"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3498B4</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>Dash_Kill_SW</value>
+      <libsource lib="FSAE_Library" part="Dash_Kill_SW" description="SPST"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3524FC</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>Bake_OT_SW</value>
+      <libsource lib="FSAE_Library" part="Bake_OT_SW" description="SPST brake over travel switch"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E384706</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>30A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3B4200</tstamp>
+    </comp>
+    <comp ref="F6">
+      <value>20A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3BE26F</tstamp>
+    </comp>
+    <comp ref="F7">
+      <value>30A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3BFFD4</tstamp>
+    </comp>
+    <comp ref="F9">
+      <value>10A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3C1EE5</tstamp>
+    </comp>
+    <comp ref="F15">
+      <value>1A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3E18E2</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>10A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E401951</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>30A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E40775B</tstamp>
+    </comp>
+    <comp ref="F12">
+      <value>20A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E442A66</tstamp>
+    </comp>
+    <comp ref="F16">
+      <value>5A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3C06C7</tstamp>
+    </comp>
+    <comp ref="F10">
+      <value>3A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3EDD00</tstamp>
+    </comp>
+    <comp ref="F13">
+      <value>5A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E471A10</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>3A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E480F23</tstamp>
+    </comp>
+    <comp ref="F14">
+      <value>2A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E3E15AD</tstamp>
+    </comp>
+    <comp ref="F11">
+      <value>3A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E60DDBF</tstamp>
+    </comp>
+    <comp ref="K5">
+      <value>MicroRelay</value>
+      <datasheet>https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/</datasheet>
+      <fields>
+        <field name="Name">Coils</field>
+        <field name="PN">V23374-A1601-X003</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="MicroRelay" description="SPST Micro Relay, 12V, 30A"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E6B03C6</tstamp>
+    </comp>
+    <comp ref="F8">
+      <value>30A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="FSAE_Library" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power Management/Relays and Fuses/" tstamps="/5E1D1A8A/5E32A9EE/"/>
+      <tstamp>5E6CE263</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>Fan</value>
+      <libsource lib="FSAE_Library" part="Fan" description="Panasonic SSW9808L, 12V, OEM on Suzuki GSXR 600 / 750, 5-8A??"/>
+      <sheetpath names="/Powertrain/" tstamps="/5E1D1B45/"/>
+      <tstamp>5E3D2712</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>Fuel_Pump</value>
+      <libsource lib="FSAE_Library" part="Fuel_Pump" description="155LPH, 12VDC, 10A"/>
+      <sheetpath names="/Powertrain/" tstamps="/5E1D1B45/"/>
+      <tstamp>5E5FB918</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>Intake_Air_Temp</value>
+      <libsource lib="FSAE_Library" part="IAT_Sensor" description="Intake Air Temperature"/>
+      <sheetpath names="/Powertrain/" tstamps="/5E1D1B45/"/>
+      <tstamp>5E5FB938</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>Throttle_Position_Sensor</value>
+      <libsource lib="FSAE_Library" part="TP_Sensor" description="Throttle Position"/>
+      <sheetpath names="/Powertrain/" tstamps="/5E1D1B45/"/>
+      <tstamp>5E5FB942</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>MAP_Sensor</value>
+      <libsource lib="FSAE_Library" part="MAP_Sensor" description=""/>
+      <sheetpath names="/Powertrain/" tstamps="/5E1D1B45/"/>
+      <tstamp>5E5FB94E</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>Camshaft_Sensor</value>
+      <libsource lib="FSAE_Library" part="Camshaft_Sensor" description="variable reluctance"/>
+      <sheetpath names="/Powertrain/" tstamps="/5E1D1B45/"/>
+      <tstamp>5E665C35</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>Crankshaft_Sensor</value>
+      <libsource lib="FSAE_Library" part="Crankshaft_Sensor" description="variable reluctance"/>
+      <sheetpath names="/Powertrain/" tstamps="/5E1D1B45/"/>
+      <tstamp>5E6666BD</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>ECT_Sensor</value>
+      <libsource lib="FSAE_Library" part="ECT_Sensor" description=""/>
+      <sheetpath names="/Powertrain/" tstamps="/5E1D1B45/"/>
+      <tstamp>5E695F31</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>EOP_Sensor</value>
+      <libsource lib="FSAE_Library" part="EOP_Sensor" description=""/>
+      <sheetpath names="/Powertrain/" tstamps="/5E1D1B45/"/>
+      <tstamp>5E696BEC</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>ECU_Conn1</value>
+      <fields>
+        <field name="Header Datasheet">https://www.molex.com/molex/products/part-detail/pcb_headers/0313872034</field>
+        <field name="Plug Datasheet">https://www.molex.com/molex/products/part-detail/crimp_housings/0345660203</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="ECU_Conn1" description="ECU connector 1, 73 pin, gray key"/>
+      <sheetpath names="/Powertrain/ECU Connector 1/" tstamps="/5E1D1B45/5E3C547B/"/>
+      <tstamp>5E3C649A</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>ECU_Conn2</value>
+      <fields>
+        <field name="Header Datasheet">https://www.molex.com/molex/products/part-detail/pcb_headers/0313872034</field>
+        <field name="Plug Datasheet">https://www.molex.com/molex/products/part-detail/crimp_housings/0345760703</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="ECU_Conn2" description="ECU connector 2, 56 pin, blue key"/>
+      <sheetpath names="/Powertrain/ECU Connector 2/" tstamps="/5E1D1B45/5E5C9CA8/"/>
+      <tstamp>5E5CA8D7</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>O2_Sensor</value>
+      <datasheet>https://www.aemelectronics.com/products/sensors-connectors-accessories/wideband-sensors-bungs-accessories/wideband-o2-sensors/bosch-lsu-4-9-replacement-o2-sensor</datasheet>
+      <fields>
+        <field name="PN">30-2004</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="O2_Sensor" description="Bosch LSU 4.9 Wideband O2 sensor; heater 1A typical (1.7A max)"/>
+      <sheetpath names="/Powertrain/O2 Sensor/" tstamps="/5E1D1B45/5E38FCEE/"/>
+      <tstamp>5E390A68</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>ALM</value>
+      <datasheet>https://www.ecotrons.com/accurate_lambda_meter/wideband_controller_alm-board/</datasheet>
+      <fields>
+        <field name="PN">ALM-Board</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="ALM" description="ALM (Accurate Lambda Meter); CAN bus; controls Bosch LSU 4.9"/>
+      <sheetpath names="/Powertrain/O2 Sensor/" tstamps="/5E1D1B45/5E38FCEE/"/>
+      <tstamp>5E77730D</tstamp>
+    </comp>
+    <comp ref="U24">
+      <value>Coil_Driver</value>
+      <datasheet>https://www.aemelectronics.com/products/ignition-components/coil-drivers</datasheet>
+      <fields>
+        <field name="PN">30-2840</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="Coil_Driver" description="AEM 4 channel coil driver"/>
+      <sheetpath names="/Powertrain/Coils/" tstamps="/5E1D1B45/5E3A281D/"/>
+      <tstamp>5E3A29CE</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>Ignition_Coil</value>
+      <libsource lib="FSAE_Library" part="Ignition_Coil" description=""/>
+      <sheetpath names="/Powertrain/Coils/" tstamps="/5E1D1B45/5E3A281D/"/>
+      <tstamp>5E52DBCE</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>Ignition_Coil</value>
+      <libsource lib="FSAE_Library" part="Ignition_Coil" description=""/>
+      <sheetpath names="/Powertrain/Coils/" tstamps="/5E1D1B45/5E3A281D/"/>
+      <tstamp>5E5316CE</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>Ignition_Coil</value>
+      <libsource lib="FSAE_Library" part="Ignition_Coil" description=""/>
+      <sheetpath names="/Powertrain/Coils/" tstamps="/5E1D1B45/5E3A281D/"/>
+      <tstamp>5E531907</tstamp>
+    </comp>
+    <comp ref="U23">
+      <value>Ignition_Coil</value>
+      <libsource lib="FSAE_Library" part="Ignition_Coil" description=""/>
+      <sheetpath names="/Powertrain/Coils/" tstamps="/5E1D1B45/5E3A281D/"/>
+      <tstamp>5E531AD8</tstamp>
+    </comp>
+    <comp ref="U25">
+      <value>Injector</value>
+      <libsource lib="FSAE_Library" part="Injector" description=""/>
+      <sheetpath names="/Powertrain/Injectors/" tstamps="/5E1D1B45/5E55FFBC/"/>
+      <tstamp>5E568814</tstamp>
+    </comp>
+    <comp ref="U26">
+      <value>Injector</value>
+      <libsource lib="FSAE_Library" part="Injector" description=""/>
+      <sheetpath names="/Powertrain/Injectors/" tstamps="/5E1D1B45/5E55FFBC/"/>
+      <tstamp>5E5691B9</tstamp>
+    </comp>
+    <comp ref="U27">
+      <value>Injector</value>
+      <libsource lib="FSAE_Library" part="Injector" description=""/>
+      <sheetpath names="/Powertrain/Injectors/" tstamps="/5E1D1B45/5E55FFBC/"/>
+      <tstamp>5E569571</tstamp>
+    </comp>
+    <comp ref="U28">
+      <value>Injector</value>
+      <libsource lib="FSAE_Library" part="Injector" description=""/>
+      <sheetpath names="/Powertrain/Injectors/" tstamps="/5E1D1B45/5E55FFBC/"/>
+      <tstamp>5E569812</tstamp>
+    </comp>
+    <comp ref="U29">
+      <value>Driver_Display</value>
+      <libsource lib="FSAE_Library" part="Driver_Display" description="4D Systems , Gen4 series, 7&quot; display 800x480 +5V (1A recommended)"/>
+      <sheetpath names="/Driver Display/" tstamps="/5E28FC41/"/>
+      <tstamp>5E291EA2</tstamp>
+    </comp>
+    <comp ref="U33">
+      <value>Brake_Light</value>
+      <libsource lib="FSAE_Library" part="Brake_Light" description=""/>
+      <sheetpath names="/Brakes/" tstamps="/5E30D161/"/>
+      <tstamp>5E30D69C</tstamp>
+    </comp>
+    <comp ref="U32">
+      <value>Brake_Light_Switch</value>
+      <libsource lib="FSAE_Library" part="Brake_Light_Switch" description=""/>
+      <sheetpath names="/Brakes/" tstamps="/5E30D161/"/>
+      <tstamp>5E324B1C</tstamp>
+    </comp>
+    <comp ref="U30">
+      <value>Brake_Pressure_Sensor</value>
+      <libsource lib="FSAE_Library" part="Brake_Pressure_Sensor" description=""/>
+      <sheetpath names="/Brakes/" tstamps="/5E30D161/"/>
+      <tstamp>5E325994</tstamp>
+    </comp>
+    <comp ref="U31">
+      <value>Brake_Pressure_Sensor</value>
+      <libsource lib="FSAE_Library" part="Brake_Pressure_Sensor" description=""/>
+      <sheetpath names="/Brakes/" tstamps="/5E30D161/"/>
+      <tstamp>5E326371</tstamp>
+    </comp>
+    <comp ref="U34">
+      <value>Transponder</value>
+      <libsource lib="FSAE_Library" part="Transponder" description="MyLaps"/>
+      <sheetpath names="/Transponder/" tstamps="/5E38F452/"/>
+      <tstamp>5E38FBDA</tstamp>
+    </comp>
+    <comp ref="U35">
+      <value>Tire_Temp_Sensor</value>
+      <datasheet>https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html</datasheet>
+      <fields>
+        <field name="PN">INFKL-150</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="Tire_Temp_Sensor" description="Infrared temperature sensor for tires; 150C; +5V"/>
+      <sheetpath names="/Tire Temperature Sensors/" tstamps="/5E44663D/"/>
+      <tstamp>5E3B80AD</tstamp>
+    </comp>
+    <comp ref="U36">
+      <value>Tire_Temp_Sensor</value>
+      <datasheet>https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html</datasheet>
+      <fields>
+        <field name="PN">INFKL-150</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="Tire_Temp_Sensor" description="Infrared temperature sensor for tires; 150C; +5V"/>
+      <sheetpath names="/Tire Temperature Sensors/" tstamps="/5E44663D/"/>
+      <tstamp>5E3B9299</tstamp>
+    </comp>
+    <comp ref="U37">
+      <value>Tire_Temp_Sensor</value>
+      <datasheet>https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html</datasheet>
+      <fields>
+        <field name="PN">INFKL-150</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="Tire_Temp_Sensor" description="Infrared temperature sensor for tires; 150C; +5V"/>
+      <sheetpath names="/Tire Temperature Sensors/" tstamps="/5E44663D/"/>
+      <tstamp>5E3BA080</tstamp>
+    </comp>
+    <comp ref="U38">
+      <value>Tire_Temp_Sensor</value>
+      <datasheet>https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html</datasheet>
+      <fields>
+        <field name="PN">INFKL-150</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="Tire_Temp_Sensor" description="Infrared temperature sensor for tires; 150C; +5V"/>
+      <sheetpath names="/Tire Temperature Sensors/" tstamps="/5E44663D/"/>
+      <tstamp>5E3BAAB5</tstamp>
+    </comp>
+    <comp ref="U39">
+      <value>Tire_Temp_Sensor</value>
+      <datasheet>https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html</datasheet>
+      <fields>
+        <field name="PN">INFKL-150</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="Tire_Temp_Sensor" description="Infrared temperature sensor for tires; 150C; +5V"/>
+      <sheetpath names="/Tire Temperature Sensors/" tstamps="/5E44663D/"/>
+      <tstamp>5E3CA66D</tstamp>
+    </comp>
+    <comp ref="U40">
+      <value>Tire_Temp_Sensor</value>
+      <datasheet>https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html</datasheet>
+      <fields>
+        <field name="PN">INFKL-150</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="Tire_Temp_Sensor" description="Infrared temperature sensor for tires; 150C; +5V"/>
+      <sheetpath names="/Tire Temperature Sensors/" tstamps="/5E44663D/"/>
+      <tstamp>5E3CFAE2</tstamp>
+    </comp>
+    <comp ref="U41">
+      <value>RIM</value>
+      <libsource lib="FSAE_Library" part="RIM" description="Remote Input Module"/>
+      <sheetpath names="/RIM/" tstamps="/5E4F7825/"/>
+      <tstamp>5E4F8538</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>LOG_EN_SW</value>
+      <libsource lib="FSAE_Library" part="LOG_EN_SW" description="SPST logging enable switch"/>
+      <sheetpath names="/RIM/" tstamps="/5E4F7825/"/>
+      <tstamp>5E5BD6A0</tstamp>
+    </comp>
+    <comp ref="U42">
+      <value>Up_Down_Shifter</value>
+      <libsource lib="FSAE_Library" part="Up_Down_Shifter" description="Clippard 4-way double solenoid valve, 12VDC, 31 scfm@100 psig, 0.416A total"/>
+      <sheetpath names="/Shifter/" tstamps="/5E6277A0/"/>
+      <tstamp>5E628367</tstamp>
+    </comp>
+    <comp ref="U43">
+      <value>Clutch_Actuator</value>
+      <libsource lib="FSAE_Library" part="Clutch_Actuator" description="Clippard, direct acting 2 way, 12VDC, 190l/min @ 100 psig, 1.625A total"/>
+      <sheetpath names="/Shifter/" tstamps="/5E6277A0/"/>
+      <tstamp>5E628FDC</tstamp>
+    </comp>
+    <comp ref="U44">
+      <value>ShiftButton</value>
+      <libsource lib="FSAE_Library" part="ShiftButton" description=""/>
+      <sheetpath names="/Steering Wheel/" tstamps="/5E698156/"/>
+      <tstamp>5E684F2E</tstamp>
+    </comp>
+    <comp ref="U45">
+      <value>ShiftButton</value>
+      <libsource lib="FSAE_Library" part="ShiftButton" description=""/>
+      <sheetpath names="/Steering Wheel/" tstamps="/5E698156/"/>
+      <tstamp>5E687B8D</tstamp>
+    </comp>
+    <comp ref="U46">
+      <value>ClutchButton</value>
+      <libsource lib="FSAE_Library" part="ClutchButton" description=""/>
+      <sheetpath names="/Steering Wheel/" tstamps="/5E698156/"/>
+      <tstamp>5E6898FF</tstamp>
+    </comp>
+    <comp ref="U47">
+      <value>XBEE_Explorer</value>
+      <datasheet>https://www.sparkfun.com/products/11373</datasheet>
+      <fields>
+        <field name="PN">WRL-11373</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="XBEE_Explorer" description="Sparkfun; XBEE regulated explorer"/>
+      <sheetpath names="/XBEE/" tstamps="/5E6ABD2F/"/>
+      <tstamp>5E6C9767</tstamp>
+    </comp>
+    <comp ref="U48">
+      <value>BNO055</value>
+      <datasheet>https://www.adafruit.com/product/2472?gclid=EAIaIQobChMIwovy7YiW6AIVAdvACh3bHQMzEAAYASAAEgL90fD_BwE</datasheet>
+      <fields>
+        <field name="PN">BNO055</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="BNO055" description="9-axis accelerometer, gyroscope, magnetometer"/>
+      <sheetpath names="/Accelerometer/" tstamps="/5E6AC2D1/"/>
+      <tstamp>5E6DCC7F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="ALM">
+      <description>ALM (Accurate Lambda Meter); CAN bus; controls Bosch LSU 4.9</description>
+      <docs>https://www.ecotrons.com/accurate_lambda_meter/wideband_controller_alm-board/</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ALM</field>
+        <field name="PN">ALM-Board</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V" type="power_in"/>
+        <pin num="2" name="GND_HEATER" type="power_out"/>
+        <pin num="3" name="GND_REF" type="power_in"/>
+        <pin num="4" name="+5V" type="power_in"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="GND_REF" type="power_in"/>
+        <pin num="7" name="CAN_H" type="BiDi"/>
+        <pin num="8" name="CAN_L" type="BiDi"/>
+        <pin num="9" name="GND_HEATER" type="power_in"/>
+        <pin num="10" name="+12V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Alternator">
+      <description>F4i alternator</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Alternator</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="power_out"/>
+        <pin num="2" name="B" type="power_out"/>
+        <pin num="3" name="C" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="BNO055">
+      <description>9-axis accelerometer, gyroscope, magnetometer</description>
+      <docs>https://www.adafruit.com/product/2472?gclid=EAIaIQobChMIwovy7YiW6AIVAdvACh3bHQMzEAAYASAAEgL90fD_BwE</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BNO055</field>
+        <field name="PN">BNO055</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="SCL" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Bake_OT_SW">
+      <description>SPST brake over travel switch</description>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">Bake_OT_SW</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Battery">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="~" name="+" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Brake_Light">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Brake_Light</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Sig" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Brake_Light_Switch">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Brake_Light_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Sig" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Brake_Pressure_Sensor">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Brake_Pressure_Sensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Sig" type="input"/>
+        <pin num="2" name="+5V" type="input"/>
+        <pin num="3" name="AGND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Camshaft_Sensor">
+      <description>variable reluctance</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Camshaft_Sensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VR+" type="output"/>
+        <pin num="2" name="VR-" type="output"/>
+        <pin num="~" name="Shield" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="ClutchButton">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ClutchButton</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SIG" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Clutch_Actuator">
+      <description>Clippard, direct acting 2 way, 12VDC, 190l/min @ 100 psig, 1.625A total</description>
+      <docs>https://www.clippard.com/part/MME-2PDS-W012</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Clutch_Actuator</field>
+        <field name="PN">MME-2PDS-W012</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+12V" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="+12V" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Coil_Driver">
+      <description>AEM 4 channel coil driver</description>
+      <docs>https://www.aemelectronics.com/products/ignition-components/coil-drivers</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Coil_Driver</field>
+        <field name="PN">30-2840</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Coil4_Neg_Terminal" type="passive"/>
+        <pin num="2" name="Coil3_Neg_Terminal" type="passive"/>
+        <pin num="3" name="Battery_Ground" type="power_in"/>
+        <pin num="4" name="Coil1_Neg_Terminal" type="power_in"/>
+        <pin num="5" name="ECU_Coil4_Output" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Crankshaft_Sensor">
+      <description>variable reluctance</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Crankshaft_Sensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VR+" type="output"/>
+        <pin num="2" name="VR-" type="output"/>
+        <pin num="~" name="Shield" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Cutoff_Switch">
+      <description>Main battery cutoff switch</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Cutoff_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+        <pin num="2" name="~" type="power_out"/>
+        <pin num="3" name="~" type="power_out"/>
+        <pin num="4" name="~" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Dash_Kill_SW">
+      <description>SPST</description>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">Dash_Kill_SW</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Driver_Display">
+      <description>4D Systems , Gen4 series, 7" display 800x480 +5V (1A recommended)</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Driver_Display</field>
+        <field name="PN">uLCD-70DT</field>
+        <field name="SN">616010961325</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="power_in"/>
+        <pin num="2" name="GND" type="power_out"/>
+        <pin num="3" name="RX" type="BiDi"/>
+        <pin num="4" name="TX" type="BiDi"/>
+        <pin num="5" name="RST" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="ECT_Sensor">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ECT_Sensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Sig" type="output"/>
+        <pin num="2" name="+5V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="ECU_Conn1">
+      <description>ECU connector 1, 73 pin, gray key</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ECU_Conn1</field>
+        <field name="Header Datasheet">https://www.molex.com/molex/products/part-detail/pcb_headers/0313872034</field>
+        <field name="Plug Datasheet">https://www.molex.com/molex/products/part-detail/crimp_housings/0345660203</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LowsideSwitch_4" type="input"/>
+        <pin num="2" name="LowsideSwitch_5" type="input"/>
+        <pin num="3" name="LowsideSwitch_6" type="input"/>
+        <pin num="4" name="UEGO_1_Heat" type="input"/>
+        <pin num="5" name="UEGO_1_1A" type="input"/>
+        <pin num="6" name="UEGO_1_IP" type="input"/>
+        <pin num="7" name="UEGO_1_UN" type="input"/>
+        <pin num="8" name="UEGO_1_VM" type="input"/>
+        <pin num="9" name="Flash_Enable" type="input"/>
+        <pin num="10" name="+12V_Battery" type="input"/>
+        <pin num="11" name="Coil3_Out" type="input"/>
+        <pin num="12" name="Coil2_Out" type="input"/>
+        <pin num="13" name="Coil1_Out" type="input"/>
+        <pin num="14" name="Coil0_Out" type="input"/>
+        <pin num="15" name="Coil5_Out" type="input"/>
+        <pin num="16" name="Coil4_Out" type="input"/>
+        <pin num="17" name="LowsideSwitch_2" type="input"/>
+        <pin num="18" name="LowsideSwitch_3" type="input"/>
+        <pin num="19" name="AGround" type="input"/>
+        <pin num="20" name="AGround" type="input"/>
+        <pin num="21" name="Digital0_In" type="input"/>
+        <pin num="22" name="Digital1_In" type="input"/>
+        <pin num="23" name="Digital2_In" type="input"/>
+        <pin num="24" name="Digital3_In" type="input"/>
+        <pin num="25" name="Digital4_In" type="input"/>
+        <pin num="26" name="Digital5_In" type="input"/>
+        <pin num="27" name="Knock0_In" type="input"/>
+        <pin num="28" name="Knock1_In" type="input"/>
+        <pin num="29" name="RelayControl_Out" type="input"/>
+        <pin num="30" name="Ground" type="input"/>
+        <pin num="31" name="CanBus0_Lo" type="input"/>
+        <pin num="32" name="CanBus0_Hi" type="input"/>
+        <pin num="33" name="LowsideSwitch_1" type="input"/>
+        <pin num="34" name="LowsideSwitch_0" type="input"/>
+        <pin num="35" name="Analog7_In" type="input"/>
+        <pin num="36" name="Analog8_In" type="input"/>
+        <pin num="37" name="Analog9_In" type="input"/>
+        <pin num="38" name="Analog10_In" type="input"/>
+        <pin num="39" name="Analog11_In" type="input"/>
+        <pin num="40" name="Analog12_In" type="input"/>
+        <pin num="41" name="+5V_Aux_Out" type="input"/>
+        <pin num="42" name="+5V_Aux_Out" type="input"/>
+        <pin num="43" name="HighsideSwitch_1" type="input"/>
+        <pin num="44" name="HighsideSwitch_0" type="input"/>
+        <pin num="45" name="VRO+_In" type="input"/>
+        <pin num="46" name="VR0-In" type="input"/>
+        <pin num="47" name="VR1-_In" type="input"/>
+        <pin num="48" name="VR1+_In" type="input"/>
+        <pin num="49" name="VR2+_In" type="input"/>
+        <pin num="50" name="VR2-_In" type="input"/>
+        <pin num="51" name="VR3-_In" type="input"/>
+        <pin num="52" name="VR3+_In" type="input"/>
+        <pin num="53" name="HBridge0_MotorA" type="input"/>
+        <pin num="54" name="HBridge0_MotorB" type="input"/>
+        <pin num="55" name="Ground" type="input"/>
+        <pin num="56" name="Injector5_Out" type="input"/>
+        <pin num="57" name="Injector4_Out" type="input"/>
+        <pin num="58" name="Injector3_Out" type="input"/>
+        <pin num="59" name="Injector2_Out" type="input"/>
+        <pin num="60" name="Ground" type="input"/>
+        <pin num="61" name="+12V_Relay" type="input"/>
+        <pin num="62" name="Injector1_Out" type="input"/>
+        <pin num="63" name="Injector0_Out" type="input"/>
+        <pin num="64" name="+12V_Relay" type="input"/>
+        <pin num="65" name="+12V_Ignition" type="input"/>
+        <pin num="66" name="Analog1_In_Temp" type="input"/>
+        <pin num="67" name="Analog2_In_Temp" type="input"/>
+        <pin num="68" name="Analog3_In_Temp" type="input"/>
+        <pin num="69" name="StepperMotor2A_Out" type="input"/>
+        <pin num="70" name="StepperMotor1A_Out" type="input"/>
+        <pin num="71" name="StepperMotor2B_Out" type="input"/>
+        <pin num="72" name="StepperMotor1B_Out" type="input"/>
+        <pin num="73" name="Ground" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="ECU_Conn2">
+      <description>ECU connector 2, 56 pin, blue key</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ECU_Conn2</field>
+        <field name="Header Datasheet">https://www.molex.com/molex/products/part-detail/pcb_headers/0313872034</field>
+        <field name="Plug Datasheet">https://www.molex.com/molex/products/part-detail/crimp_housings/0345760703</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HBridge0_MotorB" type="input"/>
+        <pin num="2" name="HBridge0_MotorA" type="input"/>
+        <pin num="3" name="Ground" type="input"/>
+        <pin num="4" name="Injector6_Out" type="input"/>
+        <pin num="5" name="Injector7_Out" type="input"/>
+        <pin num="6" name="Injector8_Out" type="input"/>
+        <pin num="7" name="Injector9_Out" type="input"/>
+        <pin num="8" name="Ground" type="input"/>
+        <pin num="9" name="+12V_Relay" type="input"/>
+        <pin num="10" name="Injector10_Out" type="input"/>
+        <pin num="11" name="Injector11_Out" type="input"/>
+        <pin num="12" name="Analog17_In" type="input"/>
+        <pin num="13" name="Analog18_In" type="input"/>
+        <pin num="14" name="Analog19_In" type="input"/>
+        <pin num="15" name="Analog4_In_Temp" type="input"/>
+        <pin num="16" name="Analog5_In_Temp" type="input"/>
+        <pin num="17" name="Analog6_In_Temp" type="input"/>
+        <pin num="18" name="Analog13_In" type="input"/>
+        <pin num="19" name="Analog14_In" type="input"/>
+        <pin num="20" name="Analog15_In" type="input"/>
+        <pin num="21" name="Analog16_In" type="input"/>
+        <pin num="22" name="+5V_Aux_Out" type="input"/>
+        <pin num="23" name="+5V_Aux_Out" type="input"/>
+        <pin num="24" name="+5V_Aux_Out" type="input"/>
+        <pin num="25" name="VR5+_In" type="input"/>
+        <pin num="26" name="VR5-_In" type="input"/>
+        <pin num="27" name="VR4-_In" type="input"/>
+        <pin num="28" name="VR4+_In" type="input"/>
+        <pin num="29" name="LowsideSwitch_9" type="input"/>
+        <pin num="30" name="AGround" type="input"/>
+        <pin num="31" name="AGround" type="input"/>
+        <pin num="32" name="AGround" type="input"/>
+        <pin num="33" name="Analog20_In" type="input"/>
+        <pin num="34" name="Analog21_In" type="input"/>
+        <pin num="35" name="Analog22_In" type="input"/>
+        <pin num="36" name="Analog23_In" type="input"/>
+        <pin num="37" name="Digital6_In" type="input"/>
+        <pin num="38" name="Digital7_In" type="input"/>
+        <pin num="39" name="Ground" type="input"/>
+        <pin num="40" name="Ground" type="input"/>
+        <pin num="41" name="CanBus1_Hi" type="input"/>
+        <pin num="42" name="CanBus1_Lo" type="input"/>
+        <pin num="43" name="LowsideSwitch_8" type="input"/>
+        <pin num="44" name="LowsideSwitch_7" type="input"/>
+        <pin num="45" name="UEGO_2_VM" type="input"/>
+        <pin num="46" name="UEGO_2_UN" type="input"/>
+        <pin num="47" name="UEGO_2_IP" type="input"/>
+        <pin num="48" name="UEGO_2_IA" type="input"/>
+        <pin num="49" name="UEGO_2_Heat" type="input"/>
+        <pin num="50" name="+12V_Battery" type="input"/>
+        <pin num="51" name="Coil6_Out" type="input"/>
+        <pin num="52" name="Coil7_Out" type="input"/>
+        <pin num="53" name="Coil8_Out" type="input"/>
+        <pin num="54" name="Coil9_Out" type="input"/>
+        <pin num="55" name="HighsideSwitch_2" type="input"/>
+        <pin num="56" name="N/C" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="EOP_Sensor">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EOP_Sensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Sig" type="output"/>
+        <pin num="2" name="AGND" type="power_in"/>
+        <pin num="3" name="+5V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Fan">
+      <description>Panasonic SSW9808L, 12V, OEM on Suzuki GSXR 600 / 750, 5-8A??</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Fan</field>
+      </fields>
+      <pins>
+        <pin num="~" name="+12V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Fuel_Pump">
+      <description>155LPH, 12VDC, 10A</description>
+      <docs>https://www.summitracing.com/parts/vpn-gsl393</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Fuel_Pump</field>
+        <field name="Brand">Walbro</field>
+        <field name="PN">GSL393</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="IAT_Sensor">
+      <description>Intake Air Temperature</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IAT_Sensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Sig" type="output"/>
+        <pin num="2" name="+5V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Ignition_Coil">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Ignition_Coil</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Ignition_SW">
+      <description>SPST</description>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">Ignition_SW</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Injector">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Injector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="LOG_EN_SW">
+      <description>SPST logging enable switch</description>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">LOG_EN_SW</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="MAP_Sensor">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAP_Sensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Sig" type="output"/>
+        <pin num="2" name="AGND" type="power_in"/>
+        <pin num="3" name="+5V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="MicroRelay">
+      <description>SPST Micro Relay, 12V, 30A</description>
+      <docs>https://www.waytekwire.com/item/75530/MICRO-RELAY-M3-12V-SPST-30A/</docs>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">MicroRelay</field>
+        <field name="PN">V23374-A1601-X003</field>
+        <field name="Name">Relay 1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="5" name="~" type="output"/>
+        <pin num="+3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="O2_Sensor">
+      <description>Bosch LSU 4.9 Wideband O2 sensor; heater 1A typical (1.7A max)</description>
+      <docs>https://www.aemelectronics.com/products/sensors-connectors-accessories/wideband-sensors-bungs-accessories/wideband-o2-sensors/bosch-lsu-4-9-replacement-o2-sensor</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">O2_Sensor</field>
+        <field name="PN">30-2004</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PUMP_CURRENT_APE/IP" type="power_in"/>
+        <pin num="2" name="VIRTUAL_GROUND_IPN/VM" type="power_out"/>
+        <pin num="3" name="HEATER_VOLTAGE_H-/UH-" type="passive"/>
+        <pin num="4" name="HEATER_VOLTAGE_H+/UH+" type="passive"/>
+        <pin num="5" name="TRIM_RESISTOR_RT/IA" type="input"/>
+        <pin num="6" name="NERNST_VOLTAGE_UN/RE" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="RIM">
+      <description>Remote Input Module</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN_D" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CAN_H" type="BiDi"/>
+        <pin num="4" name="CAN_L" type="BiDi"/>
+        <pin num="5" name="RX1" type="BiDi"/>
+        <pin num="6" name="TX1" type="BiDi"/>
+        <pin num="7" name="LOG" type="input"/>
+        <pin num="8" name="+5V" type="power_out"/>
+        <pin num="9" name="AGND" type="power_out"/>
+        <pin num="10" name="SCL" type="BiDi"/>
+        <pin num="11" name="SDA" type="BiDi"/>
+        <pin num="12" name="+3.3V" type="power_out"/>
+        <pin num="A1" name="A1" type="input"/>
+        <pin num="A2" name="A2" type="input"/>
+        <pin num="A3" name="A3" type="input"/>
+        <pin num="A4" name="A4" type="input"/>
+        <pin num="A5" name="A5" type="input"/>
+        <pin num="A6" name="A6" type="input"/>
+        <pin num="A7" name="A7" type="input"/>
+        <pin num="A8" name="A8" type="input"/>
+        <pin num="A9" name="A9" type="input"/>
+        <pin num="A10" name="A10" type="input"/>
+        <pin num="A11" name="A11" type="input"/>
+        <pin num="A12" name="A12" type="input"/>
+        <pin num="E3" name="RX3" type="BiDi"/>
+        <pin num="E4" name="TX3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Rectifier">
+      <description>F4i rectifier</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Rectifier</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_out"/>
+        <pin num="2" name="+" type="power_out"/>
+        <pin num="3" name="-" type="power_out"/>
+        <pin num="4" name="-" type="power_out"/>
+        <pin num="5" name="Y1" type="power_in"/>
+        <pin num="6" name="Y2" type="power_in"/>
+        <pin num="7" name="Y3" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="ShiftButton">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ShiftButton</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SIG" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Starter_Motor">
+      <description>F4i starter motor</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Starter_Motor</field>
+      </fields>
+      <pins>
+        <pin num="~" name="M" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Starter_Relay">
+      <description>F4i starter relay</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Starter_Relay</field>
+      </fields>
+      <pins>
+        <pin num="~" name="Alt+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="TP_Sensor">
+      <description>Throttle Position</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP_Sensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Sig" type="output"/>
+        <pin num="2" name="AGND" type="power_in"/>
+        <pin num="3" name="+5V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Tire_Temp_Sensor">
+      <description>Infrared temperature sensor for tires; 150C; +5V</description>
+      <docs>https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Tire_Temp_Sensor</field>
+        <field name="PN">INFKL-150</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="input"/>
+        <pin num="2" name="Sig" type="output"/>
+        <pin num="3" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Transponder">
+      <description>MyLaps</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Transponder</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Up_Down_Shifter">
+      <description>Clippard 4-way double solenoid valve, 12VDC, 31 scfm@100 psig, 0.416A total</description>
+      <docs>https://www.clippard.com/part/MME-41PEE-W012</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Up_Down_Shifter</field>
+        <field name="PN">MME-41PEE-W012</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+12V" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="XBEE_Explorer">
+      <description>Sparkfun; XBEE regulated explorer</description>
+      <docs>https://www.sparkfun.com/products/11373</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XBEE_Explorer</field>
+        <field name="PN">WRL-11373</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="+5V" type="power_in"/>
+        <pin num="3" name="DOUT" type="BiDi"/>
+        <pin num="4" name="DIN" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="FSAE_Library">
+      <uri>/home/cvaladez/Dropbox/SAE_Crucial_Resources_Only/F20/F20_Schematics/Schematics/FSAE_Library.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="U5" pin="~"/>
+    </net>
+    <net code="2" name="Net-(U5-Pad~)">
+      <node ref="U5" pin="~"/>
+      <node ref="U6" pin="~"/>
+    </net>
+    <net code="3" name="Net-(S1-Pad~)">
+      <node ref="S1" pin="~"/>
+      <node ref="U5" pin="~"/>
+    </net>
+    <net code="4" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="U5" pin="~"/>
+    </net>
+    <net code="5" name="Net-(U5-Pad~)">
+      <node ref="U5" pin="~"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="U29" pin="2"/>
+      <node ref="U47" pin="1"/>
+      <node ref="U44" pin="2"/>
+      <node ref="U18" pin="9"/>
+      <node ref="U41" pin="2"/>
+      <node ref="U18" pin="2"/>
+      <node ref="U18" pin="3"/>
+      <node ref="U32" pin="2"/>
+      <node ref="U33" pin="2"/>
+      <node ref="U16" pin="55"/>
+      <node ref="U16" pin="30"/>
+      <node ref="U16" pin="60"/>
+      <node ref="S4" pin="~"/>
+      <node ref="U34" pin="2"/>
+      <node ref="U46" pin="2"/>
+      <node ref="U45" pin="2"/>
+      <node ref="U18" pin="6"/>
+      <node ref="U24" pin="3"/>
+      <node ref="U16" pin="73"/>
+      <node ref="K5" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U17" pin="3"/>
+      <node ref="U2" pin="~"/>
+      <node ref="S1" pin="~"/>
+      <node ref="K4" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U17" pin="40"/>
+      <node ref="U7" pin="~"/>
+      <node ref="U17" pin="8"/>
+      <node ref="K6" pin="1"/>
+      <node ref="U17" pin="39"/>
+    </net>
+    <net code="7" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="8" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="9" name="Net-(F1-Pad1)">
+      <node ref="U2" pin="~"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="10" name="BAT_PWR">
+      <node ref="F4" pin="1"/>
+      <node ref="F8" pin="1"/>
+      <node ref="F9" pin="1"/>
+      <node ref="F3" pin="1"/>
+      <node ref="F7" pin="1"/>
+      <node ref="F5" pin="1"/>
+      <node ref="F2" pin="1"/>
+      <node ref="F6" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U5" pin="~"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad2)">
+      <node ref="U3" pin="6"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="14" name="MAP_SIG">
+      <node ref="U13" pin="1"/>
+      <node ref="U16" pin="36"/>
+    </net>
+    <net code="15" name="TPS_SIG">
+      <node ref="U8" pin="1"/>
+      <node ref="U16" pin="35"/>
+    </net>
+    <net code="16" name="ECU_AGND_1">
+      <node ref="U14" pin="~"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U17" pin="32"/>
+      <node ref="U9" pin="~"/>
+      <node ref="U30" pin="3"/>
+      <node ref="U31" pin="3"/>
+      <node ref="U13" pin="2"/>
+    </net>
+    <net code="17" name="ECU_+5V_2">
+      <node ref="U13" pin="3"/>
+      <node ref="U18" pin="4"/>
+      <node ref="F11" pin="2"/>
+      <node ref="U48" pin="1"/>
+      <node ref="U12" pin="2"/>
+      <node ref="U15" pin="2"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="18" name="CRANK_VR+">
+      <node ref="U17" pin="28"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="19" name="CAM_VR+">
+      <node ref="U17" pin="25"/>
+      <node ref="U14" pin="1"/>
+    </net>
+    <net code="20" name="FAN_PWR">
+      <node ref="K2" pin="5"/>
+      <node ref="U7" pin="~"/>
+    </net>
+    <net code="21" name="FUEL_PUMP_PWR">
+      <node ref="U10" pin="1"/>
+      <node ref="K3" pin="5"/>
+    </net>
+    <net code="22" name="IAT_SIG">
+      <node ref="U16" pin="67"/>
+      <node ref="U12" pin="1"/>
+    </net>
+    <net code="23" name="EOP_SIG">
+      <node ref="U17" pin="18"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="24" name="ECT_SIG">
+      <node ref="U16" pin="66"/>
+      <node ref="U15" pin="1"/>
+    </net>
+    <net code="25" name="CRANK_VR-">
+      <node ref="U9" pin="2"/>
+      <node ref="U17" pin="27"/>
+    </net>
+    <net code="26" name="CAM_VR-">
+      <node ref="U14" pin="2"/>
+      <node ref="U17" pin="26"/>
+    </net>
+    <net code="27" name="ECU_+5V_1">
+      <node ref="U30" pin="2"/>
+      <node ref="F10" pin="2"/>
+      <node ref="U31" pin="2"/>
+      <node ref="U47" pin="2"/>
+      <node ref="U29" pin="1"/>
+    </net>
+    <net code="28" name="DD_RX">
+      <node ref="U29" pin="3"/>
+      <node ref="U41" pin="E4"/>
+    </net>
+    <net code="29" name="DD_TX">
+      <node ref="U41" pin="E3"/>
+      <node ref="U29" pin="4"/>
+    </net>
+    <net code="30" name="DD_RST">
+      <node ref="U29" pin="5"/>
+      <node ref="U41" pin="A12"/>
+    </net>
+    <net code="31" name="BL_SW">
+      <node ref="U32" pin="1"/>
+      <node ref="U16" pin="24"/>
+    </net>
+    <net code="32" name="RBPS">
+      <node ref="U17" pin="13"/>
+      <node ref="U31" pin="1"/>
+    </net>
+    <net code="33" name="FBPS">
+      <node ref="U30" pin="1"/>
+      <node ref="U17" pin="12"/>
+    </net>
+    <net code="34" name="BL_SIG">
+      <node ref="U33" pin="1"/>
+      <node ref="U16" pin="3"/>
+    </net>
+    <net code="35" name="TRANSPONDER_PWR">
+      <node ref="F15" pin="2"/>
+      <node ref="U34" pin="1"/>
+    </net>
+    <net code="36" name="RO_TIRE_TEMP">
+      <node ref="U41" pin="A4"/>
+      <node ref="U40" pin="2"/>
+    </net>
+    <net code="37" name="RI_TIRE_TEMP">
+      <node ref="U38" pin="2"/>
+      <node ref="U41" pin="A6"/>
+    </net>
+    <net code="38" name="LI_TIRE_TEMP">
+      <node ref="U37" pin="2"/>
+      <node ref="U41" pin="A3"/>
+    </net>
+    <net code="39" name="LC_TIRE_TEMP">
+      <node ref="U36" pin="2"/>
+      <node ref="U41" pin="A2"/>
+    </net>
+    <net code="40" name="RIM_+5V">
+      <node ref="U40" pin="1"/>
+      <node ref="U41" pin="8"/>
+      <node ref="U35" pin="1"/>
+      <node ref="U39" pin="1"/>
+      <node ref="U36" pin="1"/>
+      <node ref="U37" pin="1"/>
+      <node ref="U38" pin="1"/>
+    </net>
+    <net code="41" name="LO_TIRE_TEMP">
+      <node ref="U41" pin="A1"/>
+      <node ref="U35" pin="2"/>
+    </net>
+    <net code="42" name="RIM_AGND">
+      <node ref="U37" pin="3"/>
+      <node ref="U36" pin="3"/>
+      <node ref="U38" pin="3"/>
+      <node ref="U40" pin="3"/>
+      <node ref="U35" pin="3"/>
+      <node ref="U41" pin="9"/>
+      <node ref="U39" pin="3"/>
+    </net>
+    <net code="43" name="RC_TIRE_TEMP">
+      <node ref="U39" pin="2"/>
+      <node ref="U41" pin="A5"/>
+    </net>
+    <net code="44" name="Net-(U41-Pad12)">
+      <node ref="U41" pin="12"/>
+    </net>
+    <net code="45" name="Net-(S4-Pad~)">
+      <node ref="U41" pin="7"/>
+      <node ref="S4" pin="~"/>
+    </net>
+    <net code="46" name="RIM_SCL">
+      <node ref="U41" pin="10"/>
+      <node ref="U48" pin="4"/>
+    </net>
+    <net code="47" name="RIM_PWR">
+      <node ref="F14" pin="2"/>
+      <node ref="U41" pin="1"/>
+    </net>
+    <net code="48" name="CANH">
+      <node ref="U18" pin="7"/>
+      <node ref="U41" pin="3"/>
+      <node ref="U16" pin="32"/>
+    </net>
+    <net code="49" name="CANL">
+      <node ref="U16" pin="31"/>
+      <node ref="U41" pin="4"/>
+      <node ref="U18" pin="8"/>
+    </net>
+    <net code="50" name="Net-(U41-PadA7)">
+      <node ref="U41" pin="A7"/>
+    </net>
+    <net code="51" name="Net-(U41-PadA9)">
+      <node ref="U41" pin="A9"/>
+    </net>
+    <net code="52" name="Net-(U41-PadA8)">
+      <node ref="U41" pin="A8"/>
+    </net>
+    <net code="53" name="Net-(U41-PadA11)">
+      <node ref="U41" pin="A11"/>
+    </net>
+    <net code="54" name="Net-(U41-PadA10)">
+      <node ref="U41" pin="A10"/>
+    </net>
+    <net code="55" name="XBEE_TX">
+      <node ref="U41" pin="5"/>
+      <node ref="U47" pin="4"/>
+    </net>
+    <net code="56" name="XBEE_RX">
+      <node ref="U41" pin="6"/>
+      <node ref="U47" pin="3"/>
+    </net>
+    <net code="57" name="RIM_SDA">
+      <node ref="U41" pin="11"/>
+      <node ref="U48" pin="3"/>
+    </net>
+    <net code="58" name="CLUTCH_CTRL">
+      <node ref="U43" pin="6"/>
+      <node ref="U43" pin="2"/>
+      <node ref="U17" pin="44"/>
+      <node ref="U43" pin="4"/>
+    </net>
+    <net code="59" name="SHIFT_PWR">
+      <node ref="U42" pin="3"/>
+      <node ref="F16" pin="2"/>
+      <node ref="U43" pin="3"/>
+      <node ref="U43" pin="5"/>
+      <node ref="U43" pin="1"/>
+      <node ref="U42" pin="1"/>
+    </net>
+    <net code="60" name="DOWN_SHIFT_CTRL">
+      <node ref="U42" pin="4"/>
+      <node ref="U17" pin="43"/>
+    </net>
+    <net code="61" name="UP_SHIFT_CTRL">
+      <node ref="U17" pin="29"/>
+      <node ref="U42" pin="2"/>
+    </net>
+    <net code="62" name="CLUTCH_BTN">
+      <node ref="U16" pin="23"/>
+      <node ref="U46" pin="1"/>
+    </net>
+    <net code="63" name="SHIFT_DOWN_BTN">
+      <node ref="U45" pin="1"/>
+      <node ref="U16" pin="22"/>
+    </net>
+    <net code="64" name="SHIFT_UP_BTN">
+      <node ref="U44" pin="1"/>
+      <node ref="U16" pin="21"/>
+    </net>
+    <net code="65" name="ECU_AGND_2">
+      <node ref="U48" pin="2"/>
+    </net>
+    <net code="66" name="COILS_PWR">
+      <node ref="U23" pin="1"/>
+      <node ref="U22" pin="1"/>
+      <node ref="K5" pin="5"/>
+      <node ref="U21" pin="1"/>
+      <node ref="U20" pin="1"/>
+    </net>
+    <net code="67" name="INJECTORS_PWR">
+      <node ref="U25" pin="1"/>
+      <node ref="K4" pin="5"/>
+      <node ref="U28" pin="1"/>
+      <node ref="U27" pin="1"/>
+      <node ref="U26" pin="1"/>
+    </net>
+    <net code="68" name="ECU_+5V_Aux_Out1">
+      <node ref="F10" pin="1"/>
+      <node ref="U17" pin="22"/>
+    </net>
+    <net code="69" name="Net-(F12-Pad1)">
+      <node ref="S2" pin="~"/>
+      <node ref="F13" pin="1"/>
+      <node ref="K6" pin="2"/>
+      <node ref="K2" pin="2"/>
+      <node ref="K1" pin="5"/>
+      <node ref="F12" pin="1"/>
+    </net>
+    <net code="70" name="O2_SNSR_PWR">
+      <node ref="U18" pin="1"/>
+      <node ref="F13" pin="2"/>
+      <node ref="U18" pin="10"/>
+    </net>
+    <net code="71" name="ECU_+12V_RLY">
+      <node ref="U17" pin="9"/>
+      <node ref="U16" pin="64"/>
+      <node ref="U16" pin="61"/>
+      <node ref="F12" pin="2"/>
+    </net>
+    <net code="72" name="ECU_+12V_IGN">
+      <node ref="F3" pin="2"/>
+      <node ref="U16" pin="65"/>
+    </net>
+    <net code="73" name="Net-(K3-Pad2)">
+      <node ref="K3" pin="2"/>
+      <node ref="S3" pin="~"/>
+      <node ref="K4" pin="2"/>
+      <node ref="K5" pin="2"/>
+    </net>
+    <net code="74" name="Net-(F8-Pad2)">
+      <node ref="F8" pin="2"/>
+      <node ref="K5" pin="+3"/>
+    </net>
+    <net code="75" name="Net-(F14-Pad1)">
+      <node ref="F14" pin="1"/>
+      <node ref="F15" pin="1"/>
+      <node ref="K6" pin="5"/>
+      <node ref="F16" pin="1"/>
+    </net>
+    <net code="76" name="ECU_+5V_Aux_Out2">
+      <node ref="U17" pin="23"/>
+      <node ref="F11" pin="1"/>
+    </net>
+    <net code="77" name="Net-(S2-Pad~)">
+      <node ref="S3" pin="~"/>
+      <node ref="S2" pin="~"/>
+    </net>
+    <net code="78" name="ECU_FAN_CTRL">
+      <node ref="K2" pin="1"/>
+    </net>
+    <net code="79" name="ECU_FUEL_PUMP_CTRL">
+      <node ref="K3" pin="1"/>
+    </net>
+    <net code="80" name="Net-(F5-Pad2)">
+      <node ref="K2" pin="+3"/>
+      <node ref="F5" pin="2"/>
+    </net>
+    <net code="81" name="Net-(F6-Pad2)">
+      <node ref="F6" pin="2"/>
+      <node ref="K3" pin="+3"/>
+    </net>
+    <net code="82" name="ECU_+12V_BAT">
+      <node ref="F2" pin="2"/>
+      <node ref="U16" pin="10"/>
+      <node ref="U17" pin="50"/>
+    </net>
+    <net code="83" name="Net-(F4-Pad2)">
+      <node ref="K1" pin="+3"/>
+      <node ref="K1" pin="1"/>
+      <node ref="F4" pin="2"/>
+    </net>
+    <net code="84" name="ECU_RLY_CTRL_OUT">
+      <node ref="U16" pin="29"/>
+      <node ref="K1" pin="2"/>
+    </net>
+    <net code="85" name="Net-(F7-Pad2)">
+      <node ref="K4" pin="+3"/>
+      <node ref="F7" pin="2"/>
+    </net>
+    <net code="86" name="Net-(F9-Pad2)">
+      <node ref="F9" pin="2"/>
+      <node ref="K6" pin="+3"/>
+    </net>
+    <net code="87" name="Net-(U18-Pad1)">
+      <node ref="U18" pin="1"/>
+      <node ref="U19" pin="3"/>
+    </net>
+    <net code="88" name="Net-(U18-Pad6)">
+      <node ref="U19" pin="4"/>
+      <node ref="U18" pin="6"/>
+    </net>
+    <net code="89" name="Net-(U18-Pad2)">
+      <node ref="U19" pin="6"/>
+      <node ref="U18" pin="2"/>
+    </net>
+    <net code="90" name="Net-(U18-Pad3)">
+      <node ref="U19" pin="5"/>
+      <node ref="U18" pin="3"/>
+    </net>
+    <net code="91" name="Net-(U18-Pad4)">
+      <node ref="U19" pin="1"/>
+      <node ref="U18" pin="4"/>
+    </net>
+    <net code="92" name="Net-(U18-Pad5)">
+      <node ref="U18" pin="5"/>
+      <node ref="U19" pin="2"/>
+    </net>
+    <net code="93" name="Net-(U18-Pad5)">
+      <node ref="U18" pin="5"/>
+    </net>
+    <net code="94" name="Net-(U23-Pad2)">
+      <node ref="U23" pin="2"/>
+      <node ref="U24" pin="1"/>
+    </net>
+    <net code="95" name="Net-(U22-Pad2)">
+      <node ref="U22" pin="2"/>
+      <node ref="U24" pin="2"/>
+    </net>
+    <net code="96" name="Net-(U21-Pad2)">
+      <node ref="U24" pin="3"/>
+      <node ref="U21" pin="2"/>
+    </net>
+    <net code="97" name="Net-(U20-Pad2)">
+      <node ref="U20" pin="2"/>
+      <node ref="U24" pin="4"/>
+    </net>
+    <net code="98" name="COIL1_CTRL">
+      <node ref="U16" pin="14"/>
+      <node ref="U24" pin="1"/>
+    </net>
+    <net code="99" name="COIL3_CTRL">
+      <node ref="U24" pin="4"/>
+      <node ref="U16" pin="12"/>
+    </net>
+    <net code="100" name="COIL4_CTRL">
+      <node ref="U24" pin="5"/>
+      <node ref="U16" pin="11"/>
+    </net>
+    <net code="101" name="COIL2_CTRL">
+      <node ref="U16" pin="13"/>
+      <node ref="U24" pin="2"/>
+    </net>
+    <net code="102" name="Net-(U16-Pad54)">
+      <node ref="U16" pin="54"/>
+    </net>
+    <net code="103" name="Net-(U16-Pad53)">
+      <node ref="U16" pin="53"/>
+    </net>
+    <net code="104" name="Net-(U16-Pad52)">
+      <node ref="U16" pin="52"/>
+    </net>
+    <net code="105" name="Net-(U16-Pad51)">
+      <node ref="U16" pin="51"/>
+    </net>
+    <net code="106" name="Net-(U16-Pad50)">
+      <node ref="U16" pin="50"/>
+    </net>
+    <net code="107" name="Net-(U16-Pad5)">
+      <node ref="U16" pin="5"/>
+    </net>
+    <net code="108" name="Net-(U16-Pad49)">
+      <node ref="U16" pin="49"/>
+    </net>
+    <net code="109" name="Net-(U16-Pad48)">
+      <node ref="U16" pin="48"/>
+    </net>
+    <net code="110" name="Net-(U16-Pad47)">
+      <node ref="U16" pin="47"/>
+    </net>
+    <net code="111" name="Net-(U16-Pad46)">
+      <node ref="U16" pin="46"/>
+    </net>
+    <net code="112" name="Net-(U16-Pad45)">
+      <node ref="U16" pin="45"/>
+    </net>
+    <net code="113" name="Net-(U16-Pad44)">
+      <node ref="U16" pin="44"/>
+    </net>
+    <net code="114" name="Net-(U16-Pad43)">
+      <node ref="U16" pin="43"/>
+    </net>
+    <net code="115" name="Net-(U16-Pad42)">
+      <node ref="U16" pin="42"/>
+    </net>
+    <net code="116" name="Net-(U16-Pad41)">
+      <node ref="U16" pin="41"/>
+    </net>
+    <net code="117" name="Net-(U16-Pad40)">
+      <node ref="U16" pin="40"/>
+    </net>
+    <net code="118" name="Net-(U16-Pad71)">
+      <node ref="U16" pin="71"/>
+    </net>
+    <net code="119" name="Net-(U16-Pad70)">
+      <node ref="U16" pin="70"/>
+    </net>
+    <net code="120" name="Net-(U16-Pad7)">
+      <node ref="U16" pin="7"/>
+    </net>
+    <net code="121" name="Net-(U16-Pad69)">
+      <node ref="U16" pin="69"/>
+    </net>
+    <net code="122" name="Net-(U16-Pad68)">
+      <node ref="U16" pin="68"/>
+    </net>
+    <net code="123" name="Net-(U16-Pad56)">
+      <node ref="U16" pin="56"/>
+    </net>
+    <net code="124" name="INJECTOR1_CTRL">
+      <node ref="U25" pin="2"/>
+      <node ref="U16" pin="63"/>
+    </net>
+    <net code="125" name="INJECTOR2_CTRL">
+      <node ref="U16" pin="62"/>
+      <node ref="U26" pin="2"/>
+    </net>
+    <net code="126" name="Net-(U16-Pad6)">
+      <node ref="U16" pin="6"/>
+    </net>
+    <net code="127" name="INJECTOR3_CTRL">
+      <node ref="U27" pin="2"/>
+      <node ref="U16" pin="59"/>
+    </net>
+    <net code="128" name="INJECTOR4_CTRL">
+      <node ref="U28" pin="2"/>
+      <node ref="U16" pin="58"/>
+    </net>
+    <net code="129" name="Net-(U16-Pad57)">
+      <node ref="U16" pin="57"/>
+    </net>
+    <net code="130" name="Net-(U16-Pad16)">
+      <node ref="U16" pin="16"/>
+    </net>
+    <net code="131" name="Net-(U16-Pad20)">
+      <node ref="U16" pin="20"/>
+    </net>
+    <net code="132" name="Net-(U16-Pad2)">
+      <node ref="U16" pin="2"/>
+    </net>
+    <net code="133" name="Net-(U16-Pad19)">
+      <node ref="U16" pin="19"/>
+    </net>
+    <net code="134" name="Net-(U16-Pad18)">
+      <node ref="U16" pin="18"/>
+    </net>
+    <net code="135" name="Net-(U16-Pad17)">
+      <node ref="U16" pin="17"/>
+    </net>
+    <net code="136" name="Net-(U16-Pad15)">
+      <node ref="U16" pin="15"/>
+    </net>
+    <net code="137" name="Net-(U16-Pad1)">
+      <node ref="U16" pin="1"/>
+    </net>
+    <net code="138" name="Net-(U16-Pad27)">
+      <node ref="U16" pin="27"/>
+    </net>
+    <net code="139" name="Net-(U16-Pad39)">
+      <node ref="U16" pin="39"/>
+    </net>
+    <net code="140" name="Net-(U16-Pad38)">
+      <node ref="U16" pin="38"/>
+    </net>
+    <net code="141" name="Net-(U16-Pad37)">
+      <node ref="U16" pin="37"/>
+    </net>
+    <net code="142" name="Net-(U16-Pad34)">
+      <node ref="U16" pin="34"/>
+    </net>
+    <net code="143" name="Net-(U16-Pad33)">
+      <node ref="U16" pin="33"/>
+    </net>
+    <net code="144" name="Net-(U16-Pad4)">
+      <node ref="U16" pin="4"/>
+    </net>
+    <net code="145" name="Net-(U16-Pad28)">
+      <node ref="U16" pin="28"/>
+    </net>
+    <net code="146" name="Net-(U16-Pad26)">
+      <node ref="U16" pin="26"/>
+    </net>
+    <net code="147" name="Net-(U16-Pad25)">
+      <node ref="U16" pin="25"/>
+    </net>
+    <net code="148" name="Net-(U16-Pad9)">
+      <node ref="U16" pin="9"/>
+    </net>
+    <net code="149" name="Net-(U16-Pad72)">
+      <node ref="U16" pin="72"/>
+    </net>
+    <net code="150" name="Net-(U16-Pad8)">
+      <node ref="U16" pin="8"/>
+    </net>
+    <net code="151" name="Net-(U17-Pad31)">
+      <node ref="U17" pin="31"/>
+    </net>
+    <net code="152" name="Net-(U17-Pad30)">
+      <node ref="U17" pin="30"/>
+    </net>
+    <net code="153" name="Net-(U17-Pad24)">
+      <node ref="U17" pin="24"/>
+    </net>
+    <net code="154" name="Net-(U17-Pad33)">
+      <node ref="U17" pin="33"/>
+    </net>
+    <net code="155" name="Net-(U17-Pad34)">
+      <node ref="U17" pin="34"/>
+    </net>
+    <net code="156" name="Net-(U17-Pad35)">
+      <node ref="U17" pin="35"/>
+    </net>
+    <net code="157" name="Net-(U17-Pad36)">
+      <node ref="U17" pin="36"/>
+    </net>
+    <net code="158" name="Net-(U17-Pad37)">
+      <node ref="U17" pin="37"/>
+    </net>
+    <net code="159" name="Net-(U17-Pad38)">
+      <node ref="U17" pin="38"/>
+    </net>
+    <net code="160" name="Net-(U17-Pad4)">
+      <node ref="U17" pin="4"/>
+    </net>
+    <net code="161" name="RIM_CANL">
+      <node ref="U17" pin="42"/>
+    </net>
+    <net code="162" name="Net-(U17-Pad1)">
+      <node ref="U17" pin="1"/>
+    </net>
+    <net code="163" name="Net-(U17-Pad10)">
+      <node ref="U17" pin="10"/>
+    </net>
+    <net code="164" name="Net-(U17-Pad11)">
+      <node ref="U17" pin="11"/>
+    </net>
+    <net code="165" name="Net-(U17-Pad14)">
+      <node ref="U17" pin="14"/>
+    </net>
+    <net code="166" name="Net-(U17-Pad15)">
+      <node ref="U17" pin="15"/>
+    </net>
+    <net code="167" name="Net-(U17-Pad16)">
+      <node ref="U17" pin="16"/>
+    </net>
+    <net code="168" name="Net-(U17-Pad17)">
+      <node ref="U17" pin="17"/>
+    </net>
+    <net code="169" name="Net-(U17-Pad19)">
+      <node ref="U17" pin="19"/>
+    </net>
+    <net code="170" name="Net-(U17-Pad2)">
+      <node ref="U17" pin="2"/>
+    </net>
+    <net code="171" name="Net-(U17-Pad20)">
+      <node ref="U17" pin="20"/>
+    </net>
+    <net code="172" name="Net-(U17-Pad21)">
+      <node ref="U17" pin="21"/>
+    </net>
+    <net code="173" name="Net-(U17-Pad53)">
+      <node ref="U17" pin="53"/>
+    </net>
+    <net code="174" name="Net-(U17-Pad7)">
+      <node ref="U17" pin="7"/>
+    </net>
+    <net code="175" name="Net-(U17-Pad6)">
+      <node ref="U17" pin="6"/>
+    </net>
+    <net code="176" name="Net-(U17-Pad5)">
+      <node ref="U17" pin="5"/>
+    </net>
+    <net code="177" name="Net-(U17-Pad51)">
+      <node ref="U17" pin="51"/>
+    </net>
+    <net code="178" name="Net-(U17-Pad52)">
+      <node ref="U17" pin="52"/>
+    </net>
+    <net code="179" name="Net-(U17-Pad54)">
+      <node ref="U17" pin="54"/>
+    </net>
+    <net code="180" name="Net-(U17-Pad49)">
+      <node ref="U17" pin="49"/>
+    </net>
+    <net code="181" name="Net-(U17-Pad48)">
+      <node ref="U17" pin="48"/>
+    </net>
+    <net code="182" name="Net-(U17-Pad47)">
+      <node ref="U17" pin="47"/>
+    </net>
+    <net code="183" name="Net-(U17-Pad46)">
+      <node ref="U17" pin="46"/>
+    </net>
+    <net code="184" name="Net-(U17-Pad45)">
+      <node ref="U17" pin="45"/>
+    </net>
+    <net code="185" name="Net-(U17-Pad56)">
+      <node ref="U17" pin="56"/>
+    </net>
+    <net code="186" name="Net-(U17-Pad55)">
+      <node ref="U17" pin="55"/>
+    </net>
+    <net code="187" name="RIM_CANH">
+      <node ref="U17" pin="41"/>
+    </net>
+  </nets>
+</export>

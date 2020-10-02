@@ -16,10 +16,10 @@ $EndDescr
 Text GLabel 2500 5000 0    50   Input ~ 0
 BL_SIG
 $Comp
-L FSAE_Library:Brake_Light U10
+L FSAE_Library:Brake_Light U33
 U 1 1 5E30D69C
 P 8550 5000
-F 0 "U10" H 8800 5150 50  0000 L CNN
+F 0 "U33" H 8800 5150 50  0000 L CNN
 F 1 "Brake_Light" H 8700 5050 50  0001 C CNN
 F 2 "" H 9050 5500 50  0001 C CNN
 F 3 "" H 9050 5500 50  0001 C CNN
@@ -27,10 +27,10 @@ F 3 "" H 9050 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:Brake_Light_Switch U9
+L FSAE_Library:Brake_Light_Switch U32
 U 1 1 5E324B1C
 P 8550 4000
-F 0 "U9" H 9078 3850 50  0000 L CNN
+F 0 "U32" H 9078 3850 50  0000 L CNN
 F 1 "Brake_Light_Switch" H 8700 4050 50  0001 C CNN
 F 2 "" H 9050 4500 50  0001 C CNN
 F 3 "" H 9050 4500 50  0001 C CNN
@@ -38,10 +38,10 @@ F 3 "" H 9050 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:Brake_Pressure_Sensor U7
+L FSAE_Library:Brake_Pressure_Sensor U30
 U 1 1 5E325994
 P 8550 2000
-F 0 "U7" H 9078 1750 50  0000 L CNN
+F 0 "U30" H 9078 1750 50  0000 L CNN
 F 1 "Brake_Pressure_Sensor" H 8700 2050 50  0001 C CNN
 F 2 "" H 9050 2500 50  0001 C CNN
 F 3 "" H 9050 2500 50  0001 C CNN
@@ -49,10 +49,10 @@ F 3 "" H 9050 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:Brake_Pressure_Sensor U8
+L FSAE_Library:Brake_Pressure_Sensor U31
 U 1 1 5E326371
 P 8550 3000
-F 0 "U8" H 9078 2750 50  0000 L CNN
+F 0 "U31" H 9078 2750 50  0000 L CNN
 F 1 "Brake_Pressure_Sensor" H 8700 3050 50  0001 C CNN
 F 2 "" H 9050 3500 50  0001 C CNN
 F 3 "" H 9050 3500 50  0001 C CNN
@@ -103,10 +103,10 @@ Rear
 Text Notes 8900 1970 0    33   ~ 0
 Front
 $Comp
-L FSAE_Library:GND #PWR08
+L FSAE_Library:GND #PWR017
 U 1 1 5E3C206F
 P 8000 5500
-F 0 "#PWR08" H 8000 5300 50  0001 C CNN
+F 0 "#PWR017" H 8000 5300 50  0001 C CNN
 F 1 "GND" H 8004 5346 50  0000 C CNN
 F 2 "" H 8000 5450 50  0001 C CNN
 F 3 "" H 8000 5450 50  0001 C CNN

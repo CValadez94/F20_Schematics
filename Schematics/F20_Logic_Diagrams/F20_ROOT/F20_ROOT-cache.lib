@@ -336,8 +336,8 @@ F3 "" 500 500 50 H I C CNN
 DRAW
 T 0 309 -125 43 0 0 0 ECT Normal 0 C C
 S 100 100 500 -350 0 1 0 f
-X +5V 1 0 0 100 R 50 45 1 1 W
-X Sig 2 0 -250 100 R 50 45 1 1 O
+X Sig 1 0 0 100 R 50 45 1 1 O
+X +5V 2 0 -250 100 R 50 45 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -511,9 +511,9 @@ DRAW
 T 0 300 -558 31 0 0 0 EOP Normal 0 C C
 T 0 300 -608 31 0 0 0 Sensor Normal 0 C C
 S 100 100 500 -650 0 1 0 f
-X Sig 1 0 0 100 R 50 50 1 1 I
-X AGND 2 0 -250 100 R 50 50 1 1 O
-X +5V 3 0 -500 100 R 50 50 1 1 I
+X Sig 1 0 0 100 R 50 50 1 1 O
+X AGND 2 0 -250 100 R 50 50 1 1 W
+X +5V 3 0 -500 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -599,6 +599,22 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# FSAE_Library_IAT_Sensor
+#
+DEF FSAE_Library_IAT_Sensor U 0 40 Y Y 1 F N
+F0 "U" 500 150 50 H V C CNN
+F1 "FSAE_Library_IAT_Sensor" 250 150 50 H I C CNN
+F2 "" 500 500 50 H I C CNN
+F3 "" 500 500 50 H I C CNN
+DRAW
+T 0 306 -122 31 0 0 0 "Intake Air Temp" Normal 0 C C
+T 0 296 -172 31 0 0 0 Sensor Normal 0 C C
+S 100 100 500 -350 0 1 0 f
+X Sig 1 0 0 100 R 50 45 1 1 O
+X +5V 2 0 -250 100 R 50 45 1 1 W
+ENDDRAW
+ENDDEF
+#
 # FSAE_Library_Ignition_Coil
 #
 DEF FSAE_Library_Ignition_Coil U 0 40 Y Y 1 F N
@@ -647,22 +663,6 @@ X GND 2 750 0 100 L 50 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# FSAE_Library_Intake_Air_Temp
-#
-DEF FSAE_Library_Intake_Air_Temp U 0 40 Y Y 1 F N
-F0 "U" 500 150 50 H V C CNN
-F1 "FSAE_Library_Intake_Air_Temp" 250 150 50 H I C CNN
-F2 "" 500 500 50 H I C CNN
-F3 "" 500 500 50 H I C CNN
-DRAW
-T 0 306 -122 31 0 0 0 "Intake Air Temp" Normal 0 C C
-T 0 296 -172 31 0 0 0 Sensor Normal 0 C C
-S 100 100 500 -350 0 1 0 f
-X +5V 1 0 0 100 R 50 45 1 1 W
-X Sig 2 0 -250 100 R 50 45 1 1 W
-ENDDRAW
-ENDDEF
-#
 # FSAE_Library_LOG_EN_SW
 #
 DEF FSAE_Library_LOG_EN_SW S 0 40 Y Y 1 F N
@@ -693,9 +693,9 @@ DRAW
 T 0 300 -558 31 0 0 0 MAP Normal 0 C C
 T 0 300 -608 31 0 0 0 Sensor Normal 0 C C
 S 100 100 500 -650 0 1 0 f
-X Sig 1 0 0 100 R 50 50 1 1 I
-X AGND 2 0 -250 100 R 50 50 1 1 O
-X +5V 3 0 -500 100 R 50 50 1 1 I
+X Sig 1 0 0 100 R 50 50 1 1 O
+X AGND 2 0 -250 100 R 50 50 1 1 W
+X +5V 3 0 -500 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -863,20 +863,20 @@ X Start ~ 750 -500 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# FSAE_Library_Throttle_Position_Sensor
+# FSAE_Library_TP_Sensor
 #
-DEF FSAE_Library_Throttle_Position_Sensor U 0 40 Y Y 1 F N
+DEF FSAE_Library_TP_Sensor U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "FSAE_Library_Throttle_Position_Sensor" 300 150 50 H I C CNN
+F1 "FSAE_Library_TP_Sensor" 300 150 50 H I C CNN
 F2 "" 500 500 50 H I C CNN
 F3 "" 500 500 50 H I C CNN
 DRAW
 T 0 300 -600 31 0 0 0 Sensor Normal 0 C C
 T 0 300 -550 31 0 0 0 "Throttle Position" Normal 0 C C
 S 100 100 500 -650 0 1 0 f
-X Sig 1 0 0 100 R 50 50 1 1 I
-X AGND 2 0 -250 100 R 50 50 1 1 O
-X +5V 3 0 -500 100 R 50 50 1 1 I
+X Sig 1 0 0 100 R 50 50 1 1 O
+X AGND 2 0 -250 100 R 50 50 1 1 W
+X +5V 3 0 -500 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #

@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FSAE_Library:Up_Down_Shifter U?
+L FSAE_Library:Up_Down_Shifter U42
 U 1 1 5E628367
 P 7500 2000
-F 0 "U?" H 8028 1625 50  0000 L CNN
+F 0 "U42" H 8028 1625 50  0000 L CNN
 F 1 "Up_Down_Shifter" H 7800 2150 50  0001 C CNN
 F 2 "" H 8000 2500 50  0001 C CNN
 F 3 "" H 8000 2500 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 8000 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:Clutch_Actuator U?
+L FSAE_Library:Clutch_Actuator U43
 U 1 1 5E628FDC
 P 7500 3500
-F 0 "U?" H 8028 2875 50  0000 L CNN
+F 0 "U43" H 8028 2875 50  0000 L CNN
 F 1 "Clutch_Actuator" H 7800 3650 50  0001 C CNN
 F 2 "" H 8000 4000 50  0001 C CNN
 F 3 "" H 8000 4000 50  0001 C CNN

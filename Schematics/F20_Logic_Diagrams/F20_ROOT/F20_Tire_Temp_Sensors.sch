@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FSAE_Library:Tire_Temp_Sensor U18
+L FSAE_Library:Tire_Temp_Sensor U35
 U 1 1 5E3B80AD
 P 8500 1000
-F 0 "U18" H 9028 725 50  0000 L CNN
+F 0 "U35" H 9028 725 50  0000 L CNN
 F 1 "Tire_Temp_Sensor" H 8650 1050 50  0001 C CNN
 F 2 "" H 9000 1500 50  0001 C CNN
 F 3 "https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html" H 9000 1500 50  0001 C CNN
@@ -26,10 +26,10 @@ F 4 "INFKL-150" H -1000 0   50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:Tire_Temp_Sensor U19
+L FSAE_Library:Tire_Temp_Sensor U36
 U 1 1 5E3B9299
 P 8500 2000
-F 0 "U19" H 9028 1725 50  0000 L CNN
+F 0 "U36" H 9028 1725 50  0000 L CNN
 F 1 "Tire_Temp_Sensor" H 8650 2050 50  0001 C CNN
 F 2 "" H 9000 2500 50  0001 C CNN
 F 3 "https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html" H 9000 2500 50  0001 C CNN
@@ -38,10 +38,10 @@ F 4 "INFKL-150" H -1000 100 50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:Tire_Temp_Sensor U20
+L FSAE_Library:Tire_Temp_Sensor U37
 U 1 1 5E3BA080
 P 8500 3000
-F 0 "U20" H 9028 2725 50  0000 L CNN
+F 0 "U37" H 9028 2725 50  0000 L CNN
 F 1 "Tire_Temp_Sensor" H 8650 3050 50  0001 C CNN
 F 2 "" H 9000 3500 50  0001 C CNN
 F 3 "https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html" H 9000 3500 50  0001 C CNN
@@ -50,10 +50,10 @@ F 4 "INFKL-150" H -1000 200 50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:Tire_Temp_Sensor U21
+L FSAE_Library:Tire_Temp_Sensor U38
 U 1 1 5E3BAAB5
 P 8500 4000
-F 0 "U21" H 9028 3725 50  0000 L CNN
+F 0 "U38" H 9028 3725 50  0000 L CNN
 F 1 "Tire_Temp_Sensor" H 8650 4050 50  0001 C CNN
 F 2 "" H 9000 4500 50  0001 C CNN
 F 3 "https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html" H 9000 4500 50  0001 C CNN
@@ -78,10 +78,10 @@ Wire Wire Line
 Wire Wire Line
 	3500 2000 8500 2000
 $Comp
-L FSAE_Library:Tire_Temp_Sensor U22
+L FSAE_Library:Tire_Temp_Sensor U39
 U 1 1 5E3CA66D
 P 8500 5000
-F 0 "U22" H 9028 4725 50  0000 L CNN
+F 0 "U39" H 9028 4725 50  0000 L CNN
 F 1 "Tire_Temp_Sensor" H 8650 5050 50  0001 C CNN
 F 2 "" H 9000 5500 50  0001 C CNN
 F 3 "https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html" H 9000 5500 50  0001 C CNN
@@ -94,10 +94,10 @@ RM
 Text GLabel 2500 1000 0    50   Input ~ 0
 RIM_+5V
 $Comp
-L FSAE_Library:Tire_Temp_Sensor U23
+L FSAE_Library:Tire_Temp_Sensor U40
 U 1 1 5E3CFAE2
 P 8500 6000
-F 0 "U23" H 9028 5725 50  0000 L CNN
+F 0 "U40" H 9028 5725 50  0000 L CNN
 F 1 "Tire_Temp_Sensor" H 8650 6050 50  0001 C CNN
 F 2 "" H 9000 6500 50  0001 C CNN
 F 3 "https://www.texense.com/en/infkl-150degc-infrared-tyre-temperature-sensor-93.html" H 9000 6500 50  0001 C CNN

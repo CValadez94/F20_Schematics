@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FSAE_Library:O2_Sensor U3
+L FSAE_Library:O2_Sensor U19
 U 1 1 5E390A68
 P 8500 2500
-F 0 "U3" H 9028 1875 50  0000 L CNN
+F 0 "U19" H 9028 1875 50  0000 L CNN
 F 1 "O2_Sensor" H 8800 2650 50  0001 C CNN
 F 2 "" H 8800 2650 50  0001 C CNN
 F 3 "https://www.aemelectronics.com/products/sensors-connectors-accessories/wideband-sensors-bungs-accessories/wideband-o2-sensors/bosch-lsu-4-9-replacement-o2-sensor" H 8800 2650 50  0001 C CNN
@@ -28,10 +28,10 @@ $EndComp
 Text Notes 5050 7200 0    50   ~ 0
 Heater 1A typical (1.7A max)\nALM board ~ 60mA
 $Comp
-L FSAE_Library:ALM U?
+L FSAE_Library:ALM U18
 U 1 1 5E77730D
 P 5000 2500
-F 0 "U?" H 5500 2765 50  0000 C CNN
+F 0 "U18" H 5500 2765 50  0000 C CNN
 F 1 "ALM" H 5300 2650 50  0001 C CNN
 F 2 "" H 5300 2650 50  0001 C CNN
 F 3 "https://www.ecotrons.com/accurate_lambda_meter/wideband_controller_alm-board/" H 5300 2650 50  0001 C CNN
@@ -93,10 +93,10 @@ CANL
 Wire Wire Line
 	2500 4250 5000 4250
 $Comp
-L FSAE_Library:GND #PWR?
+L FSAE_Library:GND #PWR013
 U 1 1 5E794BC7
 P 4000 5000
-F 0 "#PWR?" H 4000 4800 50  0001 C CNN
+F 0 "#PWR013" H 4000 4800 50  0001 C CNN
 F 1 "GND" H 4004 4846 50  0000 C CNN
 F 2 "" H 4000 4950 50  0001 C CNN
 F 3 "" H 4000 4950 50  0001 C CNN
@@ -104,10 +104,10 @@ F 3 "" H 4000 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FSAE_Library:GND_BAT #PWR?
+L FSAE_Library:GND_BAT #PWR014
 U 1 1 5E795446
 P 4500 5000
-F 0 "#PWR?" H 4500 4750 50  0001 C CNN
+F 0 "#PWR014" H 4500 4750 50  0001 C CNN
 F 1 "GND_BAT" H 4505 4827 50  0000 C CNN
 F 2 "" H 4500 5000 50  0001 C CNN
 F 3 "" H 4500 5000 50  0001 C CNN
