@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/cvaladez/Dropbox/SAE_Crucial_Resources_Only/F20/F20_Schematics/Schematics/F20_Wiring_Diagrams/F20_ROOT_WIRING/F20_ROOT_WIRING.sch</source>
+    <date>Tue 06 Oct 2020 10:11:41 PM CDT</date>
+    <tool>Eeschema 5.1.5+dfsg1-2build2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Root - Wiring</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-03-12</date>
+        <source>F20_ROOT_WIRING.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Cab Side - Power Management/" tstamps="/5F84BCE1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>F20_W_Cab_PowerManagement.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Engine Side - Sensors/" tstamps="/5E6ACFA6/">
+      <title_block>
+        <title>Engine Side - Sensors</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-06-22</date>
+        <source>F20_W_Eng_Sensors.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Engine Side - Power Management/" tstamps="/5EF123F4/">
+      <title_block>
+        <title>Engine Side - Shifter and Power Management</title>
+        <company>F20</company>
+        <rev>A</rev>
+        <date>2020-06-22</date>
+        <source>F20_W_Eng_PowerManagement.sch</source>
+        <comment number="1" value="Cristian Valadez"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="RT5">
+      <value>RingTerminal</value>
+      <libsource lib="FSAE_Library" part="RingTerminal" description=""/>
+      <sheetpath names="/Cab Side - Power Management/" tstamps="/5F84BCE1/"/>
+      <tstamp>5F8F50C7</tstamp>
+    </comp>
+    <comp ref="RT6">
+      <value>RingTerminal</value>
+      <libsource lib="FSAE_Library" part="RingTerminal" description=""/>
+      <sheetpath names="/Cab Side - Power Management/" tstamps="/5F84BCE1/"/>
+      <tstamp>5F8F5A7F</tstamp>
+    </comp>
+    <comp ref="INF1">
+      <value>InlineFuse</value>
+      <fields>
+        <field name="Rating">100A</field>
+      </fields>
+      <libsource lib="FSAE_Library" part="InlineFuse" description=""/>
+      <sheetpath names="/Cab Side - Power Management/" tstamps="/5F84BCE1/"/>
+      <tstamp>5F8F8702</tstamp>
+    </comp>
+    <comp ref="ICP1">
+      <value>HDP26-18-21SN</value>
+      <libsource lib="FSAE_Library" part="HDP26-18-21SN" description="Deutsch 21pin, plug, Size 20 terminal 14-22AWG"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EEC4F7B</tstamp>
+    </comp>
+    <comp ref="CCP1">
+      <value>InjConn</value>
+      <libsource lib="FSAE_Library" part="InjConn" description="Injector connector, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EECFA53</tstamp>
+    </comp>
+    <comp ref="CCP2">
+      <value>InjConn</value>
+      <libsource lib="FSAE_Library" part="InjConn" description="Injector connector, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EED1020</tstamp>
+    </comp>
+    <comp ref="CCP3">
+      <value>InjConn</value>
+      <libsource lib="FSAE_Library" part="InjConn" description="Injector connector, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EED12CB</tstamp>
+    </comp>
+    <comp ref="CCP4">
+      <value>InjConn</value>
+      <libsource lib="FSAE_Library" part="InjConn" description="Injector connector, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EED1653</tstamp>
+    </comp>
+    <comp ref="CCP5">
+      <value>CoilConn</value>
+      <libsource lib="FSAE_Library" part="CoilConn" description="Coil Connector, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EED19F9</tstamp>
+    </comp>
+    <comp ref="CCP6">
+      <value>CoilConn</value>
+      <libsource lib="FSAE_Library" part="CoilConn" description="Coil Connector, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EED1F1F</tstamp>
+    </comp>
+    <comp ref="CCP7">
+      <value>CoilConn</value>
+      <libsource lib="FSAE_Library" part="CoilConn" description="Coil Connector, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EED20FC</tstamp>
+    </comp>
+    <comp ref="CCP8">
+      <value>CoilConn</value>
+      <libsource lib="FSAE_Library" part="CoilConn" description="Coil Connector, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EED22E0</tstamp>
+    </comp>
+    <comp ref="CCR2">
+      <value>CoilDriver_5PConn</value>
+      <libsource lib="FSAE_Library" part="CoilDriver_5PConn" description="5 pin connector for 4 channel coil driver (PN 30-2840)"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EF177DE</tstamp>
+    </comp>
+    <comp ref="CCR1">
+      <value>CoilDriver_4PConn</value>
+      <libsource lib="FSAE_Library" part="CoilDriver_4PConn" description="4 pin connector for 4 channel coil driver (PN 30-2840)"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EF16E53</tstamp>
+    </comp>
+    <comp ref="RT1">
+      <value>RingTerminal</value>
+      <libsource lib="FSAE_Library" part="RingTerminal" description=""/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EEC8A28</tstamp>
+    </comp>
+    <comp ref="RT2">
+      <value>RingTerminal</value>
+      <libsource lib="FSAE_Library" part="RingTerminal" description=""/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EEC93A2</tstamp>
+    </comp>
+    <comp ref="ICR2">
+      <value>DTM04-2P</value>
+      <libsource lib="FSAE_Library" part="DTM04-2P" description="Deutsch, 2 pin, receptacle"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EF0B53C</tstamp>
+    </comp>
+    <comp ref="ICR3">
+      <value>DTM06-3P</value>
+      <libsource lib="FSAE_Library" part="DTM06-3P" description="Deutsch, 3 pin, receptacle"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EF4A6C4</tstamp>
+    </comp>
+    <comp ref="ICR4">
+      <value>DTM04-2P</value>
+      <libsource lib="FSAE_Library" part="DTM04-2P" description="Deutsch, 2 pin, receptacle"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EFCA157</tstamp>
+    </comp>
+    <comp ref="ICR5">
+      <value>DTM06-3P</value>
+      <libsource lib="FSAE_Library" part="DTM06-3P" description="Deutsch, 3 pin, receptacle"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EFCA164</tstamp>
+    </comp>
+    <comp ref="ICR6">
+      <value>DTM06-3P</value>
+      <libsource lib="FSAE_Library" part="DTM06-3P" description="Deutsch, 3 pin, receptacle"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5EFCF714</tstamp>
+    </comp>
+    <comp ref="ICR1">
+      <value>DTM04-2P</value>
+      <libsource lib="FSAE_Library" part="DTM04-2P" description="Deutsch, 2 pin, receptacle"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5F13E690</tstamp>
+    </comp>
+    <comp ref="ICP2">
+      <value>DTM06-2S</value>
+      <libsource lib="FSAE_Library" part="DTM06-2S" description="Deutsch, 2 pin, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5F13EDF7</tstamp>
+    </comp>
+    <comp ref="CCP9">
+      <value>O2_Sensor_Conn</value>
+      <libsource lib="FSAE_Library" part="O2_Sensor_Conn" description="Bosch LSU 4.9 connector, 6 pin, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5F1CE524</tstamp>
+    </comp>
+    <comp ref="ICR7">
+      <value>DTM04-2P</value>
+      <libsource lib="FSAE_Library" part="DTM04-2P" description="Deutsch, 2 pin, receptacle"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5F81C4E8</tstamp>
+    </comp>
+    <comp ref="ICP3">
+      <value>DTM06-2S</value>
+      <libsource lib="FSAE_Library" part="DTM06-2S" description="Deutsch, 2 pin, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5F81D02C</tstamp>
+    </comp>
+    <comp ref="PT1">
+      <value>CompPigTail_2</value>
+      <libsource lib="FSAE_Library" part="CompPigTail_2" description="2 pin component pig tail"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5F82153D</tstamp>
+    </comp>
+    <comp ref="ICR9">
+      <value>DTM04-2P</value>
+      <libsource lib="FSAE_Library" part="DTM04-2P" description="Deutsch, 2 pin, receptacle"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5F876FF5</tstamp>
+    </comp>
+    <comp ref="ICR8">
+      <value>DTM06-3P</value>
+      <libsource lib="FSAE_Library" part="DTM06-3P" description="Deutsch, 3 pin, receptacle"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5F876FFB</tstamp>
+    </comp>
+    <comp ref="ICP4">
+      <value>DTM06-3S</value>
+      <libsource lib="FSAE_Library" part="DTM06-3S" description="Deutsch, 3 pin, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5F877010</tstamp>
+    </comp>
+    <comp ref="ICP5">
+      <value>DTM06-2S</value>
+      <libsource lib="FSAE_Library" part="DTM06-2S" description="Deutsch, 2 pin, plug"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5F877016</tstamp>
+    </comp>
+    <comp ref="PT2">
+      <value>CompPigTail_3</value>
+      <libsource lib="FSAE_Library" part="CompPigTail_3" description="3 pin component pig tail"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5F877021</tstamp>
+    </comp>
+    <comp ref="PT3">
+      <value>CompPigTail_2</value>
+      <libsource lib="FSAE_Library" part="CompPigTail_2" description="2 pin component pig tail"/>
+      <sheetpath names="/Engine Side - Sensors/" tstamps="/5E6ACFA6/"/>
+      <tstamp>5F877027</tstamp>
+    </comp>
+    <comp ref="RT4">
+      <value>RingTerminal</value>
+      <libsource lib="FSAE_Library" part="RingTerminal" description=""/>
+      <sheetpath names="/Engine Side - Power Management/" tstamps="/5EF123F4/"/>
+      <tstamp>5EF3F0AC</tstamp>
+    </comp>
+    <comp ref="RT3">
+      <value>RingTerminal</value>
+      <libsource lib="FSAE_Library" part="RingTerminal" description=""/>
+      <sheetpath names="/Engine Side - Power Management/" tstamps="/5EF123F4/"/>
+      <tstamp>5EF4011B</tstamp>
+    </comp>
+    <comp ref="CCP10">
+      <value>Starter_Relay_Conn</value>
+      <libsource lib="FSAE_Library" part="Starter_Relay_Conn" description="Starter relay 4 pin conn, plug"/>
+      <sheetpath names="/Engine Side - Power Management/" tstamps="/5EF123F4/"/>
+      <tstamp>5EF419C7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="FSAE_Library" part="CoilConn">
+      <description>Coil Connector, plug</description>
+      <fields>
+        <field name="Reference">CCP</field>
+        <field name="Value">CoilConn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="CoilDriver_4PConn">
+      <description>4 pin connector for 4 channel coil driver (PN 30-2840)</description>
+      <fields>
+        <field name="Reference">CCR</field>
+        <field name="Value">CoilDriver_4PConn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="CoilDriver_5PConn">
+      <description>5 pin connector for 4 channel coil driver (PN 30-2840)</description>
+      <fields>
+        <field name="Reference">CCR</field>
+        <field name="Value">CoilDriver_5PConn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="CompPigTail_2">
+      <description>2 pin component pig tail</description>
+      <fields>
+        <field name="Reference">PT</field>
+        <field name="Value">CompPigTail_2</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="CompPigTail_3">
+      <description>3 pin component pig tail</description>
+      <fields>
+        <field name="Reference">PT</field>
+        <field name="Value">CompPigTail_3</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="DTM04-2P">
+      <description>Deutsch, 2 pin, receptacle</description>
+      <fields>
+        <field name="Reference">ICR</field>
+        <field name="Value">DTM04-2P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="DTM06-2S">
+      <description>Deutsch, 2 pin, plug</description>
+      <fields>
+        <field name="Reference">ICP</field>
+        <field name="Value">DTM06-2S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="DTM06-3P">
+      <description>Deutsch, 3 pin, receptacle</description>
+      <fields>
+        <field name="Reference">ICR</field>
+        <field name="Value">DTM06-3P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="DTM06-3S">
+      <description>Deutsch, 3 pin, plug</description>
+      <fields>
+        <field name="Reference">ICP</field>
+        <field name="Value">DTM06-3S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="HDP26-18-21SN">
+      <description>Deutsch 21pin, plug, Size 20 terminal 14-22AWG</description>
+      <fields>
+        <field name="Reference">ICP</field>
+        <field name="Value">HDP26-18-21SN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="~" type="BiDi"/>
+        <pin num="6" name="~" type="BiDi"/>
+        <pin num="7" name="~" type="BiDi"/>
+        <pin num="8" name="~" type="BiDi"/>
+        <pin num="9" name="~" type="BiDi"/>
+        <pin num="10" name="~" type="BiDi"/>
+        <pin num="11" name="~" type="BiDi"/>
+        <pin num="12" name="~" type="BiDi"/>
+        <pin num="13" name="~" type="BiDi"/>
+        <pin num="14" name="~" type="BiDi"/>
+        <pin num="15" name="~" type="BiDi"/>
+        <pin num="16" name="~" type="BiDi"/>
+        <pin num="17" name="~" type="BiDi"/>
+        <pin num="18" name="~" type="BiDi"/>
+        <pin num="19" name="~" type="BiDi"/>
+        <pin num="20" name="~" type="BiDi"/>
+        <pin num="21" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="InjConn">
+      <description>Injector connector, plug</description>
+      <fields>
+        <field name="Reference">CCP</field>
+        <field name="Value">InjConn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="InlineFuse">
+      <fields>
+        <field name="Reference">INF</field>
+        <field name="Value">InlineFuse</field>
+        <field name="Rating">100A</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="O2_Sensor_Conn">
+      <description>Bosch LSU 4.9 connector, 6 pin, plug</description>
+      <fields>
+        <field name="Reference">CCP</field>
+        <field name="Value">O2_Sensor_Conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="~" type="BiDi"/>
+        <pin num="6" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="RingTerminal">
+      <fields>
+        <field name="Reference">RT</field>
+        <field name="Value">RingTerminal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSAE_Library" part="Starter_Relay_Conn">
+      <description>Starter relay 4 pin conn, plug</description>
+      <fields>
+        <field name="Reference">CCP</field>
+        <field name="Value">Starter_Relay_Conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="FSAE_Library">
+      <uri>/home/cvaladez/Dropbox/SAE_Crucial_Resources_Only/F20/F20_Schematics/Schematics/FSAE_Library.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Engine Side - Sensors/5CG">
+      <node ref="ICR7" pin="2"/>
+    </net>
+    <net code="2" name="/Engine Side - Sensors/5BP">
+      <node ref="ICP1" pin="13"/>
+      <node ref="ICR7" pin="1"/>
+    </net>
+    <net code="3" name="Net-(ICP1-Pad21)">
+      <node ref="ICP1" pin="21"/>
+    </net>
+    <net code="5" name="/Engine Side - Sensors/2BP">
+      <node ref="ICP1" pin="6"/>
+      <node ref="CCP5" pin="1"/>
+      <node ref="CCP8" pin="1"/>
+      <node ref="CCP6" pin="1"/>
+      <node ref="CCP7" pin="1"/>
+    </net>
+    <net code="6" name="/Engine Side - Sensors/12SI">
+      <node ref="ICP1" pin="20"/>
+      <node ref="ICR4" pin="1"/>
+    </net>
+    <net code="7" name="/Engine Side - Sensors/11SI">
+      <node ref="ICR3" pin="1"/>
+      <node ref="ICP1" pin="19"/>
+    </net>
+    <net code="8" name="/Engine Side - Sensors/10SI">
+      <node ref="ICR2" pin="1"/>
+      <node ref="ICP1" pin="18"/>
+    </net>
+    <net code="9" name="/Engine Side - Sensors/9SI">
+      <node ref="ICR6" pin="1"/>
+      <node ref="ICP1" pin="17"/>
+    </net>
+    <net code="10" name="/Engine Side - Sensors/8SI">
+      <node ref="ICP1" pin="16"/>
+      <node ref="ICR5" pin="1"/>
+    </net>
+    <net code="11" name="/Engine Side - Sensors/7AG1">
+      <node ref="ICR6" pin="2"/>
+      <node ref="ICP1" pin="15"/>
+      <node ref="ICR5" pin="2"/>
+      <node ref="ICR3" pin="2"/>
+    </net>
+    <net code="12" name="/Engine Side - Sensors/18CT">
+      <node ref="ICR8" pin="2"/>
+    </net>
+    <net code="13" name="/Engine Side - Sensors/19CT">
+      <node ref="ICR8" pin="3"/>
+    </net>
+    <net code="14" name="/Engine Side - Sensors/20CT">
+      <node ref="ICR9" pin="2"/>
+    </net>
+    <net code="15" name="/Engine Side - Sensors/21BP">
+      <node ref="ICR9" pin="1"/>
+      <node ref="ICR8" pin="1"/>
+    </net>
+    <net code="17" name="Net-(ICP3-Pad1)">
+      <node ref="ICP3" pin="1"/>
+      <node ref="PT1" pin="~"/>
+    </net>
+    <net code="18" name="Net-(ICP5-Pad2)">
+      <node ref="PT3" pin="~"/>
+      <node ref="ICP5" pin="2"/>
+    </net>
+    <net code="19" name="Net-(ICP5-Pad1)">
+      <node ref="ICP5" pin="1"/>
+      <node ref="PT3" pin="~"/>
+    </net>
+    <net code="20" name="Net-(ICP3-Pad2)">
+      <node ref="ICP3" pin="2"/>
+      <node ref="PT1" pin="~"/>
+    </net>
+    <net code="21" name="Net-(ICP4-Pad1)">
+      <node ref="PT2" pin="~"/>
+      <node ref="ICP4" pin="1"/>
+    </net>
+    <net code="22" name="Net-(ICP4-Pad2)">
+      <node ref="PT2" pin="~"/>
+      <node ref="ICP4" pin="2"/>
+    </net>
+    <net code="23" name="Net-(ICP4-Pad3)">
+      <node ref="PT2" pin="~"/>
+      <node ref="ICP4" pin="3"/>
+    </net>
+    <net code="24" name="/Engine Side - Sensors/15SI">
+      <node ref="ICP2" pin="1"/>
+    </net>
+    <net code="30" name="/Engine Side - Sensors/16SI">
+      <node ref="ICP2" pin="2"/>
+    </net>
+    <net code="31" name="/Engine Side - Sensors/14SI">
+      <node ref="ICR1" pin="2"/>
+    </net>
+    <net code="32" name="/Engine Side - Sensors/13SI">
+      <node ref="ICR1" pin="1"/>
+    </net>
+    <net code="33" name="/Engine Side - Sensors/17SI2">
+      <node ref="CCP9" pin="2"/>
+    </net>
+    <net code="34" name="/Engine Side - Sensors/17SI1">
+      <node ref="CCP9" pin="1"/>
+    </net>
+    <net code="35" name="/Engine Side - Sensors/17SI6">
+      <node ref="CCP9" pin="6"/>
+    </net>
+    <net code="36" name="/Engine Side - Sensors/17SI5">
+      <node ref="CCP9" pin="5"/>
+    </net>
+    <net code="37" name="/Engine Side - Sensors/17SI4">
+      <node ref="CCP9" pin="4"/>
+    </net>
+    <net code="38" name="/Engine Side - Sensors/17SI3">
+      <node ref="CCP9" pin="3"/>
+    </net>
+    <net code="39" name="/Engine Side - Sensors/2CT2">
+      <node ref="CCP6" pin="2"/>
+      <node ref="CCR2" pin="2"/>
+    </net>
+    <net code="40" name="/Engine Side - Sensors/2CT1">
+      <node ref="CCP5" pin="2"/>
+      <node ref="CCR2" pin="1"/>
+    </net>
+    <net code="41" name="/Engine Side - Sensors/2CT4">
+      <node ref="CCR2" pin="5"/>
+      <node ref="CCP8" pin="2"/>
+    </net>
+    <net code="42" name="/Engine Side - Sensors/2CT3">
+      <node ref="CCP7" pin="2"/>
+      <node ref="CCR2" pin="4"/>
+    </net>
+    <net code="43" name="/Engine Side - Sensors/4CG">
+      <node ref="RT2" pin="1"/>
+    </net>
+    <net code="44" name="/Engine Side - Sensors/4BP">
+      <node ref="ICP1" pin="12"/>
+      <node ref="RT1" pin="1"/>
+    </net>
+    <net code="45" name="/Engine Side - Sensors/3BG">
+      <node ref="ICP1" pin="11"/>
+      <node ref="CCR2" pin="3"/>
+    </net>
+    <net code="46" name="/Engine Side - Sensors/6AP2">
+      <node ref="ICR4" pin="2"/>
+      <node ref="ICR5" pin="3"/>
+      <node ref="ICR2" pin="2"/>
+      <node ref="ICR3" pin="3"/>
+      <node ref="ICP1" pin="14"/>
+      <node ref="ICR6" pin="3"/>
+    </net>
+    <net code="47" name="/Engine Side - Sensors/1CT4">
+      <node ref="ICP1" pin="5"/>
+      <node ref="CCP4" pin="2"/>
+    </net>
+    <net code="48" name="/Engine Side - Sensors/1CT3">
+      <node ref="CCP3" pin="2"/>
+      <node ref="ICP1" pin="4"/>
+    </net>
+    <net code="49" name="/Engine Side - Sensors/1CT2">
+      <node ref="ICP1" pin="3"/>
+      <node ref="CCP2" pin="2"/>
+    </net>
+    <net code="50" name="/Engine Side - Sensors/1CT1">
+      <node ref="ICP1" pin="2"/>
+      <node ref="CCP1" pin="2"/>
+    </net>
+    <net code="51" name="/Engine Side - Sensors/1BP">
+      <node ref="CCP3" pin="1"/>
+      <node ref="CCP2" pin="1"/>
+      <node ref="CCP1" pin="1"/>
+      <node ref="CCP4" pin="1"/>
+      <node ref="ICP1" pin="1"/>
+    </net>
+    <net code="52" name="/Engine Side - Sensors/3CT4">
+      <node ref="ICP1" pin="10"/>
+      <node ref="CCR1" pin="4"/>
+    </net>
+    <net code="53" name="/Engine Side - Sensors/3CT3">
+      <node ref="ICP1" pin="9"/>
+      <node ref="CCR1" pin="3"/>
+    </net>
+    <net code="54" name="/Engine Side - Sensors/3CT2">
+      <node ref="ICP1" pin="8"/>
+      <node ref="CCR1" pin="2"/>
+    </net>
+    <net code="55" name="/Engine Side - Sensors/3CT1">
+      <node ref="ICP1" pin="7"/>
+      <node ref="CCR1" pin="1"/>
+    </net>
+    <net code="56" name="Net-(RT3-Pad1)">
+      <node ref="RT3" pin="1"/>
+    </net>
+    <net code="57" name="RawBat+">
+      <node ref="INF1" pin="~"/>
+    </net>
+    <net code="58" name="Net-(CCP10-Pad1)">
+      <node ref="CCP10" pin="1"/>
+    </net>
+    <net code="59" name="Net-(CCP10-Pad2)">
+      <node ref="CCP10" pin="2"/>
+    </net>
+    <net code="60" name="Net-(CCP10-Pad3)">
+      <node ref="CCP10" pin="3"/>
+    </net>
+    <net code="61" name="Net-(CCP10-Pad4)">
+      <node ref="CCP10" pin="4"/>
+    </net>
+    <net code="62" name="Net-(RT4-Pad1)">
+      <node ref="RT4" pin="1"/>
+    </net>
+    <net code="63" name="Net-(INF1-Pad~)">
+      <node ref="INF1" pin="~"/>
+      <node ref="RT5" pin="1"/>
+    </net>
+    <net code="64" name="Net-(RT6-Pad1)">
+      <node ref="RT6" pin="1"/>
+    </net>
+  </nets>
+</export>
